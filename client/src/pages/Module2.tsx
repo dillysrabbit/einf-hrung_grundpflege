@@ -14,10 +14,10 @@ export default function Module2() {
   };
 
   const steps = [
-    { id: "step1", title: "1. Vorbereitung", desc: "Materialien bereitstellen, Händedesinfektion, Handschuhe anziehen. Bett auf Arbeitshöhe bringen. Patient informieren." },
+    { id: "step1", title: "1. Vorbereitung", desc: "Materialien bereitstellen, Händedesinfektion, Handschuhe anziehen. Bett auf Arbeitshöhe bringen. Bewohner informieren." },
     { id: "step2", title: "2. Gesicht & Hals", desc: "Handtuch unter Kopf. Augen von außen nach innen mit klarem Wasser reinigen. Gesicht, Ohren, Hals waschen und trocknen." },
     { id: "step3", title: "3. Oberkörper & Arme", desc: "Waschzusatz ins Wasser. Oberkörper waschen (herzwärts), abtrocknen. Auf Intertrigo (Hautwolf) achten." },
-    { id: "step4", title: "4. Rücken", desc: "Patient zur Seite drehen. Rücken und Gesäß waschen, trocknen, ggf. eincremen. Dekubitus-Kontrolle!" },
+    { id: "step4", title: "4. Rücken", desc: "Bewohner zur Seite drehen. Rücken und Gesäß waschen, trocknen, ggf. eincremen. Dekubitus-Kontrolle!" },
     { id: "step5", title: "5. Beine & Füße", desc: "Beine herzwärts waschen. Zehenzwischenräume gründlich trocknen (Pilzgefahr). Fersen auf Druckstellen prüfen." },
     { id: "step6", title: "6. Intimbereich Vorbereitung", desc: "Wasser wechseln, frischen Waschlappen, neue Handschuhe. Intimsphäre wahren!" },
     { id: "step7", title: "7. Intimpflege (Frau)", desc: "Beine anstellen. Von der Schamfuge zum Anus hin reinigen (Keimverschleppung vermeiden)." },
@@ -47,7 +47,7 @@ export default function Module2() {
         
         <section className="mb-10">
           <p className="text-xl text-muted-foreground leading-relaxed font-light">
-            Diese Form der Waschung ist anspruchsvoll und erfordert Konzentration. Sie kommt zum Einsatz, wenn der Patient bettlägerig 
+            Diese Form der Waschung ist anspruchsvoll und erfordert Konzentration. Sie kommt zum Einsatz, wenn der Bewohner bettlägerig 
             oder zu schwach ist, das Bett zu verlassen. Sicherheit, Hygiene und Würde haben höchste Priorität.
           </p>
         </section>
@@ -135,10 +135,10 @@ export default function Module2() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
               { title: "Hautzustand", desc: "Rötungen, Druckstellen (Dekubitus), Pilzinfektionen, Trockenheit" },
-              { title: "Schmerzen", desc: "Äußert der Patient Schmerzen bei Bewegung oder Berührung?" },
-              { title: "Allgemeinzustand", desc: "Ist der Patient wach? Wie belastbar ist er heute?" },
+              { title: "Schmerzen", desc: "Äußert der Bewohner Schmerzen bei Bewegung oder Berührung?" },
+              { title: "Allgemeinzustand", desc: "Ist der Bewohner wach? Wie belastbar ist er heute?" },
               { title: "Atmung", desc: "Atemgeräusche, Kurzatmigkeit bei Anstrengung" },
-              { title: "Mobilität", desc: "Wie gut kann der Patient mithelfen (z.B. drehen)?" },
+              { title: "Mobilität", desc: "Wie gut kann der Bewohner mithelfen (z.B. drehen)?" },
               { title: "Ausscheidungen", desc: "Farbe, Menge und Geruch von Urin/Stuhl" }
             ].map((item, i) => (
               <Card key={i} className="bg-secondary/10 border-none">

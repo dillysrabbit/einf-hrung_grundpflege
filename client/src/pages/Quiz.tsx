@@ -20,8 +20,8 @@ const questions: Question[] = [
     question: "Was ist das oberste Ziel der aktivierenden Pflege?",
     options: [
       "Die Pflege so schnell wie möglich zu erledigen.",
-      "Dem Patienten alle Aufgaben abzunehmen, damit er sich ausruhen kann.",
-      "Die Selbstständigkeit des Patienten zu erhalten und zu fördern ('Hilfe zur Selbsthilfe').",
+      "Dem Bewohner alle Aufgaben abzunehmen, damit er sich ausruhen kann.",
+      "Die Selbstständigkeit des Bewohners zu erhalten und zu fördern ('Hilfe zur Selbsthilfe').",
       "Kosten für Pflegematerial zu sparen."
     ],
     correctAnswer: 2,
@@ -33,8 +33,8 @@ const questions: Question[] = [
     options: [
       "Nur frische Kleidung bereitlegen.",
       "Fenster öffnen für frische Luft.",
-      "Materialien bereitlegen, Hände desinfizieren, Fenster schließen, Patient informieren.",
-      "Den Patienten sofort ausziehen."
+      "Materialien bereitlegen, Hände desinfizieren, Fenster schließen, Bewohner informieren.",
+     "Den Bewohner sofort ausziehen."
     ],
     correctAnswer: 2,
     explanation: "Genau. Eine gute Vorbereitung (Material, Hygiene, Umgebung, Information) ist essenziell für einen reibungslosen Ablauf und das Wohlbefinden."
@@ -43,7 +43,7 @@ const questions: Question[] = [
     id: 3,
     question: "Warum ist die Beobachtung der Haut während der Waschung so wichtig?",
     options: [
-      "Um zu sehen, ob der Patient braun geworden ist.",
+      "Um zu sehen, ob der Bewohner braun geworden ist.",
       "Um frühzeitig Anzeichen von Dekubitus (Druckstellen), Pilzinfektionen oder Verletzungen zu erkennen.",
       "Es ist nicht wichtig, das macht der Arzt.",
       "Um zu prüfen, ob die Seife gut riecht."

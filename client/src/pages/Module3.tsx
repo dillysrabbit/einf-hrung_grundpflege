@@ -1,9 +1,28 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, CheckCircle, Footprints, HeartHandshake, Thermometer } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { ArrowRight, CheckCircle, CheckSquare, Footprints, HeartHandshake, Thermometer } from "lucide-react";
 import { Link } from "wouter";
+import { useState } from "react";
+import { cn } from "@/lib/utils";
 
 export default function Module3() {
+  const [checkedItems, setCheckedItems] = useState<Record<string, boolean>>({});
+
+  const toggleCheck = (id: string) => {
+    setCheckedItems(prev => ({ ...prev, [id]: !prev[id] }));
+  };
+
+  const steps = [
+    { id: "step1", title: "1. Transfer & Sitzposition", desc: "Bewohner zum Waschbecken begleiten. Stabilen Sitz auf Hocker/Stuhl sicherstellen." },
+    { id: "step2", title: "2. Wasser vorbereiten", desc: "Wasser in Waschschüssel geben. Bewohner Temperatur prüfen lassen. Waschlappen bereitstellen." },
+    { id: "step3", title: "3. Oberkörper (Selbstständig)", desc: "Bewohner wäscht Gesicht, Arme und Brust selbstständig. Pfleger unterstützt nur bei Bedarf." },
+    { id: "step4", title: "4. Rücken (Unterstützung)", desc: "Bewohner beugt sich vor. Pfleger wäscht den schwer erreichbaren Rücken." },
+    { id: "step5", title: "5. Intimpflege (Anleitung)", desc: "Pfleger leitet an, Bewohner führt durch. Nur bei Bedarf übernehmen." },
+    { id: "step6", title: "6. Beine & Füße", desc: "Beine aufstellen oder anheben. Bei der Reinigung der Zehenzwischenräume helfen." },
+    { id: "step7", title: "7. Abtrocknen & Anziehen", desc: "Unterstützung beim Abtrocknen und Anziehen. Auskühlung vermeiden." }
+  ];
+
   return (
     <div className="flex flex-col gap-8 pb-12">
       {/* Header Image */}
@@ -26,7 +45,7 @@ export default function Module3() {
         
         <section className="mb-12">
           <p className="text-xl text-muted-foreground leading-relaxed font-light mb-6">
-            Die Waschung am Waschbecken ist die bevorzugte Methode, wenn die Mobilität des Patienten es zulässt. 
+            Die Waschung am Waschbecken ist die bevorzugte Methode, wenn die Mobilität des Bewohners es zulässt. 
             Sie fördert die Selbstständigkeit massiv. Ihre Rolle wandelt sich hier vom "Versorger" zum "Anleiter und Begleiter".
           </p>
           
@@ -36,69 +55,82 @@ export default function Module3() {
               Entscheidungsfindung
             </h3>
             <p className="text-blue-800 text-sm leading-relaxed">
-              Zunächst muss geklärt werden: Ist der Patient heute in der Lage aufzustehen? 
+              Zunächst muss geklärt werden: Ist der Bewohner heute in der Lage aufzustehen? 
               Da die Belastbarkeit schwanken kann, muss diese Beurteilung <strong>tagesaktuell</strong> erfolgen.
             </p>
           </div>
         </section>
 
-        {/* Safety First */}
-        <section className="mb-12">
-          <h2 className="font-serif text-2xl font-bold text-primary mb-6">Sicherheit geht vor</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Card className="text-center hover:shadow-md transition-all">
-              <CardContent className="pt-6">
-                <div className="mx-auto w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4 text-red-600">
-                  <Footprints className="h-6 w-6" />
+        <Tabs defaultValue="safety" className="w-full mb-12">
+          <TabsList className="grid w-full grid-cols-2 mb-8">
+            <TabsTrigger value="safety">Sicherheit & Vorbereitung</TabsTrigger>
+            <TabsTrigger value="steps">Schritt-für-Schritt</TabsTrigger>
+          </TabsList>
+          
+          <TabsContent value="safety">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <Card className="text-center hover:shadow-md transition-all">
+                <CardContent className="pt-6">
+                  <div className="mx-auto w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4 text-red-600">
+                    <Footprints className="h-6 w-6" />
+                  </div>
+                  <h3 className="font-bold mb-2">Sturzgefahr minimieren</h3>
+                  <p className="text-sm text-muted-foreground">Rutschfeste Matten nutzen. Stabile Haltegriffe prüfen. Keine Handtücher am Boden.</p>
+                </CardContent>
+              </Card>
+              <Card className="text-center hover:shadow-md transition-all">
+                <CardContent className="pt-6">
+                  <div className="mx-auto w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-4 text-orange-600">
+                    <Thermometer className="h-6 w-6" />
+                  </div>
+                  <h3 className="font-bold mb-2">Temperatur & Klima</h3>
+                  <p className="text-sm text-muted-foreground">Badezimmer vorwärmen. Wassertemperatur prüfen lassen (Verbrühungsschutz!).</p>
+                </CardContent>
+              </Card>
+              <Card className="text-center hover:shadow-md transition-all">
+                <CardContent className="pt-6">
+                  <div className="mx-auto w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4 text-green-600">
+                    <CheckCircle className="h-6 w-6" />
+                  </div>
+                  <h3 className="font-bold mb-2">Hilfsmittel bereitstellen</h3>
+                  <p className="text-sm text-muted-foreground">Duschhocker oder Stuhl bereitstellen. Alle Utensilien in Griffweite legen.</p>
+                </CardContent>
+              </Card>
+            </div>
+          </TabsContent>
+          
+          <TabsContent value="steps">
+            <div className="space-y-4">
+              {steps.map((step, index) => (
+                <div 
+                  key={step.id} 
+                  className={cn(
+                    "border rounded-xl p-4 transition-all cursor-pointer hover:shadow-md",
+                    checkedItems[step.id] ? "bg-green-50 border-green-200" : "bg-white border-border"
+                  )}
+                  onClick={() => toggleCheck(step.id)}
+                >
+                  <div className="flex items-start gap-4">
+                    <div className={cn(
+                      "flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mt-1 transition-colors",
+                      checkedItems[step.id] ? "bg-green-600 text-white" : "bg-primary/10 text-primary"
+                    )}>
+                      {index + 1}
+                    </div>
+                    <div>
+                      <h3 className={cn("font-bold text-lg mb-1", checkedItems[step.id] && "text-green-800")}>{step.title}</h3>
+                      <p className="text-muted-foreground text-sm leading-relaxed">{step.desc}</p>
+                    </div>
+                    <div className="ml-auto pt-1">
+                      {checkedItems[step.id] ? <CheckCircle className="h-6 w-6 text-green-600" /> : <div className="w-6 h-6 rounded-full border-2 border-muted" />}
+                    </div>
+                  </div>
                 </div>
-                <h3 className="font-bold mb-2">Sturzgefahr minimieren</h3>
-                <p className="text-sm text-muted-foreground">Rutschfeste Matten nutzen. Stabile Haltegriffe prüfen. Keine Handtücher am Boden.</p>
-              </CardContent>
-            </Card>
-            <Card className="text-center hover:shadow-md transition-all">
-              <CardContent className="pt-6">
-                <div className="mx-auto w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-4 text-orange-600">
-                  <Thermometer className="h-6 w-6" />
-                </div>
-                <h3 className="font-bold mb-2">Temperatur & Klima</h3>
-                <p className="text-sm text-muted-foreground">Badezimmer vorwärmen. Wassertemperatur prüfen lassen (Verbrühungsschutz!).</p>
-              </CardContent>
-            </Card>
-            <Card className="text-center hover:shadow-md transition-all">
-              <CardContent className="pt-6">
-                <div className="mx-auto w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4 text-green-600">
-                  <CheckCircle className="h-6 w-6" />
-                </div>
-                <h3 className="font-bold mb-2">Hilfsmittel bereitstellen</h3>
-                <p className="text-sm text-muted-foreground">Duschhocker oder Stuhl bereitstellen. Alle Utensilien in Griffweite legen.</p>
-              </CardContent>
-            </Card>
-          </div>
-        </section>
-
-        {/* Process Timeline */}
-        <section className="mb-12">
-          <h2 className="font-serif text-2xl font-bold text-primary mb-8">Der Ablauf</h2>
-          <div className="relative border-l-2 border-primary/20 ml-4 md:ml-6 space-y-8 pb-4">
-            
-            {[
-              { title: "Transfer & Sitzposition", desc: "Patienten zum Waschbecken begleiten. Stabilen Sitz auf Hocker/Stuhl sicherstellen." },
-              { title: "Wasser vorbereiten", desc: "Wasser in Waschschüssel geben. Patient Temperatur prüfen lassen. Waschlappen bereitstellen." },
-              { title: "Oberkörper (Selbstständig)", desc: "Patient wäscht Gesicht, Arme und Brust selbstständig. Pfleger unterstützt nur bei Bedarf." },
-              { title: "Rücken (Unterstützung)", desc: "Patient beugt sich vor. Pfleger wäscht den schwer erreichbaren Rücken." },
-              { title: "Intimpflege (Anleitung)", desc: "Pfleger leitet an, Patient führt durch. Nur bei Bedarf übernehmen." },
-              { title: "Beine & Füße", desc: "Beine aufstellen oder anheben. Bei der Reinigung der Zehenzwischenräume helfen." },
-              { title: "Abtrocknen & Anziehen", desc: "Unterstützung beim Abtrocknen und Anziehen. Auskühlung vermeiden." }
-            ].map((step, i) => (
-              <div key={i} className="relative pl-8 md:pl-12">
-                <div className="absolute -left-[9px] top-0 w-5 h-5 rounded-full bg-white border-4 border-primary" />
-                <h3 className="font-bold text-lg text-primary mb-1">{i + 1}. {step.title}</h3>
-                <p className="text-muted-foreground">{step.desc}</p>
-              </div>
-            ))}
-
-          </div>
-        </section>
+              ))}
+              <p className="text-center text-sm text-muted-foreground mt-4 italic">Klicken Sie auf die Schritte, um sie als "gelernt" zu markieren.</p>
+            </div>
+          </TabsContent>
+        </Tabs>
 
         <div className="flex justify-between">
           <Link href="/module-2">
