@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Download } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, BookOpen, CheckCircle, Heart, Users } from "lucide-react";
 import { Link } from "wouter";
@@ -33,14 +34,23 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Intro Section */}
-      <section className="container max-w-4xl mx-auto px-4 text-center">
-        <h2 className="font-serif text-3xl font-bold text-primary mb-4">Willkommen bei Health Angels</h2>
-        <p className="text-muted-foreground text-lg leading-relaxed">
-          Diese interaktive Fortbildung richtet sich an alle Pflegehilfskräfte unserer Einrichtung. 
-          Unser Ziel ist es, Ihnen das nötige Basiswissen und die Sicherheit für den Pflegealltag zu geben. 
-          Wir legen besonderen Wert auf die aktivierende Pflege und die Wahrung der Würde unserer Bewohner.
+      {/* Welcome Section */}
+      <section className="text-center mb-16 max-w-3xl mx-auto px-4">
+        <h2 className="font-serif text-3xl font-bold text-primary mb-6">Willkommen bei Health Angels</h2>
+        <p className="text-xl text-muted-foreground leading-relaxed font-light mb-8">
+          Diese interaktive Fortbildung richtet sich an alle Pflegehilfskräfte unserer Einrichtung. Unser Ziel ist es, Ihnen 
+          das nötige Basiswissen und die Sicherheit für den Pflegealltag zu geben. Wir legen besonderen Wert auf die 
+          aktivierende Pflege und die Wahrung der Würde unserer Bewohner.
         </p>
+        
+        <div className="flex justify-center">
+          <a href="/downloads/Schulungshandbuch_Grundpflege.pdf" download>
+            <Button variant="outline" className="gap-2 border-primary text-primary hover:bg-primary/5">
+              <Download className="h-4 w-4" />
+              Schulungshandbuch herunterladen (PDF)
+            </Button>
+          </a>
+        </div>
       </section>
 
       {/* Module Overview */}

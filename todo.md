@@ -1,19 +1,12 @@
-# To-Do Liste: Anpassung Module & Terminologie
+# To-Do Liste: Schulungshandbuch & Download
 
-- [ ] **Terminologie-Check**: "Patient" -> "Bewohner" in allen Dateien ersetzen
-    - [ ] `client/src/pages/Home.tsx`
-    - [ ] `client/src/pages/Module1.tsx`
-    - [ ] `client/src/pages/Module2.tsx`
-    - [ ] `client/src/pages/Module3.tsx`
-    - [ ] `client/src/pages/Module4.tsx`
-    - [ ] `client/src/pages/Quiz.tsx`
+- [ ] **Schulungshandbuch erstellen**
+    - [ ] Inhalte aus den Modulen zusammenfassen (Markdown)
+    - [ ] Bilder einbinden (aus `client/public/images`)
+    - [ ] Layout und Branding (Health Angels) anwenden
+    - [ ] Markdown zu PDF konvertieren (`manus-md-to-pdf`)
+    - [ ] PDF im `client/public/downloads` Ordner speichern
 
-- [ ] **Modul 3 (Waschbecken) Umbau**
-    - [ ] Struktur auf Tabs (Material / Schritte) umstellen
-    - [ ] Interaktive Checkliste für Schritte implementieren
-    - [ ] Inhalte aus `Module3.tsx` in neue Struktur überführen
-
-- [ ] **Modul 4 (Anleitung) Umbau**
-    - [ ] Struktur auf Tabs (Prinzipien / Ablauf) umstellen
-    - [ ] Interaktive Checkliste für den Anleitungs-Prozess erstellen
-    - [ ] Inhalte aus `Module4.tsx` in neue Struktur überführen
+- [ ] **Website Integration**
+    - [ ] Download-Sektion auf der Startseite (`Home.tsx`) hinzufügen
+    - [ ] Button zum Herunterladen des Handbuchs einfügen
