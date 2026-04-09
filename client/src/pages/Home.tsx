@@ -35,8 +35,8 @@ export default function Home() {
       </section>
 
       {/* Welcome Section */}
-      <section className="text-center mb-16 max-w-3xl mx-auto px-4">
-        <h2 className="font-serif text-3xl font-bold text-primary mb-6">Willkommen bei Health Angels</h2>
+        <section className="text-center mb-16 max-w-3xl mx-auto px-4">
+        <h2 className="font-sans text-3xl font-bold text-primary mb-6">Willkommen im Maria-Hötte-Stift</h2>
         <p className="text-xl text-muted-foreground leading-relaxed font-light mb-8">
           Diese interaktive Fortbildung richtet sich an alle Pflegehilfskräfte unserer Einrichtung. Unser Ziel ist es, Ihnen 
           das nötige Basiswissen und die Sicherheit für den Pflegealltag zu geben. Wir legen besonderen Wert auf die 
