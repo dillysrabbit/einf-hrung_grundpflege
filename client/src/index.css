@@ -3,9 +3,39 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('/fonts/Fira_Sans/FiraSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('/fonts/Fira_Sans/FiraSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans Condensed';
+  src: url('/fonts/Fira_Sans_Condensed/FiraSansCondensed-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('/fonts/Pacifico/Pacifico-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 @theme inline {
-  --font-sans: "Open Sans", sans-serif;
-  --font-serif: "Open Sans", sans-serif;
+  --font-sans: 'Fira Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Pacifico', ui-serif, Georgia, serif;
+  --font-mono: 'Fira Sans Condensed', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
