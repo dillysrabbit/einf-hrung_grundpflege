@@ -153,13 +153,11 @@ export default function Module1() {
             <div className="space-y-6">
               <Card>
                 <CardContent className="pt-6">
-                  <h3 className="font-serif text-xl font-bold text-primary mb-2">Der Pflegeprozess nach dem Strukturmodell (Beikirch)</h3>
+                  <h3 className="font-serif text-xl font-bold text-primary mb-2">Der Pflegeprozess nach dem Strukturmodell</h3>
                   <p className="text-sm text-muted-foreground mb-4">
-                    Wir arbeiten nach dem <strong>Strukturmodell</strong>, das von Elisabeth Beikirch im Auftrag des
-                    Bundesgesundheitsministeriums zur Entbürokratisierung der Pflegedokumentation entwickelt wurde.
-                    Statt sechs Schritten umfasst es <strong>vier Phasen</strong>. Pflegehilfskräfte arbeiten vor allem
-                    in der Beobachtung (SIS-Aktualisierung), bei der Durchführung des Maßnahmenplans
-                    und beim Eintrag im Berichteblatt.
+                    Wir arbeiten nach dem <strong>Strukturmodell</strong>. Es umfasst <strong>vier Phasen</strong>.
+                    Pflegehilfskräfte arbeiten vor allem in der Beobachtung (SIS-Aktualisierung), bei der
+                    Durchführung des Maßnahmenplans und beim Eintrag im Berichteblatt.
                   </p>
 
                   <ol className="space-y-3 mt-6">
@@ -180,10 +178,10 @@ export default function Module1() {
                   </ol>
 
                   <div className="mt-6 bg-blue-50 border-l-4 border-blue-500 p-4 text-sm text-blue-900">
-                    <strong>Wichtigster Unterschied zur klassischen Doku:</strong> Im Berichteblatt wird
-                    <em> nicht alles</em> aufgeschrieben, was wir gemacht haben. Wenn der Maßnahmenplan
-                    durchgeführt wurde wie vorgesehen, ist <strong>kein Eintrag</strong> nötig.
-                    Eingetragen werden Abweichungen, Auffälligkeiten und neue Informationen.
+                    <strong>Berichteblatt-Logik:</strong> Im Berichteblatt wird <em>nicht alles</em>
+                    aufgeschrieben, was wir gemacht haben. Wenn der Maßnahmenplan durchgeführt wurde wie
+                    vorgesehen, ist <strong>kein Eintrag</strong> nötig. Eingetragen werden Abweichungen,
+                    Auffälligkeiten und neue Informationen.
                   </div>
                 </CardContent>
               </Card>
@@ -192,9 +190,9 @@ export default function Module1() {
                 <CardContent className="pt-6">
                   <h3 className="font-serif text-xl font-bold text-primary mb-3">SIS – die Themenfelder</h3>
                   <p className="text-sm text-muted-foreground mb-4">
-                    Die <strong>Strukturierte Informationssammlung (SIS)</strong> ersetzt klassische
-                    Anamnese-Bögen (z. B. nach AEDL/ABEDL). Sie ist in <strong>sechs Themenfelder</strong>
-                    gegliedert. Ihre Beobachtungen aus der Grundpflege fließen genau hier ein.
+                    Die <strong>Strukturierte Informationssammlung (SIS)</strong> ist in <strong>sechs
+                    Themenfelder</strong> gegliedert. Ihre Beobachtungen aus der Grundpflege fließen
+                    genau hier ein.
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
                     {[

@@ -201,15 +201,15 @@ const questions: Question[] = [
   },
   {
     id: 16,
-    question: "Wir arbeiten nach dem Strukturmodell (Beikirch). Welche vier Phasen umfasst dieser Pflegeprozess?",
+    question: "Welche vier Phasen umfasst der Pflegeprozess im Strukturmodell?",
     options: [
       "Anamnese · Pflegediagnose · Pflegeziele · Auswertung",
       "SIS · Maßnahmenplan · Berichteblatt · Evaluation",
-      "Information · Probleme/Ressourcen · Ziele · Maßnahmen · Durchführung · Evaluation",
+      "Aufnahmegespräch · Pflegeplan · Tagesbericht · Abschlussbericht",
       "Waschen · Essen · Schlafen · Beschäftigen"
     ],
     correctAnswer: 1,
-    explanation: "Das Strukturmodell hat vier Phasen: Strukturierte Informationssammlung (SIS), individueller Maßnahmenplan, Berichteblatt (Abweichungen) und anlassbezogene Evaluation. Pflegeplanung und Evaluation sind Vorbehaltsaufgaben der Pflegefachkraft."
+    explanation: "Die vier Phasen sind: Strukturierte Informationssammlung (SIS), individueller Maßnahmenplan, Berichteblatt (Abweichungen) und anlassbezogene Evaluation. Pflegeplanung und Evaluation sind Vorbehaltsaufgaben der Pflegefachkraft."
   },
   {
     id: 18,
@@ -228,9 +228,9 @@ const questions: Question[] = [
     question: "Was ist die Strukturierte Informationssammlung (SIS)?",
     options: [
       "Eine Liste aller Medikamente der Bewohnerin/des Bewohners.",
-      "Ein Erhebungsinstrument mit sechs Themenfeldern, das Anamnese und Pflegeplanung aus Sicht der bewohnenden Person zusammenführt.",
+      "Ein Erhebungsinstrument mit sechs Themenfeldern, das Informationen aus Sicht der bewohnenden Person zusammenführt.",
       "Eine Software zur Dienstplanung.",
-      "Ein Synonym für die AEDL nach Krohwinkel."
+      "Das Berichteblatt am Ende der Schicht."
     ],
     correctAnswer: 1,
     explanation: "Die SIS ist das zentrale Instrument im Strukturmodell. Sie startet mit der Eingangsfrage „Was bewegt Sie? Was brauchen Sie? Was können wir für Sie tun?\" und gliedert die Informationen in die sechs Themenfelder A bis F (Kognition, Mobilität, krankheitsbezogene Belastungen, Selbstversorgung, soziale Beziehungen, Wohnen)."
