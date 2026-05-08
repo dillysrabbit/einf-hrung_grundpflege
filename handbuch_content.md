@@ -16,22 +16,64 @@ Die Grundpflege ist weit mehr als nur Waschen. Sie ist Beziehungsarbeit, Gesundh
 
 ---
 
-### Modul 1: Grundlagen der Körperpflege
+### Modul 1: Grundlagen, Rolle & Pflegeprozess
+
+**Lernziele:** Nach diesem Modul können Sie Ihre Rolle einordnen, Grundpflege von Behandlungspflege unterscheiden, den Pflegeprozess erklären, Schweigepflicht und Händehygiene anwenden und erkennen, wann eine Fachkraft hinzugezogen werden muss.
+
+#### Ihre Rolle als Pflegehilfskraft
+
+Bestimmte Tätigkeiten sind ausgebildeten Pflegefachkräften vorbehalten (Vorbehaltsaufgaben nach **§ 4 PflBG**). Andere Tätigkeiten dürfen Sie nach Anleitung und schriftlicher Delegation übernehmen.
+
+| Typische Aufgaben | Nicht ohne Pflegefachkraft |
+| --- | --- |
+| Körperpflege (Waschen, Mund-, Haarpflege) | Pflegeplanung und -evaluation |
+| Hilfe beim An- und Auskleiden | Erst-Anamnese, Pflegediagnose |
+| Hilfe bei Nahrungs- und Flüssigkeitsaufnahme | Wundversorgung, Verbandwechsel |
+| Lagern, Mobilisieren, Transfer (nach Anleitung) | Medikamentengabe (außer per Delegation) |
+| Beobachten und weitergeben | Injektionen, Katheterisieren, Sondenkost |
+| Begleitung, Zuwendung, Tagesstruktur | Behandlungspflege ohne Anordnung |
+
+> **Goldene Regel:** Bei Unsicherheit nicht durchführen, sondern Pflegefachkraft fragen.
+
+#### Grundpflege vs. Behandlungspflege
+
+* **Grundpflege (SGB XI § 14/15):** Unterstützung in den Aktivitäten des täglichen Lebens. Pflegeversicherung. Hier sind Sie zentral.
+* **Behandlungspflege (SGB V § 37):** Ärztlich verordnete Maßnahmen. Krankenkasse. Erfordert Delegation oder Pflegefachkraft.
+
+#### Der Pflegeprozess (6 Schritte nach Fiechter / Meier)
+
+1. **Informationssammlung** – Sie liefern wichtige Beobachtungen.
+2. **Probleme & Ressourcen erkennen** – beides ist gleich wichtig.
+3. **Pflegeziele festlegen** – Vorbehalt der Pflegefachkraft.
+4. **Maßnahmen planen** – steht im Pflegeplan, den Sie lesen und ausführen.
+5. **Maßnahmen durchführen** – Ihre Hauptarbeit.
+6. **Evaluation** – Hat es gewirkt? Ihre Rückmeldung zählt.
+
+In der Altenpflege ist der Pflegeprozess häufig nach den **AEDL/ABEDL nach Krohwinkel** strukturiert (13 Aktivitäten von „Kommunizieren" bis „Mit existenziellen Erfahrungen umgehen").
+
+#### Schweigepflicht & Datenschutz
+
+Alles, was Sie über Bewohner:innen erfahren, unterliegt **§ 203 StGB** und der **DSGVO**. Keine Weitergabe an Außenstehende, keine Gespräche im Aufzug oder in sozialen Medien, keine Fotos ohne schriftliche Einwilligung.
+
+#### Dokumentation – kurz, klar, sachlich
+
+* Was haben Sie beobachtet? (Tatsachen, keine Vermutungen)
+* Wann ist es aufgetreten?
+* Wie hat die Person reagiert?
+* Welche Maßnahmen haben Sie ergriffen oder veranlasst?
+* An wen haben Sie es weitergegeben?
+
+#### Grundsätze der Körperpflege
 
 Körperpflege dient nicht nur der Reinigung. Sie fördert das Wohlbefinden, unterstützt die Wahrnehmung des eigenen Körpers und stärkt das Selbstwertgefühl.
 
-**Ziele der Körperpflege:**
-*   Reinigung und Pflege der Haut
-*   Förderung von Wahrnehmung und Wohlbefinden (Konzept der basalen Stimulation)
-*   Krankheitsbeobachtung (Hautzustand, Mobilität, Allgemeinzustand)
-*   Erhalt der Selbstständigkeit (aktivierende Pflege)
+**Ziele der Körperpflege:** Reinigung und Pflege der Haut · Förderung von Wahrnehmung und Wohlbefinden (basale Stimulation) · Krankheitsbeobachtung · Erhalt der Selbstständigkeit (aktivierende Pflege).
 
 **Grundsätze:**
-*   **Ressourcen fördern:** Was kann die Bewohnerin/der Bewohner noch selbst? Erst beobachten, dann unterstützen.
-*   **Intimsphäre wahren:** Nur so viel Körperfläche wie nötig aufdecken, Tür schließen, Mitbewohner:innen aus dem Raum bitten.
-*   **Hygiene beachten:** Händedesinfektion nach den **5 Momenten der WHO** (vor Bewohnerkontakt, vor aseptischer Tätigkeit, nach Kontakt mit potenziell infektiösem Material, nach Bewohnerkontakt, nach Kontakt mit der Bewohnerumgebung). Einmalhandschuhe **nur bei Kontakt mit Körperflüssigkeiten, Schleimhäuten oder nicht-intakter Haut** – nicht routinemäßig beim Waschen intakter Haut.
+*   **Ressourcen fördern:** Was kann die Person noch selbst? Erst beobachten, dann unterstützen.
+*   **Intimsphäre wahren:** Nur so viel Körperfläche wie nötig aufdecken, Tür schließen.
+*   **Händehygiene:** 5 Momente der WHO (siehe oben). Einmalhandschuhe nur bei Kontakt mit Körperflüssigkeiten, Schleimhäuten oder nicht-intakter Haut – nicht routinemäßig.
 *   **Kommunikation:** Jeden Schritt ankündigen und erklären – auch bei Menschen mit Demenz oder reduzierter Bewusstseinslage.
-*   **Schweigepflicht:** Alles, was Sie über Bewohner:innen erfahren, unterliegt § 203 StGB. Keine Weitergabe an Außenstehende, auch nicht an Familienangehörige ohne ausdrückliche Erlaubnis.
 
 ---
 

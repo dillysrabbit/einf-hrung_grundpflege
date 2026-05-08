@@ -11,22 +11,23 @@ Die Grundpflege ist weit mehr als nur Waschen. Sie ist Beziehungsarbeit, Gesundh
 
 ---
 
-### Modul 1: Grundlagen der Körperpflege
+### Modul 1: Grundlagen, Rolle & Pflegeprozess
 
-Körperpflege dient nicht nur der Reinigung. Sie fördert das Wohlbefinden, regt die Durchblutung an und stärkt das Selbstwertgefühl.
+**Ihre Rolle:** Bestimmte Tätigkeiten sind ausgebildeten Pflegefachkräften vorbehalten (§ 4 PflBG). Sie übernehmen Körperpflege, Hilfe bei Essen/Trinken/Anziehen, Lagerung nach Anleitung, Beobachtung – nicht Wundversorgung, Medikamentengabe, Pflegeplanung. Bei Unsicherheit: Pflegefachkraft fragen.
 
-**Ziele der Körperpflege:**
-*   Reinigung und Pflege der Haut
-*   Förderung der Durchblutung und Wahrnehmung
-*   Krankheitsbeobachtung (Hautzustand, Mobilität)
-*   Steigerung des Wohlbefindens
+**Grundpflege vs. Behandlungspflege:**
+*   Grundpflege (SGB XI): Aktivitäten des täglichen Lebens, Pflegeversicherung – Ihr Bereich.
+*   Behandlungspflege (SGB V): ärztlich verordnet, Krankenkasse – Pflegefachkraft.
 
-**Grundsätze:**
-*   **Ressourcen fördern:** Was kann der Bewohner noch selbst?
-*   **Intimsphäre wahren:** Nur so viel Körperfläche wie nötig aufdecken.
-*   **Hygiene beachten:** Händedesinfektion nach den 5 Momenten der WHO. Einmalhandschuhe nur bei Kontakt mit Körperflüssigkeiten, Schleimhäuten oder nicht-intakter Haut – nicht routinemäßig.
-*   **Kommunikation:** Jeden Schritt ankündigen und erklären.
-*   **Schweigepflicht beachten** (§ 203 StGB).
+**Pflegeprozess (6 Schritte):** Informationssammlung – Probleme/Ressourcen – Ziele – Maßnahmenplanung – Durchführung – Evaluation. Sie sind besonders in Schritt 1 (Beobachtung) und 5 (Durchführung) aktiv.
+
+**AEDL nach Krohwinkel:** 13 Aktivitäten, nach denen die Pflege strukturiert ist (von Kommunizieren bis existenzielle Erfahrungen).
+
+**Schweigepflicht (§ 203 StGB) und DSGVO:** Keine Weitergabe von Informationen ohne Erlaubnis, keine Gespräche im Bus, keine Fotos ohne schriftliche Einwilligung.
+
+**Händehygiene – 5 Momente der WHO:** vor Bewohnerkontakt, vor aseptischer Tätigkeit, nach Kontakt mit potenziell infektiösem Material, nach Bewohnerkontakt, nach Kontakt mit Bewohnerumgebung. Handschuhe nur bei Kontakt mit Körperflüssigkeiten/Schleimhäuten/nicht-intakter Haut.
+
+**Grundsätze der Körperpflege:** Ressourcen fördern · Intimsphäre wahren · Hygiene beachten · Jeden Schritt ankündigen und erklären.
 
 ---
 
@@ -82,5 +83,5 @@ Führen Sie die Hand des Bewohners zum Waschlappen oder zur Zahnbürste ("Führe
 
 ---
 
-**Health Angels - Coachings kollegial & kompetent**
+**Caritas Maria-Hötte-Stift – Fortbildung Grundpflege**
 *Für interne Schulungszwecke.*
