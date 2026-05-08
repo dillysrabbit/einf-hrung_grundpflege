@@ -113,7 +113,7 @@ Diese Form der Waschung ist anspruchsvoll und kommt zum Einsatz, wenn die Bewohn
 **Vorbereitung:**
 *   Material vollständig bereitlegen (Waschschüssel, **getrennte Waschlappen für Gesicht / Körper / Intimbereich**, Handtücher, Waschlotion, ggf. Hautcreme, frische Kleidung und Bettwäsche).
 *   Raumtemperatur ca. 22–24 °C, Fenster und Türen schließen (Zugluft vermeiden, Auskühlung).
-*   **Wassertemperatur ca. 37–43 °C** – immer mit der Innenseite des eigenen Unterarms prüfen. Bei Bewohner:innen mit Polyneuropathie (z. B. Diabetes), Demenz oder Sensibilitätsstörung darf die Temperaturkontrolle nie allein dem Bewohner überlassen werden (Verbrühungsgefahr!).
+*   **Wassertemperatur** – richtet sich nach dem Wunsch der bewohnenden Person; ein empfehlenswerter Richtwert ist **37–43 °C**. Immer zuerst mit der Innenseite des eigenen Unterarms prüfen. Bei Bewohner:innen mit Polyneuropathie (z. B. Diabetes), Demenz oder Sensibilitätsstörung darf die Temperaturkontrolle nie allein dem Bewohner überlassen werden (Verbrühungsgefahr!).
 *   Bewohner:in informieren, Bett auf ergonomische Arbeitshöhe bringen (Eigenschutz Rücken).
 *   Hygienische Händedesinfektion.
 
@@ -140,7 +140,7 @@ Wenn die Mobilität es zulässt, ist dies der ideale Weg zur Förderung der Selb
 *   Rutschfeste Matten, festes Schuhwerk, **keine Handtücher auf dem Boden** (Stolperfalle).
 *   Stabile Sitzgelegenheit (Duschhocker/Stuhl mit Lehne).
 *   Notrufknopf und Haltegriffe in Reichweite.
-*   Wassertemperatur **immer durch die Pflegekraft mit dem eigenen Unterarm geprüft**, anschließend ggf. den Bewohner prüfen lassen (Verbrühungsschutz).
+*   Wassertemperatur nach Wunsch der bewohnenden Person (Richtwert 37–43 °C), **immer zuerst durch die Pflegekraft mit dem eigenen Unterarm geprüft**, anschließend ggf. den Bewohner prüfen lassen (Verbrühungsschutz).
 *   Eigenschutz der Pflegekraft: rückenschonendes Arbeiten, Knie beugen, nicht aus dem Rücken heben.
 
 **Ablauf:**

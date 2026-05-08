@@ -15,7 +15,7 @@ export default function Module3() {
 
   const steps = [
     { id: "step1", title: "1. Transfer & Sitzposition", desc: "Bewohner:in rückenschonend zum Waschbecken begleiten (Knie beugen, nicht aus dem Rücken heben). Stabilen Sitz auf Duschhocker/Stuhl mit Lehne sicherstellen, Notrufknopf in Reichweite." },
-    { id: "step2", title: "2. Wasser vorbereiten", desc: "Wassertemperatur (37–43 °C) IMMER zuerst durch die Pflegekraft mit dem eigenen Unterarm prüfen, anschließend ggf. den Bewohner prüfen lassen. Bei Diabetes, Demenz oder Sensibilitätsstörung niemals allein dem Bewohner überlassen." },
+    { id: "step2", title: "2. Wasser vorbereiten", desc: "Wassertemperatur so wählen, wie die bewohnende Person es wünscht – ein empfehlenswerter Richtwert ist 37–43 °C. IMMER zuerst durch die Pflegekraft mit dem eigenen Unterarm prüfen, anschließend ggf. den Bewohner prüfen lassen. Bei Diabetes, Demenz oder Sensibilitätsstörung niemals allein dem Bewohner überlassen." },
     { id: "step3", title: "3. Oberkörper (Selbstständig)", desc: "Bewohner:in wäscht Gesicht, Arme und Oberkörper selbstständig. Pflegekraft unterstützt nur bei Bedarf, beobachtet und gibt klare verbale Anleitung." },
     { id: "step4", title: "4. Rücken (Unterstützung)", desc: "Bewohner:in beugt sich vor (Sturzsicherung beachten!). Pflegekraft wäscht den schwer erreichbaren Rücken und prüft den Hautzustand." },
     { id: "step5", title: "5. Intimpflege (Anleitung)", desc: "Pflegekraft leitet an, Bewohner:in führt durch. Frischer Waschlappen, Einmalhandschuhe. Nur bei Bedarf übernehmen, Würde wahren." },
@@ -101,7 +101,7 @@ export default function Module3() {
                     <Thermometer className="h-6 w-6" />
                   </div>
                   <h3 className="font-bold mb-2">Temperatur & Klima</h3>
-                  <p className="text-sm text-muted-foreground">Badezimmer vorwärmen. Wassertemperatur prüfen lassen (Verbrühungsschutz!).</p>
+                  <p className="text-sm text-muted-foreground">Badezimmer vorwärmen. Wassertemperatur nach Bewohnerwunsch (Richtwert 37–43 °C); zuerst durch die Pflegekraft selbst prüfen.</p>
                 </CardContent>
               </Card>
               <Card className="text-center hover:shadow-md transition-all">

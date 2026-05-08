@@ -40,7 +40,7 @@ Diese Form der Waschung ist anspruchsvoll und kommt zum Einsatz, wenn der Bewohn
 **Vorbereitung:**
 *   Materialien bereitlegen (Waschschüssel, getrennte Waschlappen für Gesicht/Körper/Intim, Handtücher, Waschlotion, frische Kleidung/Bettwäsche).
 *   Raumtemperatur ca. 22–24 °C, Fenster schließen.
-*   Wassertemperatur 37–43 °C – immer mit eigenem Unterarm prüfen (Verbrühungsschutz, besonders bei Diabetes/Demenz).
+*   Wassertemperatur nach Wunsch der bewohnenden Person (Richtwert 37–43 °C) – immer mit eigenem Unterarm prüfen (Verbrühungsschutz, besonders bei Diabetes/Demenz).
 *   Bewohner informieren und Bett auf Arbeitshöhe bringen.
 
 **Ablauf (Schritt für Schritt):**
@@ -61,7 +61,7 @@ Wenn die Mobilität es zulässt, ist dies der ideale Weg zur Förderung der Selb
 *   Rutschfeste Matten und festes Schuhwerk, keine Handtücher auf dem Boden.
 *   Stabile Sitzgelegenheit (Hocker/Stuhl mit Lehne).
 *   Notrufknopf und Haltegriffe in Reichweite, alles vor der Waschung zurechtlegen.
-*   Wassertemperatur immer durch die Pflegekraft prüfen.
+*   Wassertemperatur nach Bewohnerwunsch (Richtwert 37–43 °C), immer zuerst durch die Pflegekraft prüfen.
 *   Tagesaktuelle Belastbarkeit beurteilen – nicht jeden Tag möglich.
 
 **Ablauf:**
