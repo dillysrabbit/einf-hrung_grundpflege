@@ -24,12 +24,12 @@ const questions: Question[] = [
     question: "Was ist das oberste Ziel der aktivierenden Pflege?",
     options: [
       "Die Pflege so schnell wie möglich zu erledigen.",
-      "Dem Bewohner alle Aufgaben abzunehmen, damit er sich ausruhen kann.",
-      "Die Selbstständigkeit des Bewohners zu erhalten und zu fördern ('Hilfe zur Selbsthilfe').",
+      "Der bewohnenden Person alle Aufgaben abzunehmen, damit sie sich ausruhen kann.",
+      "Die Selbstständigkeit zu erhalten und zu fördern ('Hilfe zur Selbsthilfe').",
       "Kosten für Pflegematerial zu sparen."
     ],
     correctAnswer: 2,
-    explanation: "Richtig! Aktivierende Pflege zielt darauf ab, vorhandene Ressourcen zu nutzen und die Eigenständigkeit so lange wie möglich zu bewahren."
+    explanation: "Richtig. Aktivierende Pflege nutzt vorhandene Ressourcen und bewahrt die Eigenständigkeit so lange wie möglich."
   },
   {
     id: 2,
@@ -41,23 +41,23 @@ const questions: Question[] = [
       "Die bewohnende Person sofort ausziehen."
     ],
     correctAnswer: 2,
-    explanation: "Genau. Eine gute Vorbereitung (Material, Hygiene, Umgebung, Information) ist essenziell für einen reibungslosen Ablauf und das Wohlbefinden."
+    explanation: "Eine gute Vorbereitung (Material, Hygiene, Umgebung, Information) ist essenziell für Sicherheit und Wohlbefinden."
   },
   {
     id: 3,
-    question: "Warum ist die Beobachtung der Haut während der Waschung so wichtig?",
+    question: "Warum ist die Beobachtung der Haut während der Waschung wichtig?",
     options: [
-      "Um zu sehen, ob der Bewohner braun geworden ist.",
-      "Um frühzeitig Anzeichen von Dekubitus (Druckstellen), Pilzinfektionen oder Verletzungen zu erkennen.",
-      "Es ist nicht wichtig, das macht der Arzt.",
+      "Um zu prüfen, ob die Person braun geworden ist.",
+      "Um frühzeitig Anzeichen von Dekubitus, Pilzinfektionen oder Verletzungen zu erkennen.",
+      "Es ist nicht wichtig – das macht die Ärztin.",
       "Um zu prüfen, ob die Seife gut riecht."
     ],
     correctAnswer: 1,
-    explanation: "Korrekt. Die Hautbeobachtung ist eine zentrale Aufgabe, um gesundheitliche Probleme wie Dekubitus frühzeitig zu erkennen und zu behandeln."
+    explanation: "Hautbeobachtung ist eine Kernaufgabe, um Dekubitus, Hautpilz und andere Probleme frühzeitig zu erkennen."
   },
   {
     id: 4,
-    question: "In welcher Richtung sollte die Waschung der Extremitäten (Arme/Beine) erfolgen?",
+    question: "In welcher Richtung sollte die Waschung der Arme und Beine erfolgen?",
     options: [
       "Von oben nach unten.",
       "Kreuz und quer.",
@@ -65,19 +65,163 @@ const questions: Question[] = [
       "Vom Körper weg."
     ],
     correctAnswer: 2,
-    explanation: "Richtig. Die Waschung erfolgt 'herzwärts'. Sie fördert die Wahrnehmung der eigenen Körpergrenzen (basale Stimulation) und unterstützt den venösen Rückfluss."
+    explanation: "Herzwärts waschen fördert die Wahrnehmung der eigenen Körpergrenzen (basale Stimulation) und unterstützt den venösen Rückfluss."
   },
   {
     id: 5,
     question: "Was ist bei der Intimpflege einer Frau besonders zu beachten?",
     options: [
       "Es gibt keine Besonderheiten.",
-      "Immer von der Schamfuge zum Anus hin waschen.",
+      "Immer von der Schamfuge zum Anus hin waschen, mit jedem Wisch frische Lappenstelle.",
       "Immer vom Anus zur Schamfuge hin waschen.",
-      "Nur klares Wasser verwenden."
+      "Nur klares Wasser verwenden, ohne Waschlappenwechsel."
     ],
     correctAnswer: 1,
-    explanation: "Wichtig! Um eine Keimverschleppung vom Darm in die Harnröhre (und damit Blasenentzündungen) zu vermeiden, muss immer von vorne nach hinten gewaschen werden."
+    explanation: "Von vorne nach hinten waschen verhindert Keimverschleppung aus dem Darm in die Harnröhre (Prophylaxe Harnwegsinfekt)."
+  },
+  {
+    id: 6,
+    question: "Wie reinigen Sie das Auge während der Gesichtswaschung?",
+    options: [
+      "Vom äußeren Augenwinkel zum inneren, mit demselben Lappen für beide Augen.",
+      "Vom inneren Augenwinkel (nasal) nach außen, mit jeweils frischer Stelle des Waschlappens.",
+      "Mit Seifenwasser kreisend einreiben.",
+      "Mit einem trockenen Tuch abwischen."
+    ],
+    correctAnswer: 1,
+    explanation: "Von innen nach außen verhindert die Keimverschleppung in den Tränen-Nasen-Gang. Pro Auge eine frische Stelle des Waschlappens."
+  },
+  {
+    id: 7,
+    question: "Welche Wassertemperatur ist beim Waschen empfehlenswert – und wer prüft sie?",
+    options: [
+      "Über 50 °C, die Person kann es selbst prüfen.",
+      "37–43 °C; immer zuerst die Pflegekraft mit der Innenseite des Unterarms.",
+      "Genau 30 °C, gemessen mit dem Finger.",
+      "Egal, solange die Person nicht klagt."
+    ],
+    correctAnswer: 1,
+    explanation: "37–43 °C ist angenehm und sicher. Die Pflegekraft prüft, weil bei Diabetes, Demenz oder Sensibilitätsstörung die Eigenwahrnehmung unzuverlässig sein kann (Verbrühungsgefahr)."
+  },
+  {
+    id: 8,
+    question: "Wann ziehen Sie Einmalhandschuhe an?",
+    options: [
+      "Immer, sobald Sie das Zimmer betreten.",
+      "Nur bei Kontakt mit Körperflüssigkeiten, Schleimhäuten oder nicht-intakter Haut.",
+      "Bei der gesamten Waschung statt einer Händedesinfektion.",
+      "Nie – Handschuhe sind unhygienisch."
+    ],
+    correctAnswer: 1,
+    explanation: "Handschuhe sind kein Routinemittel und ersetzen die Händedesinfektion nicht. Sie kommen gezielt bei Kontakt mit Körperflüssigkeiten, Schleimhäuten oder nicht-intakter Haut zum Einsatz."
+  },
+  {
+    id: 9,
+    question: "Was sind die '5 Momente der Händehygiene' der WHO?",
+    options: [
+      "5 verschiedene Desinfektionsmittel zur Auswahl.",
+      "5 Sekunden Einreiben bei der Händedesinfektion.",
+      "5 definierte Zeitpunkte: vor Bewohnerkontakt, vor aseptischer Tätigkeit, nach Kontakt mit infektiösem Material, nach Bewohnerkontakt, nach Kontakt mit der Bewohnerumgebung.",
+      "5 Fingerstellungen zum Einreiben des Mittels."
+    ],
+    correctAnswer: 2,
+    explanation: "Die 5 Momente sind die wirksamste Einzelmaßnahme zur Infektionsprävention in der Pflege."
+  },
+  {
+    id: 10,
+    question: "Was ist nach der Intimpflege beim Mann unbedingt zu beachten?",
+    options: [
+      "Die Vorhaut zwingend wieder vorschieben.",
+      "Eine spezielle Salbe auftragen.",
+      "Die Vorhaut bewusst zurückgeschoben lassen, damit es luftiger wird.",
+      "Nichts Besonderes – es ist wie bei der Frau."
+    ],
+    correctAnswer: 0,
+    explanation: "Eine vergessene oder dauerhaft zurückgeschobene Vorhaut führt zur Paraphimose ('spanischer Kragen') – ein urologischer Notfall."
+  },
+  {
+    id: 11,
+    question: "Was unterscheidet Grundpflege von Behandlungspflege?",
+    options: [
+      "Es gibt keinen Unterschied.",
+      "Grundpflege ist freiwillig, Behandlungspflege ist Pflicht.",
+      "Grundpflege deckt Aktivitäten des täglichen Lebens (SGB XI) ab; Behandlungspflege umfasst ärztlich verordnete Maßnahmen (SGB V).",
+      "Grundpflege macht der Arzt, Behandlungspflege die Pflegekraft."
+    ],
+    correctAnswer: 2,
+    explanation: "Grundpflege (Waschen, Essen, Mobilität) wird über die Pflegeversicherung finanziert; Behandlungspflege (Wunden, Medikamente, Injektionen) ist ärztlich verordnet und wird über die Krankenkasse finanziert."
+  },
+  {
+    id: 12,
+    question: "Welche der folgenden Beobachtungen müssen Sie SOFORT an die Pflegefachkraft melden?",
+    options: [
+      "Die Bewohnerin hat heute eine andere Lieblingstasse gewählt.",
+      "Plötzlicher hängender Mundwinkel und Sprachstörung.",
+      "Eine kleine, wegdrückbare Hautrötung am Oberarm.",
+      "Die Person möchte nach dem Frühstück noch ein wenig schlafen."
+    ],
+    correctAnswer: 1,
+    explanation: "Hängender Mundwinkel und Sprachstörung sind klassische Schlaganfall-Anzeichen (FAST: Face, Arms, Speech, Time) – sofortige Meldung, Zeit zählt!"
+  },
+  {
+    id: 13,
+    question: "Was bedeutet die Schweigepflicht (§ 203 StGB) im Pflegealltag?",
+    options: [
+      "Mit Bewohnerinnen darf man nicht sprechen.",
+      "Informationen über Bewohner:innen dürfen nicht an Außenstehende weitergegeben werden – auch nicht an Familienangehörige ohne Erlaubnis.",
+      "Pflegehilfskräfte müssen schweigen, wenn die Pflegefachkraft im Raum ist.",
+      "Im Pausenraum darf alles besprochen werden, weil das interner Bereich ist."
+    ],
+    correctAnswer: 1,
+    explanation: "Auch Pflegehilfskräfte unterliegen der Schweigepflicht. Verstöße können arbeits- und strafrechtliche Folgen haben."
+  },
+  {
+    id: 14,
+    question: "Sie entdecken am Steißbein eine Hautrötung. Was prüfen Sie zuerst?",
+    options: [
+      "Ob die Bewohnerin die Stelle selbst sieht.",
+      "Ob sich die Rötung mit dem Finger wegdrücken lässt (Fingertest).",
+      "Ob die Rötung warm ist – wenn ja, ist alles ok.",
+      "Ob die Stelle schmerzt – wenn nicht, ist nichts zu tun."
+    ],
+    correctAnswer: 1,
+    explanation: "Eine wegdrückbare Rötung ist eine 'normale' Hautreaktion. Eine NICHT wegdrückbare Rötung ist ein Dekubitus Kategorie 1 – sofort an die Pflegefachkraft melden."
+  },
+  {
+    id: 15,
+    question: "Warum sollten Sie keine Watte zwischen die Zehen legen?",
+    options: [
+      "Weil Watte zu teuer ist.",
+      "Weil Watte Feuchtigkeit zieht und so Mazeration und Pilzwachstum begünstigt.",
+      "Weil Watte allergische Reaktionen auslöst.",
+      "Watte zwischen die Zehen legen ist eigentlich Standard."
+    ],
+    correctAnswer: 1,
+    explanation: "Feuchte Hautareale zwischen den Zehen sind ideale Brutstätten für Pilze und können die Haut aufweichen (Mazeration). Stattdessen gründlich trocknen."
+  },
+  {
+    id: 16,
+    question: "Welche Aussage zum Pflegeprozess (nach Fiechter/Meier) trifft zu?",
+    options: [
+      "Pflegehilfskräfte führen den gesamten Prozess eigenständig durch.",
+      "Der Prozess hat 6 Schritte. Pflegehilfskräfte arbeiten besonders bei Beobachtung und Durchführung mit; die Steuerung liegt bei der Pflegefachkraft.",
+      "Der Pflegeprozess ist nur in Krankenhäusern relevant.",
+      "Der Pflegeprozess hat 3 Schritte: Waschen, Essen, Schlafen."
+    ],
+    correctAnswer: 1,
+    explanation: "Der Pflegeprozess hat 6 Schritte (Information, Probleme/Ressourcen, Ziele, Maßnahmen, Durchführung, Evaluation). Pflegeplanung und Evaluation sind Vorbehaltsaufgaben der Pflegefachkraft."
+  },
+  {
+    id: 17,
+    question: "Eine Bewohnerin mit fortgeschrittener Demenz weigert sich heute morgen, sich waschen zu lassen, und wirkt unruhig. Was tun Sie?",
+    options: [
+      "Die Waschung trotzdem durchziehen, damit der Tagesplan eingehalten wird.",
+      "Die Waschung abbrechen und sie nie wieder versuchen.",
+      "Ruhig bleiben, validierend kommunizieren, später erneut anbieten und die Pflegefachkraft informieren.",
+      "Die Bewohnerin zurechtweisen, damit sie kooperiert."
+    ],
+    correctAnswer: 2,
+    explanation: "Validation (nach Naomi Feil), Geduld und Anpassung des Zeitpunkts sind zentral. Die Pflegefachkraft prüft, ob Schmerzen, Angst oder ein neues Symptom dahinterstecken."
   }
 ];
 
@@ -92,9 +236,9 @@ export default function Quiz() {
 
   const generateCertificate = () => {
     if (!userName.trim()) return;
-    
+
     setIsGenerating(true);
-    
+
     try {
       const doc = new jsPDF({
         orientation: "landscape",
@@ -103,11 +247,11 @@ export default function Quiz() {
       });
 
       // Background
-      doc.setFillColor(250, 248, 245); // Light cream background
+      doc.setFillColor(250, 248, 245);
       doc.rect(0, 0, 297, 210, "F");
-      
+
       // Border
-      doc.setDrawColor(227, 0, 15); // Caritas Red
+      doc.setDrawColor(227, 0, 15);
       doc.setLineWidth(2);
       doc.rect(10, 10, 277, 190);
       doc.setLineWidth(0.5);
@@ -115,49 +259,74 @@ export default function Quiz() {
 
       // Title
       doc.setTextColor(227, 0, 15);
-      doc.setFontSize(36);
+      doc.setFontSize(34);
       doc.setFont("helvetica", "bold");
-      doc.text("ZERTIFIKAT", 148.5, 50, { align: "center" });
+      doc.text("TEILNAHMEBESTÄTIGUNG", 148.5, 38, { align: "center" });
 
       // Subtitle
       doc.setTextColor(50, 50, 50);
-      doc.setFontSize(16);
+      doc.setFontSize(14);
       doc.setFont("helvetica", "normal");
-      doc.text("Hiermit wird bestätigt, dass", 148.5, 75, { align: "center" });
+      doc.text("Hiermit wird bestätigt, dass", 148.5, 60, { align: "center" });
 
       // Name
       doc.setTextColor(0, 0, 0);
-      doc.setFontSize(28);
+      doc.setFontSize(26);
       doc.setFont("helvetica", "bold");
-      doc.text(userName, 148.5, 95, { align: "center" });
+      doc.text(userName, 148.5, 78, { align: "center" });
 
       // Course
       doc.setTextColor(50, 50, 50);
-      doc.setFontSize(16);
-      doc.setFont("helvetica", "normal");
-      doc.text("erfolgreich an der Fortbildung", 148.5, 115, { align: "center" });
-      
-      doc.setTextColor(227, 0, 15);
-      doc.setFontSize(20);
-      doc.setFont("helvetica", "bold");
-      doc.text("Einführung in die Grundpflege", 148.5, 130, { align: "center" });
-
-      // Date
-      const today = new Date().toLocaleDateString("de-DE");
-      doc.setTextColor(50, 50, 50);
       doc.setFontSize(14);
       doc.setFont("helvetica", "normal");
-      doc.text(`Münster, den ${today}`, 148.5, 155, { align: "center" });
+      doc.text("erfolgreich an der internen Fortbildung", 148.5, 95, { align: "center" });
 
-      // Signature line
-      doc.setDrawColor(100, 100, 100);
-      doc.setLineWidth(0.5);
-      doc.line(100, 180, 197, 180);
+      doc.setTextColor(227, 0, 15);
+      doc.setFontSize(18);
+      doc.setFont("helvetica", "bold");
+      doc.text("Einführung in die Grundpflege", 148.5, 108, { align: "center" });
+
+      doc.setTextColor(50, 50, 50);
       doc.setFontSize(12);
-      doc.text("Caritas Maria-Hötte-Stift", 148.5, 186, { align: "center" });
+      doc.setFont("helvetica", "normal");
+      doc.text("teilgenommen und den Wissenscheck bestanden hat.", 148.5, 118, { align: "center" });
 
-      // Save
-      doc.save(`Zertifikat_Grundpflege_${userName.replace(/\s+/g, "_")}.pdf`);
+      // Inhalte
+      doc.setFontSize(10);
+      doc.text("Inhalte: Rolle der Pflegehilfskraft & Pflegeprozess · Hygiene & Schweigepflicht ·", 148.5, 132, { align: "center" });
+      doc.text("Ganzkörperwaschung im Bett · Waschung am Waschbecken · Aktivierende Pflege", 148.5, 137, { align: "center" });
+
+      // Metadaten-Block (links)
+      const today = new Date();
+      const todayStr = today.toLocaleDateString("de-DE");
+      const certId = `MHS-GP-${today.getFullYear()}${String(today.getMonth() + 1).padStart(2, "0")}${String(today.getDate()).padStart(2, "0")}-${Math.random().toString(36).slice(2, 8).toUpperCase()}`;
+      const passThreshold = Math.ceil(questions.length * 0.8);
+
+      doc.setFontSize(9);
+      doc.setTextColor(80, 80, 80);
+      doc.text(`Schulungsumfang: ca. 2 Unterrichtseinheiten (Selbstlernformat)`, 30, 155);
+      doc.text(`Wissenscheck: ${score} / ${questions.length} richtige Antworten (Bestehensgrenze ${passThreshold} = 80 %)`, 30, 161);
+      doc.text(`Datum: ${todayStr}     Zertifikat-ID: ${certId}`, 30, 167);
+
+      // Signaturlinie rechts
+      doc.setDrawColor(100, 100, 100);
+      doc.setLineWidth(0.4);
+      doc.line(190, 175, 265, 175);
+      doc.setFontSize(9);
+      doc.text("Pflegedienstleitung", 227.5, 180, { align: "center" });
+      doc.text("Caritas Maria-Hötte-Stift, Münster", 227.5, 185, { align: "center" });
+
+      // Hinweis
+      doc.setFontSize(7.5);
+      doc.setTextColor(120, 120, 120);
+      doc.text(
+        "Diese Bestätigung dokumentiert die Teilnahme an einer einrichtungsinternen Schulung. Sie ersetzt keine pflegerische Berufsausbildung und keine staatliche Anerkennung.",
+        148.5,
+        198,
+        { align: "center", maxWidth: 240 }
+      );
+
+      doc.save(`Teilnahmebestaetigung_Grundpflege_${userName.replace(/\s+/g, "_")}.pdf`);
     } catch (error) {
       console.error("Error generating PDF:", error);
     } finally {
@@ -175,17 +344,9 @@ export default function Quiz() {
 
   const handleSubmit = () => {
     if (selectedOption === null) return;
-    
     const isCorrect = selectedOption === currentQuestion.correctAnswer;
     if (isCorrect) {
       setScore(score + 1);
-      if (currentQuestionIndex === questions.length - 1) {
-        confetti({
-          particleCount: 100,
-          spread: 70,
-          origin: { y: 0.6 }
-        });
-      }
     }
     setIsAnswered(true);
   };
@@ -196,6 +357,10 @@ export default function Quiz() {
       setSelectedOption(null);
       setIsAnswered(false);
     } else {
+      const passThreshold = Math.ceil(questions.length * 0.8);
+      if (score >= passThreshold) {
+        confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
+      }
       setShowResult(true);
     }
   };
