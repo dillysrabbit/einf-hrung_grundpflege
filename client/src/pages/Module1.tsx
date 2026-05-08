@@ -59,11 +59,10 @@ export default function Module1() {
 
         {/* Hauptinhalt mit Tabs */}
         <Tabs defaultValue="rolle" className="w-full mb-12">
-          <TabsList className="grid w-full grid-cols-2 md:grid-cols-4 mb-8">
-            <TabsTrigger value="rolle">Ihre Rolle</TabsTrigger>
+          <TabsList className="grid w-full grid-cols-3 mb-8">
+            <TabsTrigger value="rolle">Rolle & Haltung</TabsTrigger>
             <TabsTrigger value="prozess">Pflegeprozess</TabsTrigger>
             <TabsTrigger value="recht">Recht & Hygiene</TabsTrigger>
-            <TabsTrigger value="haltung">Haltung</TabsTrigger>
           </TabsList>
 
           {/* Tab 1: Rolle */}
@@ -143,6 +142,53 @@ export default function Module1() {
                       </p>
                     </div>
                   </div>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardContent className="pt-6">
+                  <h3 className="font-serif text-xl font-bold text-primary mb-3">Haltung im Alltag</h3>
+                  <Accordion type="single" collapsible className="w-full">
+                    <AccordionItem value="item-1">
+                      <AccordionTrigger className="text-lg font-medium">Würde & Intimsphäre</AccordionTrigger>
+                      <AccordionContent className="text-muted-foreground leading-relaxed">
+                        Grundpflege ist intim. Wir betreten den Lebensraum eines Menschen, wir sehen seinen Körper,
+                        wir helfen bei den persönlichsten Verrichtungen. Daher gilt: anklopfen, ankündigen, jeden Schritt
+                        erklären, nur so viel Körperfläche aufdecken wie nötig, Tür schließen, Mitbewohner:innen
+                        aus dem Raum bitten. Auch bei Menschen mit Demenz oder reduzierter Bewusstseinslage.
+                      </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-2">
+                      <AccordionTrigger className="text-lg font-medium">Aktivierende Pflege als Haltung</AccordionTrigger>
+                      <AccordionContent className="text-muted-foreground leading-relaxed">
+                        Unser Leitsatz ist „Hilfe zur Selbsthilfe". Wir nehmen einer Person nicht alles ab, sondern
+                        unterstützen sie dort, wo sie es braucht – nicht mehr und nicht weniger. Das erhält Fähigkeiten
+                        und stärkt das Selbstwertgefühl. Eine Person, die sich noch selbst das Gesicht waschen kann,
+                        sollte das auch dürfen – auch wenn es länger dauert. Vertieft wird dies in <Link href="/module-4" className="text-primary underline">Modul 4</Link>.
+                      </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-3">
+                      <AccordionTrigger className="text-lg font-medium">Ihre drei Rollen im Alltag</AccordionTrigger>
+                      <AccordionContent className="text-muted-foreground leading-relaxed">
+                        <ul className="list-disc pl-5 mt-2 space-y-1">
+                          <li>Sie sind <strong>Beobachter:in</strong>: Sie erkennen Veränderungen am Hautzustand, Verhalten, Allgemeinzustand und melden sie weiter.</li>
+                          <li>Sie sind <strong>Vertraute:r</strong>: Sie geben Sicherheit, hören zu und schützen die Würde.</li>
+                          <li>Sie sind <strong>Aktivator:in</strong>: Sie motivieren zur Selbstständigkeit und nutzen Ressourcen.</li>
+                        </ul>
+                      </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-4">
+                      <AccordionTrigger className="text-lg font-medium">Caritas-Leitbild</AccordionTrigger>
+                      <AccordionContent className="text-muted-foreground leading-relaxed">
+                        Als Einrichtung der Caritas sehen wir den Menschen mit seiner ganzen Lebensgeschichte,
+                        seinen Beziehungen und seinem Glauben. Spirituelle Begleitung, Biographiearbeit und
+                        Sterbebegleitung gehören für uns selbstverständlich zur Pflege.
+                      </AccordionContent>
+                    </AccordionItem>
+                  </Accordion>
                 </CardContent>
               </Card>
             </div>
@@ -338,50 +384,6 @@ export default function Module1() {
             </div>
           </TabsContent>
 
-          {/* Tab 4: Haltung */}
-          <TabsContent value="haltung">
-            <Accordion type="single" collapsible className="w-full">
-              <AccordionItem value="item-1">
-                <AccordionTrigger className="text-lg font-medium">Würde & Intimsphäre</AccordionTrigger>
-                <AccordionContent className="text-muted-foreground leading-relaxed">
-                  Grundpflege ist intim. Wir betreten den Lebensraum eines Menschen, wir sehen seinen Körper,
-                  wir helfen bei den persönlichsten Verrichtungen. Daher gilt: anklopfen, ankündigen, jeden Schritt
-                  erklären, nur so viel Körperfläche aufdecken wie nötig, Tür schließen, Mitbewohner:innen
-                  aus dem Raum bitten. Auch bei Menschen mit Demenz oder reduzierter Bewusstseinslage.
-                </AccordionContent>
-              </AccordionItem>
-
-              <AccordionItem value="item-2">
-                <AccordionTrigger className="text-lg font-medium">Aktivierende Pflege als Haltung</AccordionTrigger>
-                <AccordionContent className="text-muted-foreground leading-relaxed">
-                  Unser Leitsatz ist „Hilfe zur Selbsthilfe". Wir nehmen einer Person nicht alles ab, sondern
-                  unterstützen sie dort, wo sie es braucht – nicht mehr und nicht weniger. Das erhält Fähigkeiten
-                  und stärkt das Selbstwertgefühl. Eine Person, die sich noch selbst das Gesicht waschen kann,
-                  sollte das auch dürfen – auch wenn es länger dauert. Vertieft wird dies in <Link href="/module-4" className="text-primary underline">Modul 4</Link>.
-                </AccordionContent>
-              </AccordionItem>
-
-              <AccordionItem value="item-3">
-                <AccordionTrigger className="text-lg font-medium">Ihre drei Rollen im Alltag</AccordionTrigger>
-                <AccordionContent className="text-muted-foreground leading-relaxed">
-                  <ul className="list-disc pl-5 mt-2 space-y-1">
-                    <li>Sie sind <strong>Beobachter:in</strong>: Sie erkennen Veränderungen am Hautzustand, Verhalten, Allgemeinzustand und melden sie weiter.</li>
-                    <li>Sie sind <strong>Vertraute:r</strong>: Sie geben Sicherheit, hören zu und schützen die Würde.</li>
-                    <li>Sie sind <strong>Aktivator:in</strong>: Sie motivieren zur Selbstständigkeit und nutzen Ressourcen.</li>
-                  </ul>
-                </AccordionContent>
-              </AccordionItem>
-
-              <AccordionItem value="item-4">
-                <AccordionTrigger className="text-lg font-medium">Caritas-Leitbild</AccordionTrigger>
-                <AccordionContent className="text-muted-foreground leading-relaxed">
-                  Als Einrichtung der Caritas sehen wir den Menschen mit seiner ganzen Lebensgeschichte,
-                  seinen Beziehungen und seinem Glauben. Spirituelle Begleitung, Biographiearbeit und
-                  Sterbebegleitung gehören für uns selbstverständlich zur Pflege.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
-          </TabsContent>
         </Tabs>
 
         {/* Kernkompetenzen-Karten */}
