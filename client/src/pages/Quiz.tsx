@@ -3,6 +3,10 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import { Progress } from "@/components/ui/progress";
 import { ArrowRight, CheckCircle, RefreshCcw, XCircle } from "lucide-react";
 import { useState } from "react";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Download } from "lucide-react";
+import jsPDF from "jspdf";
 import { Link } from "wouter";
 import confetti from "canvas-confetti";
 
@@ -83,6 +87,83 @@ export default function Quiz() {
   const [isAnswered, setIsAnswered] = useState(false);
   const [score, setScore] = useState(0);
   const [showResult, setShowResult] = useState(false);
+  const [userName, setUserName] = useState("");
+  const [isGenerating, setIsGenerating] = useState(false);
+
+  const generateCertificate = () => {
+    if (!userName.trim()) return;
+    
+    setIsGenerating(true);
+    
+    try {
+      const doc = new jsPDF({
+        orientation: "landscape",
+        unit: "mm",
+        format: "a4"
+      });
+
+      // Background
+      doc.setFillColor(250, 248, 245); // Light cream background
+      doc.rect(0, 0, 297, 210, "F");
+      
+      // Border
+      doc.setDrawColor(227, 0, 15); // Caritas Red
+      doc.setLineWidth(2);
+      doc.rect(10, 10, 277, 190);
+      doc.setLineWidth(0.5);
+      doc.rect(12, 12, 273, 186);
+
+      // Title
+      doc.setTextColor(227, 0, 15);
+      doc.setFontSize(36);
+      doc.setFont("helvetica", "bold");
+      doc.text("ZERTIFIKAT", 148.5, 50, { align: "center" });
+
+      // Subtitle
+      doc.setTextColor(50, 50, 50);
+      doc.setFontSize(16);
+      doc.setFont("helvetica", "normal");
+      doc.text("Hiermit wird bestätigt, dass", 148.5, 75, { align: "center" });
+
+      // Name
+      doc.setTextColor(0, 0, 0);
+      doc.setFontSize(28);
+      doc.setFont("helvetica", "bold");
+      doc.text(userName, 148.5, 95, { align: "center" });
+
+      // Course
+      doc.setTextColor(50, 50, 50);
+      doc.setFontSize(16);
+      doc.setFont("helvetica", "normal");
+      doc.text("erfolgreich an der Fortbildung", 148.5, 115, { align: "center" });
+      
+      doc.setTextColor(227, 0, 15);
+      doc.setFontSize(20);
+      doc.setFont("helvetica", "bold");
+      doc.text("Einführung in die Grundpflege", 148.5, 130, { align: "center" });
+
+      // Date
+      const today = new Date().toLocaleDateString("de-DE");
+      doc.setTextColor(50, 50, 50);
+      doc.setFontSize(14);
+      doc.setFont("helvetica", "normal");
+      doc.text(`Münster, den ${today}`, 148.5, 155, { align: "center" });
+
+      // Signature line
+      doc.setDrawColor(100, 100, 100);
+      doc.setLineWidth(0.5);
+      doc.line(100, 180, 197, 180);
+      doc.setFontSize(12);
+      doc.text("Caritas Maria-Hötte-Stift", 148.5, 186, { align: "center" });
+
+      // Save
+      doc.save(`Zertifikat_Grundpflege_${userName.replace(/\s+/g, "_")}.pdf`);
+    } catch (error) {
+      console.error("Error generating PDF:", error);
+    } finally {
+      setIsGenerating(false);
+    }
+  };
 
   const currentQuestion = questions[currentQuestionIndex];
   const progress = ((currentQuestionIndex) / questions.length) * 100;
@@ -152,12 +233,42 @@ export default function Quiz() {
             </div>
             <p className="text-muted-foreground mb-8">Fragen richtig beantwortet</p>
             
+            {score === questions.length && (
+              <div className="bg-secondary/20 p-6 rounded-xl mb-8 text-left max-w-md mx-auto border border-border">
+                <h3 className="font-bold text-lg mb-4 text-center">Ihr persönliches Zertifikat</h3>
+                <div className="space-y-4">
+                  <div className="space-y-2">
+                    <Label htmlFor="name">Vor- und Nachname</Label>
+                    <Input 
+                      id="name" 
+                      placeholder="Max Mustermann" 
+                      value={userName}
+                      onChange={(e) => setUserName(e.target.value)}
+                      className="bg-white"
+                    />
+                  </div>
+                  <Button 
+                    onClick={generateCertificate} 
+                    disabled={!userName.trim() || isGenerating}
+                    className="w-full"
+                  >
+                    {isGenerating ? (
+                      <RefreshCcw className="mr-2 h-4 w-4 animate-spin" />
+                    ) : (
+                      <Download className="mr-2 h-4 w-4" />
+                    )}
+                    Zertifikat herunterladen
+                  </Button>
+                </div>
+              </div>
+            )}
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button onClick={restartQuiz} variant="outline" className="rounded-full">
                 <RefreshCcw className="mr-2 h-4 w-4" /> Quiz wiederholen
               </Button>
               <Link href="/">
-                <Button className="rounded-full px-8">
+                <Button className="rounded-full px-8" variant={score === questions.length ? "outline" : "default"}>
                   Zurück zur Startseite
                 </Button>
               </Link>

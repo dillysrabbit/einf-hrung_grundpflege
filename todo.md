@@ -1,6 +1,8 @@
-# To-Do Liste: Fehleranalyse und Behebung
+# To-Do Liste: Zertifikats-Personalisierung
 
-- [ ] Führe `webdev_debug` aus, um den Tailwind-Fehler "Invalid code point 11365964" zu analysieren.
-- [ ] Wende die vom Debugging-Agenten vorgeschlagenen Fixes an.
-- [ ] Teste den Build-Prozess (`pnpm run build`).
-- [ ] Speichere einen neuen Checkpoint nach erfolgreichem Build.
+- [ ] `jspdf` installieren, um PDFs clientseitig zu generieren.
+- [ ] `Quiz.tsx` anpassen:
+  - [ ] Eingabefeld für den Namen hinzufügen (sichtbar nach bestandenem Quiz).
+  - [ ] Button "Zertifikat herunterladen" hinzufügen.
+  - [ ] Funktion zur Generierung des PDFs implementieren (mit Caritas-Logo, Name, Datum, Kursname).
+- [ ] Testen der PDF-Generierung.
