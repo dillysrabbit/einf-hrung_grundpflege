@@ -44,14 +44,14 @@ Bestimmte Tätigkeiten sind ausgebildeten Pflegefachkräften vorbehalten (Vorbeh
 
 Wir arbeiten nach dem **Strukturmodell**. Es umfasst **vier Phasen**:
 
-1. **Strukturierte Informationssammlung (SIS)** – initiale Erhebung und fortlaufende Aktualisierung aus Sicht der bewohnenden Person. Eingangsfrage: „Was bewegt Sie? Was brauchen Sie? Was können wir für Sie tun?". Sie liefern Beobachtungen aus dem Pflegealltag.
+1. **Strukturierte Informationssammlung (SIS)** – initiale Erhebung und fortlaufende Aktualisierung aus Sicht der bewohnenden Person. Eingangsfrage: „Was bewegt Sie? Was brauchen Sie? Was können wir für Sie tun?". Sechs Themenfelder, die ein Bild von der zu pflegenden Person mit ihren individuellen Ressourcen, Unterstützungsbedarfen und Pflegerisiken zeichnen. Sie liefern Beobachtungen aus dem Pflegealltag.
 2. **Individueller Maßnahmenplan** – aus der SIS abgeleitete, individuell zugeschnittene Maßnahmen. Sie lesen den Plan und führen ihn aus; die Planung selbst ist Vorbehalt der Pflegefachkraft.
 3. **Berichteblatt** – hier werden ausschließlich **Abweichungen** vom Maßnahmenplan, neue Beobachtungen und besondere Ereignisse dokumentiert. Nicht jede Routinetätigkeit.
 4. **Evaluation** – anlassbezogen oder in Intervallen prüft die Pflegefachkraft anhand des Berichteblatts, ob der Plan angepasst werden muss.
 
 #### SIS – sechs Themenfelder
 
-Sechs Themenfelder, die ein Bild von der zu pflegenden Person mit ihren individuellen **Ressourcen**, **Unterstützungsbedarfen** und **Pflegerisiken** zeichnen. Die SIS ist gegliedert in:
+Die SIS ist gegliedert in:
 
 * **A** Kognition und Kommunikation
 * **B** Mobilität und Beweglichkeit
