@@ -162,7 +162,7 @@ export default function Module1() {
 
                   <ol className="space-y-3 mt-6">
                     {[
-                      { n: 1, t: "Strukturierte Informationssammlung (SIS)", d: "Initiale Erhebung und fortlaufende Aktualisierung – aus Sicht der bewohnenden Person. Zentrale Eingangsfrage: „Was bewegt Sie? Was brauchen Sie? Was können wir für Sie tun?\". Sie liefern Beobachtungen für die SIS." },
+                      { n: 1, t: "Strukturierte Informationssammlung (SIS)", d: "Initiale Erhebung und fortlaufende Aktualisierung – aus Sicht der bewohnenden Person. Zentrale Eingangsfrage: „Was bewegt Sie? Was brauchen Sie? Was können wir für Sie tun?\". Sechs Themenfelder, die ein Bild von der zu pflegenden Person mit ihren individuellen Ressourcen, Unterstützungsbedarfen und Pflegerisiken zeichnen. Sie liefern Beobachtungen für die SIS." },
                       { n: 2, t: "Individueller Maßnahmenplan", d: "Aus der SIS werden konkrete, individuelle Maßnahmen abgeleitet (nicht standardisierte Listen). Sie lesen den Maßnahmenplan und führen ihn aus – Pflegeplanung selbst ist Vorbehalt der Fachkraft." },
                       { n: 3, t: "Berichteblatt", d: "Hier werden ausschließlich ABWEICHUNGEN vom Maßnahmenplan, besondere Ereignisse und neue Beobachtungen dokumentiert – nicht jeder Routinevorgang. Das ist Ihr wichtigstes Dokumentationsinstrument." },
                       { n: 4, t: "Evaluation", d: "Anlassbezogen oder in festgelegten Intervallen prüft die Pflegefachkraft anhand des Berichteblatts, ob der Maßnahmenplan angepasst werden muss. Ihre Berichteblatt-Einträge sind dafür unverzichtbar." }
@@ -191,10 +191,8 @@ export default function Module1() {
                   <h3 className="font-serif text-xl font-bold text-primary mb-3">SIS – die Themenfelder</h3>
                   <p className="text-sm text-muted-foreground mb-4">
                     Die <strong>Strukturierte Informationssammlung (SIS)</strong> ist in <strong>sechs
-                    Themenfelder</strong> gegliedert, die ein Bild von der zu pflegenden Person mit ihren
-                    individuellen <strong>Ressourcen</strong>, <strong>Unterstützungsbedarfen</strong> und
-                    <strong> Pflegerisiken</strong> zeichnen. Ihre Beobachtungen aus der Grundpflege
-                    fließen genau hier ein.
+                    Themenfelder</strong> gegliedert. Ihre Beobachtungen aus der Grundpflege fließen genau
+                    hier ein.
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
                     {[
