@@ -184,6 +184,28 @@ export default function Module4() {
         </Tabs>
 
         <section className="mb-10">
+          <Card className="bg-secondary/10 border-none">
+            <CardContent className="pt-6">
+              <h3 className="font-serif text-lg font-bold text-primary mb-2">Auch bei aktivierender Pflege: Nachbereitung gehört dazu</h3>
+              <p className="text-sm text-muted-foreground mb-2">
+                Wenn die bewohnende Person mehr selbst macht, übernehmen Sie zwar weniger Handgriffe –
+                die <strong>Nachbereitung</strong> bleibt aber Ihre Aufgabe und ist Teil der Pflegehandlung:
+              </p>
+              <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
+                <li>Einmalmaterial entsorgen, Müllbeutel leeren, wenn voll</li>
+                <li>Schmutzige Wäsche in den Wäschesack, frische Wäsche separat</li>
+                <li>Personenbezogene Utensilien (Zahnbürste, Kamm, Hautpflege) zurück in den persönlichen Schrank</li>
+                <li>Waschschüssel und gemeinsam genutzte Hilfsmittel reinigen und wischdesinfizieren</li>
+                <li>Hände desinfizieren, Eintrag im Berichteblatt bei Auffälligkeiten</li>
+              </ul>
+              <p className="text-sm text-muted-foreground italic mt-2">
+                Aktivierende Pflege bedeutet nicht weniger Verantwortung – sondern eine andere Verteilung der Tätigkeiten.
+              </p>
+            </CardContent>
+          </Card>
+        </section>
+
+        <section className="mb-10">
           <Card className="bg-primary/5 border-primary/20">
             <CardContent className="pt-6">
               <h3 className="font-serif text-lg font-bold text-primary mb-2">Reflexion für den Alltag</h3>
