@@ -40,9 +40,9 @@ Bestimmte Tätigkeiten sind ausgebildeten Pflegefachkräften vorbehalten (Vorbeh
 * **Grundpflege (SGB XI § 14/15):** Unterstützung in den Aktivitäten des täglichen Lebens. Pflegeversicherung. Hier sind Sie zentral.
 * **Behandlungspflege (SGB V § 37):** Ärztlich verordnete Maßnahmen. Krankenkasse. Erfordert Delegation oder Pflegefachkraft.
 
-#### Der Pflegeprozess nach dem Strukturmodell (Beikirch) – vier Phasen
+#### Der Pflegeprozess nach dem Strukturmodell – vier Phasen
 
-Wir arbeiten nach dem **Strukturmodell** (entwickelt von Elisabeth Beikirch im Auftrag des BMG zur Entbürokratisierung der Pflegedokumentation). Es umfasst **vier Phasen**:
+Wir arbeiten nach dem **Strukturmodell**. Es umfasst **vier Phasen**:
 
 1. **Strukturierte Informationssammlung (SIS)** – initiale Erhebung und fortlaufende Aktualisierung aus Sicht der bewohnenden Person. Eingangsfrage: „Was bewegt Sie? Was brauchen Sie? Was können wir für Sie tun?". Sie liefern Beobachtungen aus dem Pflegealltag.
 2. **Individueller Maßnahmenplan** – aus der SIS abgeleitete, individuell zugeschnittene Maßnahmen. Sie lesen den Plan und führen ihn aus; die Planung selbst ist Vorbehalt der Pflegefachkraft.
@@ -51,7 +51,7 @@ Wir arbeiten nach dem **Strukturmodell** (entwickelt von Elisabeth Beikirch im A
 
 #### SIS – sechs Themenfelder
 
-Die SIS ersetzt klassische Anamnesebögen (z. B. AEDL nach Krohwinkel). Sie ist gegliedert in:
+Die SIS ist gegliedert in:
 
 * **A** Kognition und Kommunikation
 * **B** Mobilität und Beweglichkeit

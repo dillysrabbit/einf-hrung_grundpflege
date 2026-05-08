@@ -66,12 +66,12 @@ export default function Home() {
                   <InfoIcon className="h-6 w-6 text-primary group-hover:text-white" />
                 </div>
                 <CardTitle className="font-serif text-xl">Grundlagen, Rolle & Pflegeprozess</CardTitle>
-                <CardDescription>Ihre Verantwortung, Vorbehaltsaufgaben und der Pflegeprozess in 6 Schritten.</CardDescription>
+                <CardDescription>Ihre Verantwortung, Vorbehaltsaufgaben und der Pflegeprozess nach dem Strukturmodell.</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="text-sm text-muted-foreground space-y-2">
                   <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Rolle & Vorbehaltsaufgaben</li>
-                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Pflegeprozess & AEDL</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> SIS, Maßnahmenplan, Berichteblatt</li>
                   <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Schweigepflicht & Hygiene</li>
                 </ul>
               </CardContent>
