@@ -365,6 +365,41 @@ export default function Module1() {
                 <CardContent className="pt-6">
                   <h3 className="font-serif text-xl font-bold text-primary mb-3 flex items-center gap-2">
                     <Shield className="h-5 w-5" />
+                    Keimverschleppung verstehen und verhindern
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    Auf jeder Haut, in jeder Wunde, in Stuhl, Urin und Speichel finden sich <strong>Keime</strong>
+                    (Bakterien, Viren, Pilze). Viele sind harmlos, manche aber krankheitserregend –
+                    besonders gefährlich für ältere, chronisch kranke oder geschwächte Menschen.
+                    Keime sind unsichtbar; ob eine Stelle „sauber" oder „kontaminiert" ist, kann man nicht sehen.
+                  </p>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    <strong>Keimverschleppung</strong> bedeutet, dass Keime von einer Stelle auf eine andere
+                    übertragen werden – meist über die <strong>Hände der Pflegekraft</strong>, über
+                    Pflegehilfsmittel oder über die Bewohnerumgebung (Bettgitter, Nachttisch, Türklinke).
+                    Das ist in der stationären Pflege der mit Abstand häufigste Übertragungsweg.
+                  </p>
+                  <p className="text-sm text-muted-foreground mb-3 font-bold">
+                    Wir verhindern Keimverschleppung durch fünf Grundmaßnahmen:
+                  </p>
+                  <ul className="text-sm space-y-1.5 list-disc pl-5 text-muted-foreground mb-3">
+                    <li><strong>Hygienische Händedesinfektion</strong> nach den 5 Momenten der WHO – die wirksamste Einzelmaßnahme.</li>
+                    <li><strong>Persönliche Hygiene:</strong> kurze, saubere Fingernägel, kein Schmuck und keine Uhren an Händen und Unterarmen, keine künstlichen Nägel oder Nagellack, Dienstkleidung täglich wechseln.</li>
+                    <li><strong>Schutzkleidung gezielt einsetzen:</strong> Einmalhandschuhe und Einwegschürze nur bei Kontakt mit Körperflüssigkeiten, Schleimhäuten oder nicht-intakter Haut – und unmittelbar danach wechseln.</li>
+                    <li><strong>Saubere von unreinen Tätigkeiten trennen:</strong> getrennte Waschlappen für Gesicht, Körper und Intimbereich; Wasser wechseln vor der Intimpflege; immer von „sauber" nach „unrein" arbeiten (z. B. Symphyse → Anus, innerer Augenwinkel → außen).</li>
+                    <li><strong>Flächen-, Geräte- und Wäschehygiene:</strong> kontaminierte Wäsche nicht auf den Boden oder ins eigene Kleid, sondern direkt in den Abwurf; gemeinsam genutzte Hilfsmittel nach Gebrauch wischdesinfizieren.</li>
+                  </ul>
+                  <p className="text-sm text-muted-foreground italic">
+                    Faustregel: Zwischen jedem Menschen, jedem Körperbereich und jeder Tätigkeit denkt eine
+                    gute Pflegekraft an die Frage „Was nehme ich mit – und will ich das wirklich mitnehmen?"
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardContent className="pt-6">
+                  <h3 className="font-serif text-xl font-bold text-primary mb-3 flex items-center gap-2">
+                    <Shield className="h-5 w-5" />
                     Hände­hygiene – die 5 Momente der WHO
                   </h3>
                   <p className="text-sm text-muted-foreground mb-3">
@@ -381,7 +416,7 @@ export default function Module1() {
                   <div className="mt-4 bg-blue-50 border-l-4 border-blue-500 p-3 text-sm text-blue-900">
                     <strong>Handschuhe ersetzen die Händedesinfektion nicht.</strong> Sie kommen nur bei Kontakt mit
                     Körperflüssigkeiten, Schleimhäuten oder nicht-intakter Haut zum Einsatz – nicht routinemäßig
-                    bei der Waschung intakter Haut.
+                    bei der Waschung intakter Haut. Auch nach dem Ausziehen der Handschuhe: Hände desinfizieren.
                   </div>
                 </CardContent>
               </Card>
