@@ -41,6 +41,7 @@ export default function Module1() {
                 <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> Den 4-phasigen Pflegeprozess nach dem Strukturmodell (Beikirch) erklären.</li>
                 <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> SIS, Maßnahmenplan und Berichteblatt voneinander abgrenzen.</li>
                 <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> Schweigepflicht und Hygieneregeln im Alltag anwenden.</li>
+                <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> Freiheitsentziehende Maßnahmen erkennen und richtig damit umgehen.</li>
                 <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> Erkennen, wann Sie eine Pflegefachkraft hinzuziehen müssen.</li>
                 <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> Aktivierende Pflege als Haltung beschreiben.</li>
               </ul>
@@ -358,6 +359,65 @@ export default function Module1() {
                     <li>Fotos nur mit schriftlicher Einwilligung.</li>
                     <li>Verstöße können arbeitsrechtliche und strafrechtliche Folgen haben.</li>
                   </ul>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardContent className="pt-6">
+                  <h3 className="font-serif text-xl font-bold text-primary mb-3 flex items-center gap-2">
+                    <AlertTriangle className="h-5 w-5" />
+                    Freiheitsentziehende Maßnahmen (FEM)
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    Die persönliche Freiheit ist ein Grundrecht (Art. 2 GG). Jede Maßnahme, die eine
+                    Bewohner:in <strong>gegen ihren Willen oder ohne ihre Einwilligung in der Bewegung
+                    einschränkt</strong>, ist eine freiheitsentziehende Maßnahme. Eine FEM ohne Rechtsgrund
+                    erfüllt den Tatbestand der <strong>Freiheitsberaubung (§ 239 StGB)</strong> – auch
+                    wenn sie „nur gut gemeint" ist.
+                  </p>
+
+                  <p className="text-sm text-muted-foreground mb-2 font-bold">Typische FEM in der Pflege:</p>
+                  <ul className="text-sm space-y-1 list-disc pl-5 text-muted-foreground mb-3">
+                    <li><strong>Mechanisch:</strong> Bettgitter, Bauchgurt, Therapietisch am Rollstuhl, Fixierung an Hand- oder Fußgelenken, Festhalten</li>
+                    <li><strong>Räumlich:</strong> abgeschlossene Tür, geschlossener Wohnbereich, Trickschloss, Wegnahme von Rollator, Schuhen oder Brille</li>
+                    <li><strong>Medikamentös:</strong> sedierende Medikamente, deren Hauptwirkung das Ruhigstellen ist (chemische FEM)</li>
+                  </ul>
+
+                  <p className="text-sm text-muted-foreground mb-2 font-bold">Wann ist eine FEM zulässig?</p>
+                  <ul className="text-sm space-y-1 list-disc pl-5 text-muted-foreground mb-3">
+                    <li>Mit <strong>wirksamer Einwilligung</strong> der einsichtsfähigen Person, oder</li>
+                    <li>mit <strong>Genehmigung des Betreuungsgerichts</strong> nach § 1831 BGB (vormals § 1906 BGB) bei rechtlicher Betreuung mit entsprechendem Aufgabenkreis, oder</li>
+                    <li>im akuten Notfall zur Abwehr einer unmittelbaren erheblichen Gefahr (rechtfertigender Notstand) – muss aber sofort gemeldet und nachträglich legitimiert werden.</li>
+                  </ul>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    Zusätzlich sind <strong>ärztliche Anordnung</strong>, <strong>regelmäßige Überprüfung</strong>
+                    und <strong>lückenlose Dokumentation</strong> notwendig. Eine FEM ist immer das letzte Mittel,
+                    nicht das erste.
+                  </p>
+
+                  <p className="text-sm text-muted-foreground mb-2 font-bold">Alternativen zuerst (Werdenfelser Weg):</p>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    Niedrigbett, Sensormatte, Hüftprotektoren, Sturzmatten neben dem Bett, Anti-Rutsch-Socken,
+                    Bewegungsmelder, intensive Bezugspflege, Tagesstruktur und Beschäftigung,
+                    biographieorientierter Umgang bei Demenz, validierende Kommunikation. Vieles, was
+                    aussieht wie ein „Sicherheitsproblem", ist eigentlich ein Bedürfnisproblem.
+                  </p>
+
+                  <div className="bg-yellow-50 border-l-4 border-yellow-400 p-3 text-sm text-yellow-900 mb-3">
+                    <strong>Ihre Rolle als Pflegehilfskraft:</strong>
+                    <ul className="list-disc pl-5 mt-1 space-y-1">
+                      <li>FEM <strong>niemals</strong> eigenständig anordnen, einrichten oder verlängern.</li>
+                      <li>Eine angeordnete FEM nur durchführen, wenn ärztliche Anordnung und (außerhalb akuter Notfälle) gerichtliche Genehmigung vorliegen – die Pflegefachkraft prüft das.</li>
+                      <li>Während einer FEM regelmäßig nach der Person sehen (Atmung, Hautzustand, Stimmung, Toilette, Trinken).</li>
+                      <li>Beobachtungen und Auffälligkeiten ins Berichteblatt eintragen.</li>
+                      <li>Aktiv Alternativen vorschlagen und Belastung der Person ernst nehmen.</li>
+                    </ul>
+                  </div>
+                  <div className="bg-red-50 border-l-4 border-red-500 p-3 text-sm text-red-900">
+                    <strong>Sofort melden:</strong> Wenn Sie sehen, dass eine FEM ohne erkennbare Anordnung
+                    eingesetzt wird oder sich eine Person dadurch verletzt – sofort an die Pflegefachkraft
+                    bzw. Wohnbereichsleitung. Auch das „nur Mitmachen" kann strafrechtlich relevant sein.
+                  </div>
                 </CardContent>
               </Card>
 
