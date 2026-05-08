@@ -14,13 +14,13 @@ export default function Module3() {
   };
 
   const steps = [
-    { id: "step1", title: "1. Transfer & Sitzposition", desc: "Bewohner zum Waschbecken begleiten. Stabilen Sitz auf Hocker/Stuhl sicherstellen." },
-    { id: "step2", title: "2. Wasser vorbereiten", desc: "Wasser in Waschschüssel geben. Bewohner Temperatur prüfen lassen. Waschlappen bereitstellen." },
-    { id: "step3", title: "3. Oberkörper (Selbstständig)", desc: "Bewohner wäscht Gesicht, Arme und Brust selbstständig. Pfleger unterstützt nur bei Bedarf." },
-    { id: "step4", title: "4. Rücken (Unterstützung)", desc: "Bewohner beugt sich vor. Pfleger wäscht den schwer erreichbaren Rücken." },
-    { id: "step5", title: "5. Intimpflege (Anleitung)", desc: "Pfleger leitet an, Bewohner führt durch. Nur bei Bedarf übernehmen." },
-    { id: "step6", title: "6. Beine & Füße", desc: "Beine aufstellen oder anheben. Bei der Reinigung der Zehenzwischenräume helfen." },
-    { id: "step7", title: "7. Abtrocknen & Anziehen", desc: "Unterstützung beim Abtrocknen und Anziehen. Auskühlung vermeiden." }
+    { id: "step1", title: "1. Transfer & Sitzposition", desc: "Bewohner:in rückenschonend zum Waschbecken begleiten (Knie beugen, nicht aus dem Rücken heben). Stabilen Sitz auf Duschhocker/Stuhl mit Lehne sicherstellen, Notrufknopf in Reichweite." },
+    { id: "step2", title: "2. Wasser vorbereiten", desc: "Wassertemperatur (37–43 °C) IMMER zuerst durch die Pflegekraft mit dem eigenen Unterarm prüfen, anschließend ggf. den Bewohner prüfen lassen. Bei Diabetes, Demenz oder Sensibilitätsstörung niemals allein dem Bewohner überlassen." },
+    { id: "step3", title: "3. Oberkörper (Selbstständig)", desc: "Bewohner:in wäscht Gesicht, Arme und Oberkörper selbstständig. Pflegekraft unterstützt nur bei Bedarf, beobachtet und gibt klare verbale Anleitung." },
+    { id: "step4", title: "4. Rücken (Unterstützung)", desc: "Bewohner:in beugt sich vor (Sturzsicherung beachten!). Pflegekraft wäscht den schwer erreichbaren Rücken und prüft den Hautzustand." },
+    { id: "step5", title: "5. Intimpflege (Anleitung)", desc: "Pflegekraft leitet an, Bewohner:in führt durch. Frischer Waschlappen, Einmalhandschuhe. Nur bei Bedarf übernehmen, Würde wahren." },
+    { id: "step6", title: "6. Beine & Füße", desc: "Beine aufstellen oder anheben. Zehenzwischenräume gründlich trocknen. Auf Druckstellen, Pilz und Nagelveränderungen achten." },
+    { id: "step7", title: "7. Abtrocknen & Anziehen", desc: "Unterstützung beim Abtrocknen (Hautfalten!) und Anziehen. Bademantel/Handtuch um die Schultern – Auskühlung vermeiden. Anschließend Beobachtungen dokumentieren." }
   ];
 
   return (
@@ -42,21 +42,38 @@ export default function Module3() {
       </div>
 
       <div className="container max-w-4xl mx-auto px-4">
-        
+
+        <section className="mb-10">
+          <Card className="bg-secondary/20 border-none shadow-sm">
+            <CardContent className="pt-6">
+              <h3 className="font-serif text-lg font-bold text-primary mb-2">Lernziele</h3>
+              <p className="text-sm text-muted-foreground mb-2">Nach Bearbeitung dieses Moduls können Sie …</p>
+              <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
+                <li>die Belastbarkeit für eine Waschung am Waschbecken tagesaktuell einschätzen.</li>
+                <li>Sturzrisiken erkennen und reduzieren.</li>
+                <li>die Waschung an die Ressourcen der bewohnenden Person anpassen.</li>
+                <li>rückenschonend für sich selbst arbeiten.</li>
+              </ul>
+            </CardContent>
+          </Card>
+        </section>
+
         <section className="mb-12">
           <p className="text-xl text-muted-foreground leading-relaxed font-light mb-6">
-            Die Waschung am Waschbecken ist die bevorzugte Methode, wenn die Mobilität des Bewohners es zulässt. 
+            Die Waschung am Waschbecken ist die bevorzugte Methode, wenn die Mobilität es zulässt.
             Sie fördert die Selbstständigkeit massiv. Ihre Rolle wandelt sich hier vom "Versorger" zum "Anleiter und Begleiter".
           </p>
-          
+
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
             <h3 className="font-bold text-blue-900 mb-2 flex items-center gap-2">
               <HeartHandshake className="h-5 w-5" />
               Entscheidungsfindung
             </h3>
             <p className="text-blue-800 text-sm leading-relaxed">
-              Zunächst muss geklärt werden: Ist der Bewohner heute in der Lage aufzustehen? 
+              Zunächst muss geklärt werden: Ist die bewohnende Person heute in der Lage aufzustehen?
               Da die Belastbarkeit schwanken kann, muss diese Beurteilung <strong>tagesaktuell</strong> erfolgen.
+              Bei Schwindel, Schmerzen, neuer Verwirrtheit oder Kreislaufproblemen: Pflegefachkraft fragen,
+              ggf. heute besser im Bett waschen.
             </p>
           </div>
         </section>
@@ -131,6 +148,18 @@ export default function Module3() {
             </div>
           </TabsContent>
         </Tabs>
+
+        <section className="mb-10">
+          <Card className="bg-primary/5 border-primary/20">
+            <CardContent className="pt-6">
+              <h3 className="font-serif text-lg font-bold text-primary mb-2">Reflexion für den Alltag</h3>
+              <p className="text-sm text-muted-foreground italic">
+                „Welche bewohnende Person könnte heute am Waschbecken selbst aktiv werden, wenn ich
+                ihr/ihm 5 Minuten mehr Zeit gebe? Wie kann ich diese Zeit im Tagesablauf einplanen?"
+              </p>
+            </CardContent>
+          </Card>
+        </section>
 
         <div className="flex justify-between">
           <Link href="/module-2">

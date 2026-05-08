@@ -40,18 +40,34 @@ export default function Module4() {
       </div>
 
       <div className="container max-w-4xl mx-auto px-4">
-        
+
+        <section className="mb-10">
+          <Card className="bg-secondary/20 border-none shadow-sm">
+            <CardContent className="pt-6">
+              <h3 className="font-serif text-lg font-bold text-primary mb-2">Lernziele</h3>
+              <p className="text-sm text-muted-foreground mb-2">Nach Bearbeitung dieses Moduls können Sie …</p>
+              <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
+                <li>aktivierende Pflege als Haltung beschreiben und im Alltag anwenden.</li>
+                <li>die Konzepte Kinästhetik, basale Stimulation und Validation grob unterscheiden.</li>
+                <li>Menschen mit Demenz wertschätzend begleiten.</li>
+                <li>Ressourcen erkennen und gezielt nutzen statt Aufgaben vorschnell zu übernehmen.</li>
+              </ul>
+            </CardContent>
+          </Card>
+        </section>
+
         <section className="mb-12 text-center">
           <h2 className="font-serif text-2xl font-bold text-primary mb-4">Hilfe zur Selbsthilfe</h2>
           <p className="text-xl text-muted-foreground leading-relaxed font-light max-w-2xl mx-auto">
             Das Konzept der aktivierenden Pflege ist der Kern moderner Altenpflege. Es ist mehr als eine Technik – es ist eine Haltung.
-            Ziel ist es, die Eigenständigkeit zu maximieren und Pflege auf das Nötigste zu reduzieren.
+            Ziel ist es, die Eigenständigkeit zu maximieren und nur dort zu unterstützen, wo es nötig ist.
           </p>
         </section>
 
         <Tabs defaultValue="principles" className="w-full mb-12">
-          <TabsList className="grid w-full grid-cols-2 mb-8">
+          <TabsList className="grid w-full grid-cols-3 mb-8">
             <TabsTrigger value="principles">Die 3 Säulen</TabsTrigger>
+            <TabsTrigger value="concepts">Konzepte</TabsTrigger>
             <TabsTrigger value="practice">Praxis-Anleitung</TabsTrigger>
           </TabsList>
           
@@ -86,7 +102,54 @@ export default function Module4() {
               </div>
             </div>
           </TabsContent>
-          
+
+          <TabsContent value="concepts">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <Card>
+                <CardContent className="pt-6">
+                  <h4 className="font-bold text-primary mb-2">Kinästhetik (Hatch & Maietta)</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Bewegungslehre, die das eigene Körpergefühl der bewohnenden Person nutzt.
+                    „Führen" der Bewegung statt Heben/Tragen – schont die Pflegekraft und aktiviert die Person.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="pt-6">
+                  <h4 className="font-bold text-primary mb-2">Basale Stimulation (Fröhlich/Bienstein)</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Förderung der Wahrnehmung über Berührung, Bewegung, Lagerung. Belebende Waschung
+                    (herzwärts) versus beruhigende Waschung (zentrumswärts) – z. B. beim Einschlafen.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="pt-6">
+                  <h4 className="font-bold text-primary mb-2">Validation (Naomi Feil)</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Umgang mit Menschen mit Demenz: nicht korrigieren, sondern in die emotionale Welt eingehen.
+                    Gefühle ernst nehmen, kurze klare Sätze, Augenkontakt, Berührung mit Erlaubnis.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="pt-6">
+                  <h4 className="font-bold text-primary mb-2">Personenzentrierte Pflege (Tom Kitwood)</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Der Mensch steht im Mittelpunkt – mit Biographie, Vorlieben, Beziehungen. Würde und
+                    Person-Sein bewahren. Caritas-Leitbild knüpft hier an.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="mt-6 bg-yellow-50 border-l-4 border-yellow-400 p-4 text-sm text-yellow-900">
+              <strong>Demenz im Pflegealltag:</strong> ruhige Stimme, kurze Sätze, eine Aufforderung nach der anderen,
+              Augenkontakt, vertraute Worte und Routinen, Berührung mit Erlaubnis. Bei Abwehr keine Konfrontation –
+              kurze Pause, später erneut anbieten, Pflegefachkraft informieren.
+            </div>
+          </TabsContent>
+
           <TabsContent value="practice">
             <div className="space-y-4">
               {steps.map((step, index) => (
@@ -119,6 +182,19 @@ export default function Module4() {
             </div>
           </TabsContent>
         </Tabs>
+
+        <section className="mb-10">
+          <Card className="bg-primary/5 border-primary/20">
+            <CardContent className="pt-6">
+              <h3 className="font-serif text-lg font-bold text-primary mb-2">Reflexion für den Alltag</h3>
+              <p className="text-sm text-muted-foreground italic">
+                „An welcher Stelle habe ich heute Aufgaben übernommen, die die bewohnende Person eigentlich
+                noch selbst hätte tun können? Was würde sich ändern, wenn ich morgen an gleicher Stelle 2 Minuten
+                länger Geduld habe?"
+              </p>
+            </CardContent>
+          </Card>
+        </section>
 
         <div className="flex justify-between">
           <Link href="/module-3">

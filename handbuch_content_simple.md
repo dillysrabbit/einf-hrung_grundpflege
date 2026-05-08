@@ -5,27 +5,29 @@
 
 ### Vorwort
 
-Willkommen bei Health Angels. Dieses Handbuch begleitet Ihre Fortbildung zur "Einführung in die Grundpflege". Unser Ziel ist es, Ihnen nicht nur die technischen Handgriffe zu vermitteln, sondern auch die Haltung, die unsere Arbeit prägt: Kompetenz, Empathie und Professionalität.
+Willkommen im Caritas Maria-Hötte-Stift. Dieses Handbuch begleitet Ihre Fortbildung zur "Einführung in die Grundpflege". Unser Ziel ist es, Ihnen nicht nur die technischen Handgriffe zu vermitteln, sondern auch die Haltung, die unsere Arbeit prägt: Kompetenz, Empathie und Professionalität.
 
 Die Grundpflege ist weit mehr als nur Waschen. Sie ist Beziehungsarbeit, Gesundheitsförderung und oft der intimste Moment im Alltag unserer Bewohner.
 
 ---
 
-### Modul 1: Grundlagen der Körperpflege
+### Modul 1: Grundlagen, Rolle & Pflegeprozess
 
-Körperpflege dient nicht nur der Reinigung. Sie fördert das Wohlbefinden, regt die Durchblutung an und stärkt das Selbstwertgefühl.
+**Ihre Rolle:** Bestimmte Tätigkeiten sind ausgebildeten Pflegefachkräften vorbehalten (§ 4 PflBG). Sie übernehmen Körperpflege, Hilfe bei Essen/Trinken/Anziehen, Lagerung nach Anleitung, Beobachtung – nicht Wundversorgung, Medikamentengabe, Pflegeplanung. Bei Unsicherheit: Pflegefachkraft fragen.
 
-**Ziele der Körperpflege:**
-*   Reinigung und Pflege der Haut
-*   Förderung der Durchblutung und Wahrnehmung
-*   Krankheitsbeobachtung (Hautzustand, Mobilität)
-*   Steigerung des Wohlbefindens
+**Grundpflege vs. Behandlungspflege:**
+*   Grundpflege (SGB XI): Aktivitäten des täglichen Lebens, Pflegeversicherung – Ihr Bereich.
+*   Behandlungspflege (SGB V): ärztlich verordnet, Krankenkasse – Pflegefachkraft.
 
-**Grundsätze:**
-*   **Ressourcen fördern:** Was kann der Bewohner noch selbst?
-*   **Intimsphäre wahren:** Nur so viel Körperfläche wie nötig aufdecken.
-*   **Hygiene beachten:** Händedesinfektion, Handschuhe bei Infektionsgefahr oder Kontakt mit Körperflüssigkeiten.
-*   **Kommunikation:** Jeden Schritt ankündigen und erklären.
+**Pflegeprozess (6 Schritte):** Informationssammlung – Probleme/Ressourcen – Ziele – Maßnahmenplanung – Durchführung – Evaluation. Sie sind besonders in Schritt 1 (Beobachtung) und 5 (Durchführung) aktiv.
+
+**AEDL nach Krohwinkel:** 13 Aktivitäten, nach denen die Pflege strukturiert ist (von Kommunizieren bis existenzielle Erfahrungen).
+
+**Schweigepflicht (§ 203 StGB) und DSGVO:** Keine Weitergabe von Informationen ohne Erlaubnis, keine Gespräche im Bus, keine Fotos ohne schriftliche Einwilligung.
+
+**Händehygiene – 5 Momente der WHO:** vor Bewohnerkontakt, vor aseptischer Tätigkeit, nach Kontakt mit potenziell infektiösem Material, nach Bewohnerkontakt, nach Kontakt mit Bewohnerumgebung. Handschuhe nur bei Kontakt mit Körperflüssigkeiten/Schleimhäuten/nicht-intakter Haut.
+
+**Grundsätze der Körperpflege:** Ressourcen fördern · Intimsphäre wahren · Hygiene beachten · Jeden Schritt ankündigen und erklären.
 
 ---
 
@@ -34,16 +36,18 @@ Körperpflege dient nicht nur der Reinigung. Sie fördert das Wohlbefinden, regt
 Diese Form der Waschung ist anspruchsvoll und kommt zum Einsatz, wenn der Bewohner das Bett nicht verlassen kann.
 
 **Vorbereitung:**
-*   Materialien bereitlegen (Waschschüssel, Handtücher, Waschlappen, Seife/Lotion, frische Kleidung/Bettwäsche).
-*   Raumtemperatur prüfen, Fenster schließen.
+*   Materialien bereitlegen (Waschschüssel, getrennte Waschlappen für Gesicht/Körper/Intim, Handtücher, Waschlotion, frische Kleidung/Bettwäsche).
+*   Raumtemperatur ca. 22–24 °C, Fenster schließen.
+*   Wassertemperatur 37–43 °C – immer mit eigenem Unterarm prüfen (Verbrühungsschutz, besonders bei Diabetes/Demenz).
 *   Bewohner informieren und Bett auf Arbeitshöhe bringen.
 
 **Ablauf (Schritt für Schritt):**
-1.  **Gesicht & Hals:** Nur klares Wasser für die Augen (von außen nach innen).
+1.  **Gesicht, Augen & Hals:** Nur klares Wasser für die Augen, **vom inneren Augenwinkel nach außen** wischen, jeweils mit frischer Stelle des Waschlappens.
 2.  **Oberkörper & Arme:** Herzwärts waschen (von der Hand zur Schulter). Abtrocknen nicht vergessen (Hautfalten!).
-3.  **Rücken:** Bewohner zur Seite drehen. Rücken waschen und Hautinspektion (Dekubitus?).
-4.  **Beine & Füße:** Herzwärts waschen. Zehenzwischenräume gut trocknen.
-5.  **Intimpflege:** Wasser wechseln! Immer von der Schamfuge zum Anus waschen.
+3.  **Rücken:** Bewohner zur Seite drehen. Rücken waschen und Hautinspektion (Dekubitus, Fingertest).
+4.  **Beine & Füße:** Herzwärts waschen. Zehenzwischenräume gut trocknen, keine Watte zwischen die Zehen.
+5.  **Intimpflege Frau:** Wasser wechseln, frische Handschuhe. Immer von der Schamfuge zum Anus waschen, mit jedem Wisch frische Lappenstelle.
+6.  **Intimpflege Mann:** Vorhaut vorsichtig zurückschieben, Eichel reinigen, **Vorhaut zwingend wieder vorschieben** (Paraphimose-Gefahr!).
 
 ---
 
@@ -52,9 +56,11 @@ Diese Form der Waschung ist anspruchsvoll und kommt zum Einsatz, wenn der Bewohn
 Wenn die Mobilität es zulässt, ist dies der ideale Weg zur Förderung der Selbstständigkeit.
 
 **Sicherheit:**
-*   Rutschfeste Matten und festes Schuhwerk.
-*   Stabile Sitzgelegenheit (Hocker/Stuhl).
-*   Alles in Griffweite legen.
+*   Rutschfeste Matten und festes Schuhwerk, keine Handtücher auf dem Boden.
+*   Stabile Sitzgelegenheit (Hocker/Stuhl mit Lehne).
+*   Notrufknopf und Haltegriffe in Reichweite, alles vor der Waschung zurechtlegen.
+*   Wassertemperatur immer durch die Pflegekraft prüfen.
+*   Tagesaktuelle Belastbarkeit beurteilen – nicht jeden Tag möglich.
 
 **Ablauf:**
 *   Bewohner wäscht Oberkörper so weit wie möglich selbst.
@@ -77,5 +83,5 @@ Führen Sie die Hand des Bewohners zum Waschlappen oder zur Zahnbürste ("Führe
 
 ---
 
-**Health Angels - Coachings kollegial & kompetent**
+**Caritas Maria-Hötte-Stift – Fortbildung Grundpflege**
 *Für interne Schulungszwecke.*

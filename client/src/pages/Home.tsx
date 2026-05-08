@@ -65,13 +65,14 @@ export default function Home() {
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                   <InfoIcon className="h-6 w-6 text-primary group-hover:text-white" />
                 </div>
-                <CardTitle className="font-serif text-xl">Grundlagen & Rolle</CardTitle>
-                <CardDescription>Verstehen Sie Ihre Verantwortung und die Prinzipien der Grundpflege.</CardDescription>
+                <CardTitle className="font-serif text-xl">Grundlagen, Rolle & Pflegeprozess</CardTitle>
+                <CardDescription>Ihre Verantwortung, Vorbehaltsaufgaben und der Pflegeprozess in 6 Schritten.</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="text-sm text-muted-foreground space-y-2">
-                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Prozessqualität</li>
-                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Aktivierende Pflege</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Rolle & Vorbehaltsaufgaben</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Pflegeprozess & AEDL</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Schweigepflicht & Hygiene</li>
                 </ul>
               </CardContent>
             </Card>

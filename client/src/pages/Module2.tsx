@@ -14,15 +14,15 @@ export default function Module2() {
   };
 
   const steps = [
-    { id: "step1", title: "1. Vorbereitung", desc: "Materialien bereitstellen, Händedesinfektion, Handschuhe anziehen. Bett auf Arbeitshöhe bringen. Bewohner informieren." },
-    { id: "step2", title: "2. Gesicht & Hals", desc: "Handtuch unter Kopf. Augen von außen nach innen mit klarem Wasser reinigen. Gesicht, Ohren, Hals waschen und trocknen." },
-    { id: "step3", title: "3. Oberkörper & Arme", desc: "Waschzusatz ins Wasser. Oberkörper waschen (herzwärts), abtrocknen. Auf Intertrigo (Hautwolf) achten." },
-    { id: "step4", title: "4. Rücken", desc: "Bewohner zur Seite drehen. Rücken und Gesäß waschen, trocknen, ggf. eincremen. Dekubitus-Kontrolle!" },
-    { id: "step5", title: "5. Beine & Füße", desc: "Beine herzwärts waschen. Zehenzwischenräume gründlich trocknen (Pilzgefahr). Fersen auf Druckstellen prüfen." },
-    { id: "step6", title: "6. Intimbereich Vorbereitung", desc: "Wasser wechseln, frischen Waschlappen, neue Handschuhe. Intimsphäre wahren!" },
-    { id: "step7", title: "7. Intimpflege (Frau)", desc: "Beine anstellen. Von der Schamfuge zum Anus hin reinigen (Keimverschleppung vermeiden)." },
-    { id: "step8", title: "8. Intimpflege (Mann)", desc: "Vorhaut zurückschieben, Eichel reinigen, Vorhaut wieder vorschieben. Hoden reinigen." },
-    { id: "step9", title: "9. Abschluss", desc: "Frische Kleidung, bequeme Lagerung. Material entsorgen, Dokumentation." },
+    { id: "step1", title: "1. Vorbereitung", desc: "Material bereitstellen (getrennte Waschlappen für Gesicht / Körper / Intim). Hygienische Händedesinfektion. Wassertemperatur 37–43 °C selbst mit dem Unterarm prüfen. Bett auf Arbeitshöhe. Bewohner:in informieren." },
+    { id: "step2", title: "2. Gesicht, Augen & Hals", desc: "Augen mit klarem Wasser vom inneren Augenwinkel nach außen wischen, jeweils frische Stelle des Waschlappens (Schutz des Tränen-Nasen-Gangs). Anschließend Gesicht, Ohren, Hals waschen und gut trocknen." },
+    { id: "step3", title: "3. Oberkörper & Arme", desc: "Waschlotion ins Wasser. Belebende Waschung herzwärts (Hand → Schulter), gut abtrocknen. Auf Intertrigo (Hautwolf) in Achseln und unter der Brust achten." },
+    { id: "step4", title: "4. Rücken & Gesäß", desc: "Bewohner:in zur Seite drehen. Rücken und Gesäß waschen, trocknen, ggf. eincremen. Dekubitus-Kontrolle (Steißbein, Schulterblatt, Ellenbogen) – Fingertest: Lässt sich die Rötung wegdrücken?" },
+    { id: "step5", title: "5. Beine & Füße", desc: "Beine herzwärts waschen. Zehenzwischenräume gründlich trocknen (Pilzgefahr) – keine Watte einlegen (Mazeration). Fersen und Knöchel auf Druckstellen prüfen." },
+    { id: "step6", title: "6. Intimbereich Vorbereitung", desc: "Wasser wechseln, frischen Waschlappen, jetzt Einmalhandschuhe anziehen. Intimsphäre durch Abdecken wahren." },
+    { id: "step7", title: "7. Intimpflege (Frau)", desc: "Beine anstellen. Erst äußere, dann mit gespreizten Schamlippen die kleinen Schamlippen reinigen – immer von der Symphyse zum Anus, mit jedem Wisch frische Lappenstelle. Verhindert Keimverschleppung in die Harnröhre." },
+    { id: "step8", title: "8. Intimpflege (Mann)", desc: "Vorhaut vorsichtig zurückschieben (bei Phimose nicht erzwingen!), Eichel reinigen, gut abtrocknen, Vorhaut ZWINGEND wieder vorschieben (sonst Paraphimose-Gefahr → Notfall). Hoden reinigen." },
+    { id: "step9", title: "9. Abschluss", desc: "Frische Kleidung, faltenfreie Bettwäsche, bequeme Lagerung. Material entsorgen, Händedesinfektion. Beobachtungen dokumentieren und an die Pflegefachkraft weitergeben." },
   ];
 
   return (
@@ -44,10 +44,22 @@ export default function Module2() {
       </div>
 
       <div className="container max-w-4xl mx-auto px-4">
-        
+
         <section className="mb-10">
+          <Card className="bg-secondary/20 border-none shadow-sm mb-6">
+            <CardContent className="pt-6">
+              <h3 className="font-serif text-lg font-bold text-primary mb-2">Lernziele</h3>
+              <p className="text-sm text-muted-foreground mb-2">Nach Bearbeitung dieses Moduls können Sie …</p>
+              <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
+                <li>eine Ganzkörperwaschung im Bett strukturiert und sicher vorbereiten und durchführen.</li>
+                <li>die Wassertemperatur sicher prüfen und Verbrühungsrisiken einschätzen.</li>
+                <li>die Schritte der Intimpflege geschlechtsspezifisch korrekt umsetzen.</li>
+                <li>Hautveränderungen erkennen und sachlich dokumentieren.</li>
+              </ul>
+            </CardContent>
+          </Card>
           <p className="text-xl text-muted-foreground leading-relaxed font-light">
-            Diese Form der Waschung ist anspruchsvoll und erfordert Konzentration. Sie kommt zum Einsatz, wenn der Bewohner bettlägerig 
+            Diese Form der Waschung ist anspruchsvoll und erfordert Konzentration. Sie kommt zum Einsatz, wenn die bewohnende Person bettlägerig
             oder zu schwach ist, das Bett zu verlassen. Sicherheit, Hygiene und Würde haben höchste Priorität.
           </p>
         </section>
@@ -70,7 +82,7 @@ export default function Module2() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-3">
                     <h4 className="font-bold text-sm uppercase tracking-wide text-muted-foreground">Hygienematerial</h4>
-                    {["Händedesinfektionsmittel", "1-2 Paar Einmalhandschuhe", "Einwegschürze", "2-3 Waschlappen", "Handtücher & Badetuch", "Waschschüssel & Abwurf"].map((item, i) => (
+                    {["Händedesinfektionsmittel", "Einmalhandschuhe (für Intimpflege)", "Einwegschürze (bei erwartbarer Kontamination)", "3 Waschlappen (Gesicht / Körper / Intim)", "Handtücher & Badetuch", "Waschschüssel & Abwurf"].map((item, i) => (
                       <div key={i} className="flex items-center space-x-2">
                         <div className="h-2 w-2 rounded-full bg-primary/40" />
                         <span>{item}</span>
@@ -79,7 +91,7 @@ export default function Module2() {
                   </div>
                   <div className="space-y-3">
                     <h4 className="font-bold text-sm uppercase tracking-wide text-muted-foreground">Pflegeprodukte & Sonstiges</h4>
-                    {["Waschlotion / Seife", "Hautcreme / Salben", "Mundpflegemittel", "Kamm / Bürste", "Frische Kleidung", "Frische Bettwäsche (ggf.)"].map((item, i) => (
+                    {["Waschlotion (pH-hautneutral)", "Hautcreme / ggf. Barrierecreme", "Mundpflegemittel", "Kamm / Bürste", "Frische Kleidung", "Frische Bettwäsche (ggf.)"].map((item, i) => (
                       <div key={i} className="flex items-center space-x-2">
                         <div className="h-2 w-2 rounded-full bg-primary/40" />
                         <span>{item}</span>
@@ -88,7 +100,13 @@ export default function Module2() {
                   </div>
                 </div>
                 <div className="mt-6 bg-yellow-50 border-l-4 border-yellow-400 p-4 text-sm text-yellow-800">
-                  <strong>Wichtig:</strong> Fenster und Türen schließen (Zugluft vermeiden)! Bett auf ergonomische Arbeitshöhe bringen.
+                  <strong>Wichtig:</strong> Raumtemperatur 22–24 °C, Fenster und Türen schließen (Auskühlung vermeiden). Bett auf ergonomische Arbeitshöhe bringen (Eigenschutz Rücken).
+                </div>
+                <div className="mt-4 bg-blue-50 border-l-4 border-blue-500 p-4 text-sm text-blue-900">
+                  <strong>Handschuhe – wann?</strong> Einmalhandschuhe nur bei Kontakt mit Körperflüssigkeiten, Schleimhäuten oder nicht-intakter Haut (Intimpflege, Stuhl, Wunden). Beim Waschen intakter Haut ist die hygienische Händedesinfektion der Standard – Handschuhe ersetzen sie nicht.
+                </div>
+                <div className="mt-4 bg-orange-50 border-l-4 border-orange-500 p-4 text-sm text-orange-900">
+                  <strong>Wassertemperatur:</strong> 37–43 °C, immer mit der Innenseite des eigenen Unterarms prüfen. Bei Diabetes, Demenz oder Sensibilitätsstörung darf die Temperaturkontrolle nie allein der bewohnenden Person überlassen werden – Verbrühungsgefahr.
                 </div>
               </CardContent>
             </Card>
@@ -134,12 +152,12 @@ export default function Module2() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { title: "Hautzustand", desc: "Rötungen, Druckstellen (Dekubitus), Pilzinfektionen, Trockenheit" },
-              { title: "Schmerzen", desc: "Äußert der Bewohner Schmerzen bei Bewegung oder Berührung?" },
-              { title: "Allgemeinzustand", desc: "Ist der Bewohner wach? Wie belastbar ist er heute?" },
-              { title: "Atmung", desc: "Atemgeräusche, Kurzatmigkeit bei Anstrengung" },
-              { title: "Mobilität", desc: "Wie gut kann der Bewohner mithelfen (z.B. drehen)?" },
-              { title: "Ausscheidungen", desc: "Farbe, Menge und Geruch von Urin/Stuhl" }
+              { title: "Hautzustand", desc: "Rötungen, Druckstellen (Dekubitus, Fingertest), Pilzinfektionen, Trockenheit" },
+              { title: "Schmerzen", desc: "Schmerzäußerungen bei Bewegung oder Berührung – auch nonverbal (Mimik, Stöhnen, Abwehr)" },
+              { title: "Allgemeinzustand", desc: "Wachheit, Belastbarkeit, Stimmung, Verwirrtheit?" },
+              { title: "Atmung", desc: "Atemgeräusche, Kurzatmigkeit bei Anstrengung, Atemfrequenz" },
+              { title: "Mobilität", desc: "Mithilfe beim Drehen, Halten, Aufrichten – Vergleich zum Vortag" },
+              { title: "Ausscheidungen", desc: "Farbe, Menge und Geruch von Urin/Stuhl, Kontinenzhilfen voll/trocken" }
             ].map((item, i) => (
               <Card key={i} className="bg-secondary/10 border-none">
                 <CardContent className="pt-6">
@@ -149,6 +167,33 @@ export default function Module2() {
               </Card>
             ))}
           </div>
+        </section>
+
+        <section className="mb-10">
+          <Card className="bg-blue-50 border-blue-200">
+            <CardContent className="pt-6">
+              <h3 className="font-serif text-lg font-bold text-blue-900 mb-2">Auch wichtig – wird in Folgemodulen vertieft</h3>
+              <p className="text-sm text-blue-900">
+                Eine vollständige Grundpflege umfasst auch <strong>Mund-, Zahn- und Prothesenpflege</strong>,
+                <strong> Inkontinenzversorgung mit Hautschutz</strong>, <strong>Hilfe bei Essen und Trinken</strong>
+                {" "}(inkl. Aspirations­prophylaxe) sowie <strong>Lagerung und Mobilisation</strong> nach den Konzepten der
+                Kinästhetik und Bobath. Diese Themen folgen in vertiefenden Schulungen –
+                bei Unsicherheit immer Pflegefachkraft hinzuziehen.
+              </p>
+            </CardContent>
+          </Card>
+        </section>
+
+        <section className="mb-10">
+          <Card className="bg-primary/5 border-primary/20">
+            <CardContent className="pt-6">
+              <h3 className="font-serif text-lg font-bold text-primary mb-2">Reflexion für den Alltag</h3>
+              <p className="text-sm text-muted-foreground italic">
+                „Welcher Schritt der Ganzkörperwaschung fällt mir am schwersten? Welcher Person in meinem Wohnbereich
+                könnte heute eine besonders ruhige, kommunikative Waschung guttun?"
+              </p>
+            </CardContent>
+          </Card>
         </section>
 
         <div className="flex justify-between">
