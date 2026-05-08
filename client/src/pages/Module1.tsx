@@ -191,8 +191,10 @@ export default function Module1() {
                   <h3 className="font-serif text-xl font-bold text-primary mb-3">SIS – die Themenfelder</h3>
                   <p className="text-sm text-muted-foreground mb-4">
                     Die <strong>Strukturierte Informationssammlung (SIS)</strong> ist in <strong>sechs
-                    Themenfelder</strong> gegliedert. Ihre Beobachtungen aus der Grundpflege fließen
-                    genau hier ein.
+                    Themenfelder</strong> gegliedert, die ein Bild von der zu pflegenden Person mit ihren
+                    individuellen <strong>Ressourcen</strong>, <strong>Unterstützungsbedarfen</strong> und
+                    <strong> Pflegerisiken</strong> zeichnen. Ihre Beobachtungen aus der Grundpflege
+                    fließen genau hier ein.
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
                     {[
