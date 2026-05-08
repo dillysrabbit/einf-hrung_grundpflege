@@ -14,7 +14,7 @@ export default function Module2() {
   };
 
   const steps = [
-    { id: "step1", title: "1. Vorbereitung", desc: "Material bereitstellen (getrennte Waschlappen für Gesicht / Körper / Intim). Hygienische Händedesinfektion. Wassertemperatur 37–43 °C selbst mit dem Unterarm prüfen. Bett auf Arbeitshöhe. Bewohner:in informieren." },
+    { id: "step1", title: "1. Vorbereitung", desc: "Material bereitstellen (getrennte Waschlappen für Gesicht / Körper / Intim). Hygienische Händedesinfektion. Wassertemperatur so wählen, wie die bewohnende Person es wünscht – ein empfehlenswerter Richtwert ist 37–43 °C; selbst mit dem Unterarm prüfen. Bett auf Arbeitshöhe. Bewohner:in informieren." },
     { id: "step2", title: "2. Gesicht, Augen & Hals", desc: "Beim gesunden, nicht entzündeten Auge mit klarem Wasser vom äußeren zum inneren Augenwinkel wischen (folgt der natürlichen Tränendrainage), bei entzündetem oder infiziertem Auge umgekehrt vom inneren zum äußeren Augenwinkel (Schutz des Tränen-Nasen-Gangs). Jeweils frische Stelle des Waschlappens, ein Auge nach dem anderen. Anschließend Gesicht, Ohren, Hals waschen und gut trocknen." },
     { id: "step3", title: "3. Oberkörper & Arme", desc: "Waschlotion ins Wasser. Belebende Waschung herzwärts (Hand → Schulter), gut abtrocknen. Auf Intertrigo (Hautwolf) in Achseln und unter der Brust achten." },
     { id: "step4", title: "4. Rücken & Gesäß", desc: "Bewohner:in zur Seite drehen. Rücken und Gesäß waschen, trocknen, ggf. eincremen. Dekubitus-Kontrolle (Steißbein, Schulterblatt, Ellenbogen) – Fingertest: Lässt sich die Rötung wegdrücken?" },
@@ -106,7 +106,7 @@ export default function Module2() {
                   <strong>Handschuhe – wann?</strong> Einmalhandschuhe nur bei Kontakt mit Körperflüssigkeiten, Schleimhäuten oder nicht-intakter Haut (Intimpflege, Stuhl, Wunden). Beim Waschen intakter Haut ist die hygienische Händedesinfektion der Standard – Handschuhe ersetzen sie nicht.
                 </div>
                 <div className="mt-4 bg-orange-50 border-l-4 border-orange-500 p-4 text-sm text-orange-900">
-                  <strong>Wassertemperatur:</strong> 37–43 °C, immer mit der Innenseite des eigenen Unterarms prüfen. Bei Diabetes, Demenz oder Sensibilitätsstörung darf die Temperaturkontrolle nie allein der bewohnenden Person überlassen werden – Verbrühungsgefahr.
+                  <strong>Wassertemperatur:</strong> richtet sich nach dem Wunsch der bewohnenden Person. 37–43 °C ist ein empfehlenswerter Richtwert. Immer zuerst mit der Innenseite des eigenen Unterarms prüfen. Bei Diabetes, Demenz oder Sensibilitätsstörung darf die Temperaturkontrolle nie allein der bewohnenden Person überlassen werden – Verbrühungsgefahr.
                 </div>
               </CardContent>
             </Card>

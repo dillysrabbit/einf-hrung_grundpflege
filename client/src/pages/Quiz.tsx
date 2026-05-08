@@ -93,15 +93,15 @@ const questions: Question[] = [
   },
   {
     id: 7,
-    question: "Welche Wassertemperatur ist beim Waschen empfehlenswert – und wer prüft sie?",
+    question: "Wie wird die Wassertemperatur beim Waschen festgelegt – und wer prüft sie?",
     options: [
       "Über 50 °C, die Person kann es selbst prüfen.",
-      "37–43 °C; immer zuerst die Pflegekraft mit der Innenseite des Unterarms.",
+      "Nach Wunsch der bewohnenden Person (Richtwert 37–43 °C); immer zuerst die Pflegekraft mit der Innenseite des Unterarms.",
       "Genau 30 °C, gemessen mit dem Finger.",
       "Egal, solange die Person nicht klagt."
     ],
     correctAnswer: 1,
-    explanation: "37–43 °C ist angenehm und sicher. Die Pflegekraft prüft, weil bei Diabetes, Demenz oder Sensibilitätsstörung die Eigenwahrnehmung unzuverlässig sein kann (Verbrühungsgefahr)."
+    explanation: "Maßgeblich ist der Wunsch der bewohnenden Person; 37–43 °C ist ein empfehlenswerter Richtwert. Die Pflegekraft prüft, weil bei Diabetes, Demenz oder Sensibilitätsstörung die Eigenwahrnehmung unzuverlässig sein kann (Verbrühungsgefahr)."
   },
   {
     id: 8,
