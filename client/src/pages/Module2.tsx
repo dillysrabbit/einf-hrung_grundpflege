@@ -22,7 +22,7 @@ export default function Module2() {
     { id: "step6", title: "6. Intimbereich Vorbereitung", desc: "Wasser wechseln, frischen Waschlappen, jetzt Einmalhandschuhe anziehen. Intimsphäre durch Abdecken wahren." },
     { id: "step7", title: "7. Intimpflege (Frau)", desc: "Beine anstellen. Erst äußere, dann mit gespreizten Schamlippen die kleinen Schamlippen reinigen – immer von der Symphyse zum Anus, mit jedem Wisch frische Lappenstelle. Verhindert Keimverschleppung in die Harnröhre." },
     { id: "step8", title: "8. Intimpflege (Mann)", desc: "Vorhaut vorsichtig zurückschieben (bei Phimose nicht erzwingen!), Eichel reinigen, gut abtrocknen, Vorhaut ZWINGEND wieder vorschieben (sonst Paraphimose-Gefahr → Notfall). Hoden reinigen." },
-    { id: "step9", title: "9. Abschluss", desc: "Frische Kleidung, faltenfreie Bettwäsche, bequeme Lagerung. Material entsorgen, Händedesinfektion. Beobachtungen dokumentieren und an die Pflegefachkraft weitergeben." },
+    { id: "step9", title: "9. Abschluss & Nachbereitung", desc: "Frische Kleidung, faltenfreie Bettwäsche, bequeme Lagerung. Anschließend Arbeitsplatz und Material aufräumen, reinigen, desinfizieren (siehe Nachbereitung unten). Beobachtungen ins Berichteblatt." },
   ];
 
   return (
@@ -144,6 +144,60 @@ export default function Module2() {
             </div>
           </TabsContent>
         </Tabs>
+
+        <section className="mb-12">
+          <h2 className="font-serif text-2xl font-bold text-primary mb-4">Nachbereitung – gehört zur Pflege dazu</h2>
+          <p className="text-sm text-muted-foreground mb-4">
+            Eine Pflegehandlung ist erst beendet, wenn auch der Arbeitsplatz wieder hergestellt ist.
+            Die Nachbereitung verhindert Keimverschleppung, schützt nachfolgende Bewohner:innen und Kolleg:innen
+            und ist ausdrücklich Teil Ihrer Tätigkeit.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Card className="bg-secondary/10 border-none">
+              <CardContent className="pt-6">
+                <h4 className="font-bold text-primary mb-2">Material & Müll</h4>
+                <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
+                  <li>Einmalmaterial (Handschuhe, Schürze, Einmalwaschlappen) direkt in den Abwurf</li>
+                  <li>Inkontinenzmaterial im verschlossenen Beutel entsorgen</li>
+                  <li>Müllbeutel aus dem Eimer wechseln, wenn voll oder verschmutzt</li>
+                  <li>Spitze/scharfe Gegenstände in den Sicherheitsabwurf (Sharps-Container)</li>
+                </ul>
+              </CardContent>
+            </Card>
+            <Card className="bg-secondary/10 border-none">
+              <CardContent className="pt-6">
+                <h4 className="font-bold text-primary mb-2">Wäsche</h4>
+                <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
+                  <li>Schmutzwäsche direkt in den Wäschesack, nicht auf den Boden oder die eigene Kleidung</li>
+                  <li>Sichtbar verschmutzte oder infektiöse Wäsche in den dafür vorgesehenen Sack (z. B. wasserlösliche Säcke nach Hausstandard)</li>
+                  <li>Frische Wäsche nicht mit benutzter im selben Wagen transportieren</li>
+                </ul>
+              </CardContent>
+            </Card>
+            <Card className="bg-secondary/10 border-none">
+              <CardContent className="pt-6">
+                <h4 className="font-bold text-primary mb-2">Waschutensilien & Geräte</h4>
+                <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
+                  <li>Waschschüssel ausleeren, mit Spülmittel reinigen, wischdesinfizieren, trocken aufbewahren (Schimmelgefahr!)</li>
+                  <li>Mehrwegwaschlappen und -handtücher in die Wäsche</li>
+                  <li>Mund-, Haar- und Hautpflegeutensilien sind <strong>personenbezogen</strong> – nicht für andere Bewohner:innen verwenden</li>
+                  <li>Pflegewagen, Bettgitter, Nachttisch, Türklinke nach Bewohnerkontakt wischdesinfizieren</li>
+                </ul>
+              </CardContent>
+            </Card>
+            <Card className="bg-secondary/10 border-none">
+              <CardContent className="pt-6">
+                <h4 className="font-bold text-primary mb-2">Arbeitsplatz & Abschluss</h4>
+                <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
+                  <li>Bett auf bewohnersichere Höhe absenken, Klingel und Trinken in Reichweite</li>
+                  <li>Fenster lüften (Stoßlüftung), Raumtemperatur prüfen</li>
+                  <li>Hände desinfizieren – auch nach dem Ausziehen der Handschuhe</li>
+                  <li>Eintrag im Berichteblatt, falls Auffälligkeiten</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
 
         <section className="mb-12">
           <h2 className="font-serif text-2xl font-bold text-primary mb-6 flex items-center gap-2">

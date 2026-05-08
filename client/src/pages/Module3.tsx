@@ -20,7 +20,7 @@ export default function Module3() {
     { id: "step4", title: "4. Rücken (Unterstützung)", desc: "Bewohner:in beugt sich vor (Sturzsicherung beachten!). Pflegekraft wäscht den schwer erreichbaren Rücken und prüft den Hautzustand." },
     { id: "step5", title: "5. Intimpflege (Anleitung)", desc: "Pflegekraft leitet an, Bewohner:in führt durch. Frischer Waschlappen, Einmalhandschuhe. Nur bei Bedarf übernehmen, Würde wahren." },
     { id: "step6", title: "6. Beine & Füße", desc: "Beine aufstellen oder anheben. Zehenzwischenräume gründlich trocknen. Auf Druckstellen, Pilz und Nagelveränderungen achten." },
-    { id: "step7", title: "7. Abtrocknen & Anziehen", desc: "Unterstützung beim Abtrocknen (Hautfalten!) und Anziehen. Bademantel/Handtuch um die Schultern – Auskühlung vermeiden. Anschließend Beobachtungen dokumentieren." }
+    { id: "step7", title: "7. Abtrocknen, Anziehen & Nachbereitung", desc: "Unterstützung beim Abtrocknen (Hautfalten!) und Anziehen. Bademantel/Handtuch um die Schultern – Auskühlung vermeiden. Bewohner:in zurück zum Sitzplatz/Bett begleiten. Anschließend Arbeitsplatz aufräumen, reinigen, desinfizieren (siehe Nachbereitung unten) und Beobachtungen ins Berichteblatt." }
   ];
 
   return (
@@ -148,6 +148,58 @@ export default function Module3() {
             </div>
           </TabsContent>
         </Tabs>
+
+        <section className="mb-12">
+          <h2 className="font-serif text-2xl font-bold text-primary mb-4">Nachbereitung – gehört zur Pflege dazu</h2>
+          <p className="text-sm text-muted-foreground mb-4">
+            Eine Pflegehandlung ist erst beendet, wenn auch das Badezimmer und der Arbeitsplatz wieder
+            hergestellt sind. Das schützt nachfolgende Bewohner:innen und Kolleg:innen vor Keimverschleppung
+            und Sturz.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <Card className="bg-secondary/10 border-none">
+              <CardContent className="pt-6">
+                <h4 className="font-bold text-primary mb-2">Material & Müll</h4>
+                <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
+                  <li>Einmalmaterial (Handschuhe, Schürze, Einmalwaschlappen) direkt in den Abwurf</li>
+                  <li>Inkontinenzmaterial im verschlossenen Beutel entsorgen</li>
+                  <li>Mülleimer leeren, wenn voll oder verschmutzt</li>
+                </ul>
+              </CardContent>
+            </Card>
+            <Card className="bg-secondary/10 border-none">
+              <CardContent className="pt-6">
+                <h4 className="font-bold text-primary mb-2">Wäsche</h4>
+                <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
+                  <li>Schmutzwäsche und benutzte Handtücher direkt in den Wäschesack</li>
+                  <li>Sichtbar verschmutzte oder infektiöse Wäsche in den dafür vorgesehenen Sack</li>
+                  <li>Frische Wäsche nicht mit benutzter im selben Wagen transportieren</li>
+                </ul>
+              </CardContent>
+            </Card>
+            <Card className="bg-secondary/10 border-none">
+              <CardContent className="pt-6">
+                <h4 className="font-bold text-primary mb-2">Waschutensilien & Geräte</h4>
+                <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
+                  <li>Waschschüssel ausleeren, mit Spülmittel reinigen, wischdesinfizieren, trocken aufbewahren</li>
+                  <li>Mund-, Haar- und Hautpflegeutensilien sind <strong>personenbezogen</strong> – im persönlichen Schrank verstauen</li>
+                  <li>Duschhocker, Haltegriffe und Armaturen wischdesinfizieren</li>
+                </ul>
+              </CardContent>
+            </Card>
+            <Card className="bg-secondary/10 border-none">
+              <CardContent className="pt-6">
+                <h4 className="font-bold text-primary mb-2">Sicherheit & Abschluss</h4>
+                <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
+                  <li>Boden trocken wischen (Sturzgefahr!)</li>
+                  <li>Rutschfeste Matte aufhängen, Handtücher zum Trocknen aufhängen</li>
+                  <li>Hände desinfizieren – auch nach dem Ausziehen der Handschuhe</li>
+                  <li>Eintrag im Berichteblatt, falls Auffälligkeiten</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
 
         <section className="mb-10">
           <Card className="bg-primary/5 border-primary/20">
