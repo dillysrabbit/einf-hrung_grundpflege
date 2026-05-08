@@ -38,7 +38,8 @@ export default function Module1() {
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> Ihre Rolle als Pflegehilfskraft im Pflegeteam einordnen.</li>
                 <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> Grundpflege von Behandlungspflege unterscheiden.</li>
-                <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> Den Pflegeprozess (6 Schritte) in eigenen Worten erklären.</li>
+                <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> Den 4-phasigen Pflegeprozess nach dem Strukturmodell (Beikirch) erklären.</li>
+                <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> SIS, Maßnahmenplan und Berichteblatt voneinander abgrenzen.</li>
                 <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> Schweigepflicht und Hygieneregeln im Alltag anwenden.</li>
                 <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> Erkennen, wann Sie eine Pflegefachkraft hinzuziehen müssen.</li>
                 <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> Aktivierende Pflege als Haltung beschreiben.</li>
@@ -152,21 +153,21 @@ export default function Module1() {
             <div className="space-y-6">
               <Card>
                 <CardContent className="pt-6">
-                  <h3 className="font-serif text-xl font-bold text-primary mb-4">Der Pflegeprozess in 6 Schritten</h3>
+                  <h3 className="font-serif text-xl font-bold text-primary mb-2">Der Pflegeprozess nach dem Strukturmodell (Beikirch)</h3>
                   <p className="text-sm text-muted-foreground mb-4">
-                    Pflege geschieht nicht zufällig. Sie folgt einem systematischen Prozess
-                    (nach Fiechter / Meier). Pflegehilfskräfte arbeiten besonders in Schritt&nbsp;1
-                    (Beobachtung) und Schritt&nbsp;5 (Durchführung) – die Steuerung liegt bei der Pflegefachkraft.
+                    Wir arbeiten nach dem <strong>Strukturmodell</strong>, das von Elisabeth Beikirch im Auftrag des
+                    Bundesgesundheitsministeriums zur Entbürokratisierung der Pflegedokumentation entwickelt wurde.
+                    Statt sechs Schritten umfasst es <strong>vier Phasen</strong>. Pflegehilfskräfte arbeiten vor allem
+                    in der Beobachtung (SIS-Aktualisierung), bei der Durchführung des Maßnahmenplans
+                    und beim Eintrag im Berichteblatt.
                   </p>
 
                   <ol className="space-y-3 mt-6">
                     {[
-                      { n: 1, t: "Informationssammlung", d: "Wer ist die Person? Biografie, Bedürfnisse, Vorlieben, Vorerkrankungen, aktuelle Situation. Hier helfen Pflegehilfskräfte mit ihren Beobachtungen mit." },
-                      { n: 2, t: "Probleme & Ressourcen erkennen", d: "Was ist schwierig (Probleme), was kann die Person noch (Ressourcen)? Beides ist gleich wichtig." },
-                      { n: 3, t: "Pflegeziele festlegen", d: "Was wollen wir erreichen? – Vorbehaltsaufgabe der Pflegefachkraft." },
-                      { n: 4, t: "Maßnahmen planen", d: "Wer macht was, wann, wie? Steht im Pflegeplan – Sie lesen ihn und führen ihn aus." },
-                      { n: 5, t: "Maßnahmen durchführen", d: "Hier sind Sie aktiv: Körperpflege, Aktivierung, Begleitung, Beobachtung." },
-                      { n: 6, t: "Evaluation", d: "Hat es gewirkt? Müssen wir den Plan anpassen? Ihre Rückmeldungen sind dafür unverzichtbar." }
+                      { n: 1, t: "Strukturierte Informationssammlung (SIS)", d: "Initiale Erhebung und fortlaufende Aktualisierung – aus Sicht der bewohnenden Person. Zentrale Eingangsfrage: „Was bewegt Sie? Was brauchen Sie? Was können wir für Sie tun?\". Sie liefern Beobachtungen für die SIS." },
+                      { n: 2, t: "Individueller Maßnahmenplan", d: "Aus der SIS werden konkrete, individuelle Maßnahmen abgeleitet (nicht standardisierte Listen). Sie lesen den Maßnahmenplan und führen ihn aus – Pflegeplanung selbst ist Vorbehalt der Fachkraft." },
+                      { n: 3, t: "Berichteblatt", d: "Hier werden ausschließlich ABWEICHUNGEN vom Maßnahmenplan, besondere Ereignisse und neue Beobachtungen dokumentiert – nicht jeder Routinevorgang. Das ist Ihr wichtigstes Dokumentationsinstrument." },
+                      { n: 4, t: "Evaluation", d: "Anlassbezogen oder in festgelegten Intervallen prüft die Pflegefachkraft anhand des Berichteblatts, ob der Maßnahmenplan angepasst werden muss. Ihre Berichteblatt-Einträge sind dafür unverzichtbar." }
                     ].map((s) => (
                       <li key={s.n} className="flex items-start gap-4 border rounded-xl p-3">
                         <div className="flex-shrink-0 w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold mt-0.5">{s.n}</div>
@@ -177,36 +178,64 @@ export default function Module1() {
                       </li>
                     ))}
                   </ol>
+
+                  <div className="mt-6 bg-blue-50 border-l-4 border-blue-500 p-4 text-sm text-blue-900">
+                    <strong>Wichtigster Unterschied zur klassischen Doku:</strong> Im Berichteblatt wird
+                    <em> nicht alles</em> aufgeschrieben, was wir gemacht haben. Wenn der Maßnahmenplan
+                    durchgeführt wurde wie vorgesehen, ist <strong>kein Eintrag</strong> nötig.
+                    Eingetragen werden Abweichungen, Auffälligkeiten und neue Informationen.
+                  </div>
                 </CardContent>
               </Card>
 
               <Card>
                 <CardContent className="pt-6">
-                  <h3 className="font-serif text-xl font-bold text-primary mb-3">AEDL – die 13 Aktivitäten</h3>
+                  <h3 className="font-serif text-xl font-bold text-primary mb-3">SIS – die Themenfelder</h3>
                   <p className="text-sm text-muted-foreground mb-4">
-                    In der deutschen Altenpflege wird häufig nach den <strong>Aktivitäten und existenziellen
-                    Erfahrungen des Lebens (AEDL/ABEDL) nach Monika Krohwinkel</strong> gearbeitet.
-                    Der Pflegebogen Ihres Wohnbereichs ist meist danach aufgebaut. Die 13 Aktivitäten:
+                    Die <strong>Strukturierte Informationssammlung (SIS)</strong> ersetzt klassische
+                    Anamnese-Bögen (z. B. nach AEDL/ABEDL). Sie ist in <strong>sechs Themenfelder</strong>
+                    gegliedert. Ihre Beobachtungen aus der Grundpflege fließen genau hier ein.
                   </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-sm">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
                     {[
-                      "Kommunizieren können",
-                      "Sich bewegen können",
-                      "Vitale Funktionen aufrechterhalten",
-                      "Sich pflegen können",
-                      "Essen und Trinken",
-                      "Ausscheiden können",
-                      "Sich kleiden können",
-                      "Ruhen und Schlafen",
-                      "Sich beschäftigen",
-                      "Sich als Frau/Mann fühlen",
-                      "Sichere Umgebung sicherstellen",
-                      "Soziale Bereiche sichern",
-                      "Mit existenziellen Erfahrungen umgehen"
-                    ].map((a, i) => (
-                      <div key={i} className="bg-secondary/20 rounded-lg p-2 flex items-center gap-2">
-                        <span className="text-primary font-bold w-5 text-right flex-shrink-0">{i + 1}.</span>
-                        <span>{a}</span>
+                      { k: "A", t: "Kognition und Kommunikation", e: "Wahrnehmung, Orientierung, Sprache, Verständnis, Demenz." },
+                      { k: "B", t: "Mobilität und Beweglichkeit", e: "Aufstehen, Gehen, Transfers, Lagewechsel, Sturzrisiko." },
+                      { k: "C", t: "Krankheitsbezogene Anforderungen und Belastungen", e: "Diagnosen, Medikamente, Schmerzen, Therapien." },
+                      { k: "D", t: "Selbstversorgung", e: "Körperpflege, Essen/Trinken, Kleiden, Ausscheidung – Ihr Hauptarbeitsfeld." },
+                      { k: "E", t: "Leben in sozialen Beziehungen", e: "Angehörige, Tagesstruktur, Aktivitäten, Beschäftigung." },
+                      { k: "F", t: "Wohnen / Haushaltsführung", e: "Umgebung, Hilfsmittel, im Heim Sicherheit und Orientierung im Wohnbereich." }
+                    ].map((f) => (
+                      <div key={f.k} className="bg-secondary/20 rounded-lg p-3 flex gap-3">
+                        <div className="flex-shrink-0 w-7 h-7 rounded-full bg-primary text-white font-bold flex items-center justify-center text-sm">{f.k}</div>
+                        <div>
+                          <div className="font-bold">{f.t}</div>
+                          <div className="text-xs text-muted-foreground">{f.e}</div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardContent className="pt-6">
+                  <h3 className="font-serif text-xl font-bold text-primary mb-3">Risikomatrix – die fünf Pflegerisiken</h3>
+                  <p className="text-sm text-muted-foreground mb-4">
+                    Im Anschluss an die SIS prüft die Pflegefachkraft mithilfe der <strong>Risikomatrix</strong>
+                    fünf pflegerelevante Risikobereiche. Für die Einschätzung sind Ihre Beobachtungen
+                    aus dem Pflegealltag entscheidend.
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-2 text-sm">
+                    {[
+                      { t: "Dekubitus", b: "Hautrötungen, Druckstellen, Lagerung, Mobilität" },
+                      { t: "Sturz", b: "Schwindel, Gangbild, Hilfsmittel, Sehkraft" },
+                      { t: "Inkontinenz", b: "Urin-/Stuhlausscheidung, Hautzustand, Hilfsmittel" },
+                      { t: "Schmerz", b: "Verbal und nonverbal: Mimik, Stöhnen, Abwehr" },
+                      { t: "Ernährung", b: "Appetit, Trinkmenge, Schluckstörung, Gewicht" }
+                    ].map((r, i) => (
+                      <div key={i} className="bg-primary/5 rounded-lg p-3 border border-primary/10">
+                        <div className="font-bold text-primary mb-1">{r.t}</div>
+                        <div className="text-xs text-muted-foreground">{r.b}</div>
                       </div>
                     ))}
                   </div>
@@ -221,7 +250,7 @@ export default function Module1() {
                   </h3>
                   <p className="text-sm text-muted-foreground mb-3">
                     Bestimmte Beobachtungen gehören <strong>unverzüglich</strong> an die zuständige Pflegefachkraft –
-                    nicht erst am Schichtende:
+                    nicht erst am Schichtende und nicht nur ins Berichteblatt:
                   </p>
                   <ul className="text-sm space-y-1.5 list-disc pl-5 text-muted-foreground">
                     <li>Plötzliche Verwirrtheit, einseitige Lähmung, hängender Mundwinkel, Sprachstörung (<strong>FAST</strong> – Schlaganfall-Verdacht)</li>
@@ -288,17 +317,22 @@ export default function Module1() {
 
               <Card>
                 <CardContent className="pt-6">
-                  <h3 className="font-serif text-xl font-bold text-primary mb-3">Dokumentation – kurz, klar, sachlich</h3>
-                  <ul className="text-sm space-y-2 list-disc pl-5 text-muted-foreground">
-                    <li><strong>Was</strong> haben Sie beobachtet? (Tatsachen, keine Vermutungen)</li>
-                    <li><strong>Wann</strong> ist es aufgetreten? (Datum, Uhrzeit)</li>
-                    <li><strong>Wie</strong> hat die Bewohner:in reagiert?</li>
-                    <li>Welche Maßnahmen haben Sie ergriffen oder veranlasst?</li>
-                    <li>An wen haben Sie es weitergegeben?</li>
+                  <h3 className="font-serif text-xl font-bold text-primary mb-3">Berichteblatt – nur Abweichungen, kurz und sachlich</h3>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    Nach dem Strukturmodell wird im Berichteblatt <strong>nicht jede Routinetätigkeit</strong>
+                    dokumentiert. Eingetragen werden ausschließlich:
+                  </p>
+                  <ul className="text-sm space-y-1.5 list-disc pl-5 text-muted-foreground mb-3">
+                    <li>Abweichungen vom Maßnahmenplan (z. B. Bewohnerin lehnt Waschung ab)</li>
+                    <li>Neue Beobachtungen mit Bezug zu den fünf Pflegerisiken</li>
+                    <li>Auffälligkeiten in einem der SIS-Themenfelder</li>
+                    <li>Ereignisse, Stürze, Schmerzäußerungen, Stimmungsveränderungen</li>
+                    <li>Ergebnisse von durchgeführten Maßnahmen, wenn sie für die Evaluation relevant sind</li>
                   </ul>
-                  <p className="text-sm text-muted-foreground mt-3 italic">
-                    Beispiel: „08:30 Uhr – beim Waschen 2 cm große, nicht wegdrückbare Hautrötung am Steißbein
-                    festgestellt. Pflegefachkraft Frau Müller informiert."
+                  <p className="text-sm text-muted-foreground mb-2"><strong>Aufbau jedes Eintrags:</strong> Datum/Uhrzeit · Handzeichen · was beobachtet (Tatsachen, keine Vermutungen) · ggf. an wen weitergegeben.</p>
+                  <p className="text-sm text-muted-foreground italic">
+                    Beispiel: „08:30 Uhr / KN – beim Waschen 2 cm große, nicht wegdrückbare Hautrötung am Steißbein.
+                    PFK Müller informiert, Lagerungsplan ergänzt."
                   </p>
                 </CardContent>
               </Card>
@@ -372,8 +406,8 @@ export default function Module1() {
             <Card className="hover:shadow-md transition-shadow">
               <CardContent className="pt-6 flex flex-col items-center text-center">
                 <Heart className="h-10 w-10 text-primary mb-4" />
-                <h3 className="font-bold mb-2">Beobachtung & Meldung</h3>
-                <p className="text-sm text-muted-foreground">Auffälligkeiten erkennen und an die Pflegefachkraft weitergeben.</p>
+                <h3 className="font-bold mb-2">Beobachtung & Berichteblatt</h3>
+                <p className="text-sm text-muted-foreground">Auffälligkeiten erkennen, kurz im Berichteblatt eintragen, an die Pflegefachkraft weitergeben.</p>
               </CardContent>
             </Card>
             <Card className="hover:shadow-md transition-shadow">
@@ -393,7 +427,7 @@ export default function Module1() {
               <h3 className="font-serif text-lg font-bold text-primary mb-2">Zum Mitnehmen in den Alltag</h3>
               <p className="text-sm text-muted-foreground italic">
                 „Wenn ich heute bei einer Bewohnerin/einem Bewohner eine ungewöhnliche Hautstelle entdecke –
-                wem sage ich es bis wann, und wie dokumentiere ich es?"
+                wem sage ich es bis wann, und welchen Eintrag schreibe ich konkret ins Berichteblatt?"
               </p>
             </CardContent>
           </Card>

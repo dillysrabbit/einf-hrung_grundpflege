@@ -201,15 +201,39 @@ const questions: Question[] = [
   },
   {
     id: 16,
-    question: "Welche Aussage zum Pflegeprozess (nach Fiechter/Meier) trifft zu?",
+    question: "Wir arbeiten nach dem Strukturmodell (Beikirch). Welche vier Phasen umfasst dieser Pflegeprozess?",
     options: [
-      "Pflegehilfskräfte führen den gesamten Prozess eigenständig durch.",
-      "Der Prozess hat 6 Schritte. Pflegehilfskräfte arbeiten besonders bei Beobachtung und Durchführung mit; die Steuerung liegt bei der Pflegefachkraft.",
-      "Der Pflegeprozess ist nur in Krankenhäusern relevant.",
-      "Der Pflegeprozess hat 3 Schritte: Waschen, Essen, Schlafen."
+      "Anamnese · Pflegediagnose · Pflegeziele · Auswertung",
+      "SIS · Maßnahmenplan · Berichteblatt · Evaluation",
+      "Information · Probleme/Ressourcen · Ziele · Maßnahmen · Durchführung · Evaluation",
+      "Waschen · Essen · Schlafen · Beschäftigen"
     ],
     correctAnswer: 1,
-    explanation: "Der Pflegeprozess hat 6 Schritte (Information, Probleme/Ressourcen, Ziele, Maßnahmen, Durchführung, Evaluation). Pflegeplanung und Evaluation sind Vorbehaltsaufgaben der Pflegefachkraft."
+    explanation: "Das Strukturmodell hat vier Phasen: Strukturierte Informationssammlung (SIS), individueller Maßnahmenplan, Berichteblatt (Abweichungen) und anlassbezogene Evaluation. Pflegeplanung und Evaluation sind Vorbehaltsaufgaben der Pflegefachkraft."
+  },
+  {
+    id: 18,
+    question: "Was wird im Berichteblatt nach dem Strukturmodell eingetragen?",
+    options: [
+      "Jede einzelne durchgeführte Pflegemaßnahme im Detail.",
+      "Nur Abweichungen vom Maßnahmenplan, neue Beobachtungen und besondere Ereignisse.",
+      "Nur Stürze und keine sonstigen Beobachtungen.",
+      "Nichts – das Berichteblatt führt ausschließlich die Pflegefachkraft."
+    ],
+    correctAnswer: 1,
+    explanation: "Kerngedanke der Entbürokratisierung: Routine wird NICHT dokumentiert. Eingetragen werden Abweichungen, Auffälligkeiten in den fünf Pflegerisiken (Dekubitus, Sturz, Inkontinenz, Schmerz, Ernährung) sowie Veränderungen in den SIS-Themenfeldern."
+  },
+  {
+    id: 19,
+    question: "Was ist die Strukturierte Informationssammlung (SIS)?",
+    options: [
+      "Eine Liste aller Medikamente der Bewohnerin/des Bewohners.",
+      "Ein Erhebungsinstrument mit sechs Themenfeldern, das Anamnese und Pflegeplanung aus Sicht der bewohnenden Person zusammenführt.",
+      "Eine Software zur Dienstplanung.",
+      "Ein Synonym für die AEDL nach Krohwinkel."
+    ],
+    correctAnswer: 1,
+    explanation: "Die SIS ist das zentrale Instrument im Strukturmodell. Sie startet mit der Eingangsfrage „Was bewegt Sie? Was brauchen Sie? Was können wir für Sie tun?\" und gliedert die Informationen in die sechs Themenfelder A bis F (Kognition, Mobilität, krankheitsbezogene Belastungen, Selbstversorgung, soziale Beziehungen, Wohnen)."
   },
   {
     id: 17,
