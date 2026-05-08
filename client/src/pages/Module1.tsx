@@ -242,6 +242,28 @@ export default function Module1() {
 
               <Card>
                 <CardContent className="pt-6">
+                  <h3 className="font-serif text-xl font-bold text-primary mb-3">Berichteblatt – nur Abweichungen, kurz und sachlich</h3>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    Im Berichteblatt wird <strong>nicht jede Routinetätigkeit</strong> dokumentiert.
+                    Eingetragen werden ausschließlich:
+                  </p>
+                  <ul className="text-sm space-y-1.5 list-disc pl-5 text-muted-foreground mb-3">
+                    <li>Abweichungen vom Maßnahmenplan (z. B. Bewohnerin lehnt Waschung ab)</li>
+                    <li>Neue Beobachtungen mit Bezug zu den fünf Pflegerisiken</li>
+                    <li>Auffälligkeiten in einem der SIS-Themenfelder</li>
+                    <li>Ereignisse, Stürze, Schmerzäußerungen, Stimmungsveränderungen</li>
+                    <li>Ergebnisse von durchgeführten Maßnahmen, wenn sie für die Evaluation relevant sind</li>
+                  </ul>
+                  <p className="text-sm text-muted-foreground mb-2"><strong>Aufbau jedes Eintrags:</strong> Datum/Uhrzeit · Handzeichen · was beobachtet (Tatsachen, keine Vermutungen) · ggf. an wen weitergegeben.</p>
+                  <p className="text-sm text-muted-foreground italic">
+                    Beispiel: „08:30 Uhr / KN – beim Waschen 2 cm große, nicht wegdrückbare Hautrötung am Steißbein.
+                    PFK Müller informiert, Lagerungsplan ergänzt."
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardContent className="pt-6">
                   <h3 className="font-serif text-xl font-bold text-primary mb-3 flex items-center gap-2">
                     <AlertTriangle className="h-5 w-5" />
                     Was muss ich sofort melden?
@@ -313,27 +335,6 @@ export default function Module1() {
                 </CardContent>
               </Card>
 
-              <Card>
-                <CardContent className="pt-6">
-                  <h3 className="font-serif text-xl font-bold text-primary mb-3">Berichteblatt – nur Abweichungen, kurz und sachlich</h3>
-                  <p className="text-sm text-muted-foreground mb-3">
-                    Nach dem Strukturmodell wird im Berichteblatt <strong>nicht jede Routinetätigkeit</strong>
-                    dokumentiert. Eingetragen werden ausschließlich:
-                  </p>
-                  <ul className="text-sm space-y-1.5 list-disc pl-5 text-muted-foreground mb-3">
-                    <li>Abweichungen vom Maßnahmenplan (z. B. Bewohnerin lehnt Waschung ab)</li>
-                    <li>Neue Beobachtungen mit Bezug zu den fünf Pflegerisiken</li>
-                    <li>Auffälligkeiten in einem der SIS-Themenfelder</li>
-                    <li>Ereignisse, Stürze, Schmerzäußerungen, Stimmungsveränderungen</li>
-                    <li>Ergebnisse von durchgeführten Maßnahmen, wenn sie für die Evaluation relevant sind</li>
-                  </ul>
-                  <p className="text-sm text-muted-foreground mb-2"><strong>Aufbau jedes Eintrags:</strong> Datum/Uhrzeit · Handzeichen · was beobachtet (Tatsachen, keine Vermutungen) · ggf. an wen weitergegeben.</p>
-                  <p className="text-sm text-muted-foreground italic">
-                    Beispiel: „08:30 Uhr / KN – beim Waschen 2 cm große, nicht wegdrückbare Hautrötung am Steißbein.
-                    PFK Müller informiert, Lagerungsplan ergänzt."
-                  </p>
-                </CardContent>
-              </Card>
             </div>
           </TabsContent>
 
