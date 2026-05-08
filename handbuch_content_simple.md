@@ -21,7 +21,7 @@ Die Grundpflege ist weit mehr als nur Waschen. Sie ist Beziehungsarbeit, Gesundh
 
 **Pflegeprozess nach dem Strukturmodell (Beikirch) – 4 Phasen:** SIS (Strukturierte Informationssammlung) – individueller Maßnahmenplan – Berichteblatt (nur Abweichungen!) – Evaluation. Sie liefern Beobachtungen für die SIS, führen den Maßnahmenplan aus, tragen Auffälligkeiten ins Berichteblatt ein.
 
-**SIS – 6 Themenfelder:** A Kognition/Kommunikation · B Mobilität · C Krankheitsbezogene Anforderungen · D Selbstversorgung (Ihr Hauptfeld) · E Soziale Beziehungen · F Wohnen.
+**SIS – 6 Themenfelder**, die ein Bild von der zu pflegenden Person mit individuellen Ressourcen, Unterstützungsbedarfen und Pflegerisiken zeichnen: A Kognition/Kommunikation · B Mobilität · C Krankheitsbezogene Anforderungen · D Selbstversorgung (Ihr Hauptfeld) · E Soziale Beziehungen · F Wohnen.
 
 **Risikomatrix – 5 Pflegerisiken:** Dekubitus · Sturz · Inkontinenz · Schmerz · Ernährung.
 

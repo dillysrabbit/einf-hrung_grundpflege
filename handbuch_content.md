@@ -51,7 +51,7 @@ Wir arbeiten nach dem **Strukturmodell**. Es umfasst **vier Phasen**:
 
 #### SIS – sechs Themenfelder
 
-Die SIS ist gegliedert in:
+Sechs Themenfelder, die ein Bild von der zu pflegenden Person mit ihren individuellen **Ressourcen**, **Unterstützungsbedarfen** und **Pflegerisiken** zeichnen. Die SIS ist gegliedert in:
 
 * **A** Kognition und Kommunikation
 * **B** Mobilität und Beweglichkeit
