@@ -19,9 +19,11 @@ Die Grundpflege ist weit mehr als nur Waschen. Sie ist Beziehungsarbeit, Gesundh
 *   Grundpflege (SGB XI): Aktivitäten des täglichen Lebens, Pflegeversicherung – Ihr Bereich.
 *   Behandlungspflege (SGB V): ärztlich verordnet, Krankenkasse – Pflegefachkraft.
 
-**Pflegeprozess (6 Schritte):** Informationssammlung – Probleme/Ressourcen – Ziele – Maßnahmenplanung – Durchführung – Evaluation. Sie sind besonders in Schritt 1 (Beobachtung) und 5 (Durchführung) aktiv.
+**Pflegeprozess nach dem Strukturmodell (Beikirch) – 4 Phasen:** SIS (Strukturierte Informationssammlung) – individueller Maßnahmenplan – Berichteblatt (nur Abweichungen!) – Evaluation. Sie liefern Beobachtungen für die SIS, führen den Maßnahmenplan aus, tragen Auffälligkeiten ins Berichteblatt ein.
 
-**AEDL nach Krohwinkel:** 13 Aktivitäten, nach denen die Pflege strukturiert ist (von Kommunizieren bis existenzielle Erfahrungen).
+**SIS – 6 Themenfelder:** A Kognition/Kommunikation · B Mobilität · C Krankheitsbezogene Anforderungen · D Selbstversorgung (Ihr Hauptfeld) · E Soziale Beziehungen · F Wohnen.
+
+**Risikomatrix – 5 Pflegerisiken:** Dekubitus · Sturz · Inkontinenz · Schmerz · Ernährung.
 
 **Schweigepflicht (§ 203 StGB) und DSGVO:** Keine Weitergabe von Informationen ohne Erlaubnis, keine Gespräche im Bus, keine Fotos ohne schriftliche Einwilligung.
 

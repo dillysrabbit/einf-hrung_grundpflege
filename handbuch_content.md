@@ -18,7 +18,7 @@ Die Grundpflege ist weit mehr als nur Waschen. Sie ist Beziehungsarbeit, Gesundh
 
 ### Modul 1: Grundlagen, Rolle & Pflegeprozess
 
-**Lernziele:** Nach diesem Modul können Sie Ihre Rolle einordnen, Grundpflege von Behandlungspflege unterscheiden, den Pflegeprozess erklären, Schweigepflicht und Händehygiene anwenden und erkennen, wann eine Fachkraft hinzugezogen werden muss.
+**Lernziele:** Nach diesem Modul können Sie Ihre Rolle einordnen, Grundpflege von Behandlungspflege unterscheiden, den 4-phasigen Pflegeprozess nach dem Strukturmodell (Beikirch) erklären, SIS / Maßnahmenplan / Berichteblatt voneinander abgrenzen, Schweigepflicht und Händehygiene anwenden und erkennen, wann eine Fachkraft hinzugezogen werden muss.
 
 #### Ihre Rolle als Pflegehilfskraft
 
@@ -40,28 +40,55 @@ Bestimmte Tätigkeiten sind ausgebildeten Pflegefachkräften vorbehalten (Vorbeh
 * **Grundpflege (SGB XI § 14/15):** Unterstützung in den Aktivitäten des täglichen Lebens. Pflegeversicherung. Hier sind Sie zentral.
 * **Behandlungspflege (SGB V § 37):** Ärztlich verordnete Maßnahmen. Krankenkasse. Erfordert Delegation oder Pflegefachkraft.
 
-#### Der Pflegeprozess (6 Schritte nach Fiechter / Meier)
+#### Der Pflegeprozess nach dem Strukturmodell (Beikirch) – vier Phasen
 
-1. **Informationssammlung** – Sie liefern wichtige Beobachtungen.
-2. **Probleme & Ressourcen erkennen** – beides ist gleich wichtig.
-3. **Pflegeziele festlegen** – Vorbehalt der Pflegefachkraft.
-4. **Maßnahmen planen** – steht im Pflegeplan, den Sie lesen und ausführen.
-5. **Maßnahmen durchführen** – Ihre Hauptarbeit.
-6. **Evaluation** – Hat es gewirkt? Ihre Rückmeldung zählt.
+Wir arbeiten nach dem **Strukturmodell** (entwickelt von Elisabeth Beikirch im Auftrag des BMG zur Entbürokratisierung der Pflegedokumentation). Es umfasst **vier Phasen**:
 
-In der Altenpflege ist der Pflegeprozess häufig nach den **AEDL/ABEDL nach Krohwinkel** strukturiert (13 Aktivitäten von „Kommunizieren" bis „Mit existenziellen Erfahrungen umgehen").
+1. **Strukturierte Informationssammlung (SIS)** – initiale Erhebung und fortlaufende Aktualisierung aus Sicht der bewohnenden Person. Eingangsfrage: „Was bewegt Sie? Was brauchen Sie? Was können wir für Sie tun?". Sie liefern Beobachtungen aus dem Pflegealltag.
+2. **Individueller Maßnahmenplan** – aus der SIS abgeleitete, individuell zugeschnittene Maßnahmen. Sie lesen den Plan und führen ihn aus; die Planung selbst ist Vorbehalt der Pflegefachkraft.
+3. **Berichteblatt** – hier werden ausschließlich **Abweichungen** vom Maßnahmenplan, neue Beobachtungen und besondere Ereignisse dokumentiert. Nicht jede Routinetätigkeit.
+4. **Evaluation** – anlassbezogen oder in Intervallen prüft die Pflegefachkraft anhand des Berichteblatts, ob der Plan angepasst werden muss.
+
+#### SIS – sechs Themenfelder
+
+Die SIS ersetzt klassische Anamnesebögen (z. B. AEDL nach Krohwinkel). Sie ist gegliedert in:
+
+* **A** Kognition und Kommunikation
+* **B** Mobilität und Beweglichkeit
+* **C** Krankheitsbezogene Anforderungen und Belastungen
+* **D** Selbstversorgung *(Ihr Hauptarbeitsfeld)*
+* **E** Leben in sozialen Beziehungen
+* **F** Wohnen / Haushaltsführung (im Heim: Sicherheit und Orientierung im Wohnbereich)
+
+#### Risikomatrix – fünf Pflegerisiken
+
+Im Anschluss an die SIS prüft die Pflegefachkraft anhand der Risikomatrix:
+
+* **Dekubitus** – Hautrötungen, Druckstellen, Lagerung, Mobilität
+* **Sturz** – Schwindel, Gangbild, Hilfsmittel, Sehkraft
+* **Inkontinenz** – Urin-/Stuhlausscheidung, Hautzustand
+* **Schmerz** – verbal und nonverbal (Mimik, Stöhnen, Abwehr)
+* **Ernährung** – Appetit, Trinkmenge, Schluckstörung, Gewicht
+
+Ihre Beobachtungen sind dafür zentral.
 
 #### Schweigepflicht & Datenschutz
 
 Alles, was Sie über Bewohner:innen erfahren, unterliegt **§ 203 StGB** und der **DSGVO**. Keine Weitergabe an Außenstehende, keine Gespräche im Aufzug oder in sozialen Medien, keine Fotos ohne schriftliche Einwilligung.
 
-#### Dokumentation – kurz, klar, sachlich
+#### Berichteblatt – nur Abweichungen, kurz und sachlich
 
-* Was haben Sie beobachtet? (Tatsachen, keine Vermutungen)
-* Wann ist es aufgetreten?
-* Wie hat die Person reagiert?
-* Welche Maßnahmen haben Sie ergriffen oder veranlasst?
-* An wen haben Sie es weitergegeben?
+Im Strukturmodell wird im Berichteblatt **nicht jede Routinetätigkeit** dokumentiert. Eingetragen werden ausschließlich:
+
+* Abweichungen vom Maßnahmenplan (z. B. Bewohnerin lehnt Waschung ab)
+* Neue Beobachtungen mit Bezug zu den fünf Pflegerisiken
+* Auffälligkeiten in einem der SIS-Themenfelder
+* Ereignisse, Stürze, Schmerzäußerungen, Stimmungsveränderungen
+* Ergebnisse von Maßnahmen, wenn sie für die Evaluation relevant sind
+
+**Aufbau jedes Eintrags:** Datum/Uhrzeit · Handzeichen · was beobachtet (Tatsachen, keine Vermutungen) · ggf. an wen weitergegeben.
+
+*Beispiel:* „08:30 Uhr / KN – beim Waschen 2 cm große, nicht wegdrückbare Hautrötung am Steißbein. PFK Müller informiert, Lagerungsplan ergänzt."
 
 #### Grundsätze der Körperpflege
 
