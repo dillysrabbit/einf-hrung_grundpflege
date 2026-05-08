@@ -5,7 +5,7 @@
 
 ### Vorwort
 
-Willkommen bei Health Angels. Dieses Handbuch begleitet Ihre Fortbildung zur "Einführung in die Grundpflege". Unser Ziel ist es, Ihnen nicht nur die technischen Handgriffe zu vermitteln, sondern auch die Haltung, die unsere Arbeit prägt: Kompetenz, Empathie und Professionalität.
+Willkommen im Caritas Maria-Hötte-Stift. Dieses Handbuch begleitet Ihre Fortbildung zur "Einführung in die Grundpflege". Unser Ziel ist es, Ihnen nicht nur die technischen Handgriffe zu vermitteln, sondern auch die Haltung, die unsere Arbeit prägt: Kompetenz, Empathie und Professionalität.
 
 Die Grundpflege ist weit mehr als nur Waschen. Sie ist Beziehungsarbeit, Gesundheitsförderung und oft der intimste Moment im Alltag unserer Bewohner.
 
@@ -24,8 +24,9 @@ Körperpflege dient nicht nur der Reinigung. Sie fördert das Wohlbefinden, regt
 **Grundsätze:**
 *   **Ressourcen fördern:** Was kann der Bewohner noch selbst?
 *   **Intimsphäre wahren:** Nur so viel Körperfläche wie nötig aufdecken.
-*   **Hygiene beachten:** Händedesinfektion, Handschuhe bei Infektionsgefahr oder Kontakt mit Körperflüssigkeiten.
+*   **Hygiene beachten:** Händedesinfektion nach den 5 Momenten der WHO. Einmalhandschuhe nur bei Kontakt mit Körperflüssigkeiten, Schleimhäuten oder nicht-intakter Haut – nicht routinemäßig.
 *   **Kommunikation:** Jeden Schritt ankündigen und erklären.
+*   **Schweigepflicht beachten** (§ 203 StGB).
 
 ---
 
@@ -34,16 +35,18 @@ Körperpflege dient nicht nur der Reinigung. Sie fördert das Wohlbefinden, regt
 Diese Form der Waschung ist anspruchsvoll und kommt zum Einsatz, wenn der Bewohner das Bett nicht verlassen kann.
 
 **Vorbereitung:**
-*   Materialien bereitlegen (Waschschüssel, Handtücher, Waschlappen, Seife/Lotion, frische Kleidung/Bettwäsche).
-*   Raumtemperatur prüfen, Fenster schließen.
+*   Materialien bereitlegen (Waschschüssel, getrennte Waschlappen für Gesicht/Körper/Intim, Handtücher, Waschlotion, frische Kleidung/Bettwäsche).
+*   Raumtemperatur ca. 22–24 °C, Fenster schließen.
+*   Wassertemperatur 37–43 °C – immer mit eigenem Unterarm prüfen (Verbrühungsschutz, besonders bei Diabetes/Demenz).
 *   Bewohner informieren und Bett auf Arbeitshöhe bringen.
 
 **Ablauf (Schritt für Schritt):**
-1.  **Gesicht & Hals:** Nur klares Wasser für die Augen (von außen nach innen).
+1.  **Gesicht, Augen & Hals:** Nur klares Wasser für die Augen, **vom inneren Augenwinkel nach außen** wischen, jeweils mit frischer Stelle des Waschlappens.
 2.  **Oberkörper & Arme:** Herzwärts waschen (von der Hand zur Schulter). Abtrocknen nicht vergessen (Hautfalten!).
-3.  **Rücken:** Bewohner zur Seite drehen. Rücken waschen und Hautinspektion (Dekubitus?).
-4.  **Beine & Füße:** Herzwärts waschen. Zehenzwischenräume gut trocknen.
-5.  **Intimpflege:** Wasser wechseln! Immer von der Schamfuge zum Anus waschen.
+3.  **Rücken:** Bewohner zur Seite drehen. Rücken waschen und Hautinspektion (Dekubitus, Fingertest).
+4.  **Beine & Füße:** Herzwärts waschen. Zehenzwischenräume gut trocknen, keine Watte zwischen die Zehen.
+5.  **Intimpflege Frau:** Wasser wechseln, frische Handschuhe. Immer von der Schamfuge zum Anus waschen, mit jedem Wisch frische Lappenstelle.
+6.  **Intimpflege Mann:** Vorhaut vorsichtig zurückschieben, Eichel reinigen, **Vorhaut zwingend wieder vorschieben** (Paraphimose-Gefahr!).
 
 ---
 
@@ -52,9 +55,11 @@ Diese Form der Waschung ist anspruchsvoll und kommt zum Einsatz, wenn der Bewohn
 Wenn die Mobilität es zulässt, ist dies der ideale Weg zur Förderung der Selbstständigkeit.
 
 **Sicherheit:**
-*   Rutschfeste Matten und festes Schuhwerk.
-*   Stabile Sitzgelegenheit (Hocker/Stuhl).
-*   Alles in Griffweite legen.
+*   Rutschfeste Matten und festes Schuhwerk, keine Handtücher auf dem Boden.
+*   Stabile Sitzgelegenheit (Hocker/Stuhl mit Lehne).
+*   Notrufknopf und Haltegriffe in Reichweite, alles vor der Waschung zurechtlegen.
+*   Wassertemperatur immer durch die Pflegekraft prüfen.
+*   Tagesaktuelle Belastbarkeit beurteilen – nicht jeden Tag möglich.
 
 **Ablauf:**
 *   Bewohner wäscht Oberkörper so weit wie möglich selbst.

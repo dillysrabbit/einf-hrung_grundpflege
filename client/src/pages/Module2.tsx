@@ -14,15 +14,15 @@ export default function Module2() {
   };
 
   const steps = [
-    { id: "step1", title: "1. Vorbereitung", desc: "Materialien bereitstellen, Händedesinfektion, Handschuhe anziehen. Bett auf Arbeitshöhe bringen. Bewohner informieren." },
-    { id: "step2", title: "2. Gesicht & Hals", desc: "Handtuch unter Kopf. Augen von außen nach innen mit klarem Wasser reinigen. Gesicht, Ohren, Hals waschen und trocknen." },
-    { id: "step3", title: "3. Oberkörper & Arme", desc: "Waschzusatz ins Wasser. Oberkörper waschen (herzwärts), abtrocknen. Auf Intertrigo (Hautwolf) achten." },
-    { id: "step4", title: "4. Rücken", desc: "Bewohner zur Seite drehen. Rücken und Gesäß waschen, trocknen, ggf. eincremen. Dekubitus-Kontrolle!" },
-    { id: "step5", title: "5. Beine & Füße", desc: "Beine herzwärts waschen. Zehenzwischenräume gründlich trocknen (Pilzgefahr). Fersen auf Druckstellen prüfen." },
-    { id: "step6", title: "6. Intimbereich Vorbereitung", desc: "Wasser wechseln, frischen Waschlappen, neue Handschuhe. Intimsphäre wahren!" },
-    { id: "step7", title: "7. Intimpflege (Frau)", desc: "Beine anstellen. Von der Schamfuge zum Anus hin reinigen (Keimverschleppung vermeiden)." },
-    { id: "step8", title: "8. Intimpflege (Mann)", desc: "Vorhaut zurückschieben, Eichel reinigen, Vorhaut wieder vorschieben. Hoden reinigen." },
-    { id: "step9", title: "9. Abschluss", desc: "Frische Kleidung, bequeme Lagerung. Material entsorgen, Dokumentation." },
+    { id: "step1", title: "1. Vorbereitung", desc: "Material bereitstellen (getrennte Waschlappen für Gesicht / Körper / Intim). Hygienische Händedesinfektion. Wassertemperatur 37–43 °C selbst mit dem Unterarm prüfen. Bett auf Arbeitshöhe. Bewohner:in informieren." },
+    { id: "step2", title: "2. Gesicht, Augen & Hals", desc: "Augen mit klarem Wasser vom inneren Augenwinkel nach außen wischen, jeweils frische Stelle des Waschlappens (Schutz des Tränen-Nasen-Gangs). Anschließend Gesicht, Ohren, Hals waschen und gut trocknen." },
+    { id: "step3", title: "3. Oberkörper & Arme", desc: "Waschlotion ins Wasser. Belebende Waschung herzwärts (Hand → Schulter), gut abtrocknen. Auf Intertrigo (Hautwolf) in Achseln und unter der Brust achten." },
+    { id: "step4", title: "4. Rücken & Gesäß", desc: "Bewohner:in zur Seite drehen. Rücken und Gesäß waschen, trocknen, ggf. eincremen. Dekubitus-Kontrolle (Steißbein, Schulterblatt, Ellenbogen) – Fingertest: Lässt sich die Rötung wegdrücken?" },
+    { id: "step5", title: "5. Beine & Füße", desc: "Beine herzwärts waschen. Zehenzwischenräume gründlich trocknen (Pilzgefahr) – keine Watte einlegen (Mazeration). Fersen und Knöchel auf Druckstellen prüfen." },
+    { id: "step6", title: "6. Intimbereich Vorbereitung", desc: "Wasser wechseln, frischen Waschlappen, jetzt Einmalhandschuhe anziehen. Intimsphäre durch Abdecken wahren." },
+    { id: "step7", title: "7. Intimpflege (Frau)", desc: "Beine anstellen. Erst äußere, dann mit gespreizten Schamlippen die kleinen Schamlippen reinigen – immer von der Symphyse zum Anus, mit jedem Wisch frische Lappenstelle. Verhindert Keimverschleppung in die Harnröhre." },
+    { id: "step8", title: "8. Intimpflege (Mann)", desc: "Vorhaut vorsichtig zurückschieben (bei Phimose nicht erzwingen!), Eichel reinigen, gut abtrocknen, Vorhaut ZWINGEND wieder vorschieben (sonst Paraphimose-Gefahr → Notfall). Hoden reinigen." },
+    { id: "step9", title: "9. Abschluss", desc: "Frische Kleidung, faltenfreie Bettwäsche, bequeme Lagerung. Material entsorgen, Händedesinfektion. Beobachtungen dokumentieren und an die Pflegefachkraft weitergeben." },
   ];
 
   return (
@@ -70,7 +70,7 @@ export default function Module2() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-3">
                     <h4 className="font-bold text-sm uppercase tracking-wide text-muted-foreground">Hygienematerial</h4>
-                    {["Händedesinfektionsmittel", "1-2 Paar Einmalhandschuhe", "Einwegschürze", "2-3 Waschlappen", "Handtücher & Badetuch", "Waschschüssel & Abwurf"].map((item, i) => (
+                    {["Händedesinfektionsmittel", "Einmalhandschuhe (für Intimpflege)", "Einwegschürze (bei erwartbarer Kontamination)", "3 Waschlappen (Gesicht / Körper / Intim)", "Handtücher & Badetuch", "Waschschüssel & Abwurf"].map((item, i) => (
                       <div key={i} className="flex items-center space-x-2">
                         <div className="h-2 w-2 rounded-full bg-primary/40" />
                         <span>{item}</span>
@@ -79,7 +79,7 @@ export default function Module2() {
                   </div>
                   <div className="space-y-3">
                     <h4 className="font-bold text-sm uppercase tracking-wide text-muted-foreground">Pflegeprodukte & Sonstiges</h4>
-                    {["Waschlotion / Seife", "Hautcreme / Salben", "Mundpflegemittel", "Kamm / Bürste", "Frische Kleidung", "Frische Bettwäsche (ggf.)"].map((item, i) => (
+                    {["Waschlotion (pH-hautneutral)", "Hautcreme / ggf. Barrierecreme", "Mundpflegemittel", "Kamm / Bürste", "Frische Kleidung", "Frische Bettwäsche (ggf.)"].map((item, i) => (
                       <div key={i} className="flex items-center space-x-2">
                         <div className="h-2 w-2 rounded-full bg-primary/40" />
                         <span>{item}</span>
@@ -88,7 +88,13 @@ export default function Module2() {
                   </div>
                 </div>
                 <div className="mt-6 bg-yellow-50 border-l-4 border-yellow-400 p-4 text-sm text-yellow-800">
-                  <strong>Wichtig:</strong> Fenster und Türen schließen (Zugluft vermeiden)! Bett auf ergonomische Arbeitshöhe bringen.
+                  <strong>Wichtig:</strong> Raumtemperatur 22–24 °C, Fenster und Türen schließen (Auskühlung vermeiden). Bett auf ergonomische Arbeitshöhe bringen (Eigenschutz Rücken).
+                </div>
+                <div className="mt-4 bg-blue-50 border-l-4 border-blue-500 p-4 text-sm text-blue-900">
+                  <strong>Handschuhe – wann?</strong> Einmalhandschuhe nur bei Kontakt mit Körperflüssigkeiten, Schleimhäuten oder nicht-intakter Haut (Intimpflege, Stuhl, Wunden). Beim Waschen intakter Haut ist die hygienische Händedesinfektion der Standard – Handschuhe ersetzen sie nicht.
+                </div>
+                <div className="mt-4 bg-orange-50 border-l-4 border-orange-500 p-4 text-sm text-orange-900">
+                  <strong>Wassertemperatur:</strong> 37–43 °C, immer mit der Innenseite des eigenen Unterarms prüfen. Bei Diabetes, Demenz oder Sensibilitätsstörung darf die Temperaturkontrolle nie allein der bewohnenden Person überlassen werden – Verbrühungsgefahr.
                 </div>
               </CardContent>
             </Card>

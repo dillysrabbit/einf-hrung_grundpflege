@@ -14,13 +14,13 @@ export default function Module3() {
   };
 
   const steps = [
-    { id: "step1", title: "1. Transfer & Sitzposition", desc: "Bewohner zum Waschbecken begleiten. Stabilen Sitz auf Hocker/Stuhl sicherstellen." },
-    { id: "step2", title: "2. Wasser vorbereiten", desc: "Wasser in Waschschüssel geben. Bewohner Temperatur prüfen lassen. Waschlappen bereitstellen." },
-    { id: "step3", title: "3. Oberkörper (Selbstständig)", desc: "Bewohner wäscht Gesicht, Arme und Brust selbstständig. Pfleger unterstützt nur bei Bedarf." },
-    { id: "step4", title: "4. Rücken (Unterstützung)", desc: "Bewohner beugt sich vor. Pfleger wäscht den schwer erreichbaren Rücken." },
-    { id: "step5", title: "5. Intimpflege (Anleitung)", desc: "Pfleger leitet an, Bewohner führt durch. Nur bei Bedarf übernehmen." },
-    { id: "step6", title: "6. Beine & Füße", desc: "Beine aufstellen oder anheben. Bei der Reinigung der Zehenzwischenräume helfen." },
-    { id: "step7", title: "7. Abtrocknen & Anziehen", desc: "Unterstützung beim Abtrocknen und Anziehen. Auskühlung vermeiden." }
+    { id: "step1", title: "1. Transfer & Sitzposition", desc: "Bewohner:in rückenschonend zum Waschbecken begleiten (Knie beugen, nicht aus dem Rücken heben). Stabilen Sitz auf Duschhocker/Stuhl mit Lehne sicherstellen, Notrufknopf in Reichweite." },
+    { id: "step2", title: "2. Wasser vorbereiten", desc: "Wassertemperatur (37–43 °C) IMMER zuerst durch die Pflegekraft mit dem eigenen Unterarm prüfen, anschließend ggf. den Bewohner prüfen lassen. Bei Diabetes, Demenz oder Sensibilitätsstörung niemals allein dem Bewohner überlassen." },
+    { id: "step3", title: "3. Oberkörper (Selbstständig)", desc: "Bewohner:in wäscht Gesicht, Arme und Oberkörper selbstständig. Pflegekraft unterstützt nur bei Bedarf, beobachtet und gibt klare verbale Anleitung." },
+    { id: "step4", title: "4. Rücken (Unterstützung)", desc: "Bewohner:in beugt sich vor (Sturzsicherung beachten!). Pflegekraft wäscht den schwer erreichbaren Rücken und prüft den Hautzustand." },
+    { id: "step5", title: "5. Intimpflege (Anleitung)", desc: "Pflegekraft leitet an, Bewohner:in führt durch. Frischer Waschlappen, Einmalhandschuhe. Nur bei Bedarf übernehmen, Würde wahren." },
+    { id: "step6", title: "6. Beine & Füße", desc: "Beine aufstellen oder anheben. Zehenzwischenräume gründlich trocknen. Auf Druckstellen, Pilz und Nagelveränderungen achten." },
+    { id: "step7", title: "7. Abtrocknen & Anziehen", desc: "Unterstützung beim Abtrocknen (Hautfalten!) und Anziehen. Bademantel/Handtuch um die Schultern – Auskühlung vermeiden. Anschließend Beobachtungen dokumentieren." }
   ];
 
   return (

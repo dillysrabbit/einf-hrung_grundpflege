@@ -37,8 +37,8 @@ const questions: Question[] = [
     options: [
       "Nur frische Kleidung bereitlegen.",
       "Fenster öffnen für frische Luft.",
-      "Materialien bereitlegen, Hände desinfizieren, Fenster schließen, Bewohner informieren.",
-     "Den Bewohner sofort ausziehen."
+      "Materialien bereitlegen, Hände desinfizieren, Fenster schließen, Bewohner:in informieren.",
+      "Die bewohnende Person sofort ausziehen."
     ],
     correctAnswer: 2,
     explanation: "Genau. Eine gute Vorbereitung (Material, Hygiene, Umgebung, Information) ist essenziell für einen reibungslosen Ablauf und das Wohlbefinden."
@@ -65,7 +65,7 @@ const questions: Question[] = [
       "Vom Körper weg."
     ],
     correctAnswer: 2,
-    explanation: "Richtig. Die Waschung erfolgt 'herzwärts', um den venösen Rückfluss des Blutes zum Herzen zu fördern."
+    explanation: "Richtig. Die Waschung erfolgt 'herzwärts'. Sie fördert die Wahrnehmung der eigenen Körpergrenzen (basale Stimulation) und unterstützt den venösen Rückfluss."
   },
   {
     id: 5,
@@ -209,46 +209,55 @@ export default function Quiz() {
   };
 
   if (showResult) {
+    const passThreshold = Math.ceil(questions.length * 0.8);
+    const passed = score >= passThreshold;
+
     return (
       <div className="container max-w-2xl mx-auto px-4 py-12 text-center">
         <Card className="border-none shadow-lg bg-white/50 backdrop-blur-sm">
           <CardContent className="pt-12 pb-8">
             <div className="mb-6 flex justify-center">
-              {score === questions.length ? (
+              {passed ? (
                 <div className="h-24 w-24 bg-green-100 rounded-full flex items-center justify-center text-green-600">
                   <CheckCircle className="h-12 w-12" />
                 </div>
               ) : (
                 <div className="h-24 w-24 bg-primary/10 rounded-full flex items-center justify-center text-primary">
-                  <CheckCircle className="h-12 w-12" />
+                  <RefreshCcw className="h-12 w-12" />
                 </div>
               )}
             </div>
-            <h2 className="font-serif text-3xl font-bold text-primary mb-4">Herzlichen Glückwunsch!</h2>
+            <h2 className="font-serif text-3xl font-bold text-primary mb-4">
+              {passed ? "Herzlichen Glückwunsch!" : "Fast geschafft!"}
+            </h2>
             <p className="text-xl text-muted-foreground mb-8">
-              Sie haben das Quiz abgeschlossen.
+              {passed
+                ? "Sie haben den Wissenscheck erfolgreich bestanden."
+                : `Zum Bestehen werden mindestens ${passThreshold} von ${questions.length} richtigen Antworten benötigt. Bitte wiederholen Sie das Quiz.`}
             </p>
             <div className="text-4xl font-bold mb-2 text-primary">
               {score} / {questions.length}
             </div>
-            <p className="text-muted-foreground mb-8">Fragen richtig beantwortet</p>
-            
-            {score === questions.length && (
+            <p className="text-muted-foreground mb-8">
+              Fragen richtig beantwortet (Bestehensgrenze: {passThreshold} / {questions.length} = 80 %)
+            </p>
+
+            {passed && (
               <div className="bg-secondary/20 p-6 rounded-xl mb-8 text-left max-w-md mx-auto border border-border">
                 <h3 className="font-bold text-lg mb-4 text-center">Ihr persönliches Zertifikat</h3>
                 <div className="space-y-4">
                   <div className="space-y-2">
                     <Label htmlFor="name">Vor- und Nachname</Label>
-                    <Input 
-                      id="name" 
-                      placeholder="Max Mustermann" 
+                    <Input
+                      id="name"
+                      placeholder="Max Mustermann"
                       value={userName}
                       onChange={(e) => setUserName(e.target.value)}
                       className="bg-white"
                     />
                   </div>
-                  <Button 
-                    onClick={generateCertificate} 
+                  <Button
+                    onClick={generateCertificate}
                     disabled={!userName.trim() || isGenerating}
                     className="w-full"
                   >
@@ -268,7 +277,7 @@ export default function Quiz() {
                 <RefreshCcw className="mr-2 h-4 w-4" /> Quiz wiederholen
               </Button>
               <Link href="/">
-                <Button className="rounded-full px-8" variant={score === questions.length ? "outline" : "default"}>
+                <Button className="rounded-full px-8" variant={passed ? "outline" : "default"}>
                   Zurück zur Startseite
                 </Button>
               </Link>
