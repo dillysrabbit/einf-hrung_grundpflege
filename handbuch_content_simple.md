@@ -44,7 +44,7 @@ Diese Form der Waschung ist anspruchsvoll und kommt zum Einsatz, wenn der Bewohn
 *   Bewohner informieren und Bett auf Arbeitshöhe bringen.
 
 **Ablauf (Schritt für Schritt):**
-1.  **Gesicht, Augen & Hals:** Nur klares Wasser für die Augen, **vom inneren Augenwinkel nach außen** wischen, jeweils mit frischer Stelle des Waschlappens.
+1.  **Gesicht, Augen & Hals:** Nur klares Wasser für die Augen. Gesundes Auge: **von außen nach innen** wischen (folgt der Tränendrainage). Entzündetes/infiziertes Auge: umgekehrt **von innen nach außen** (Keimverbreitung in den Tränen-Nasen-Gang vermeiden). Jeweils frische Stelle des Waschlappens, ein Auge nach dem anderen.
 2.  **Oberkörper & Arme:** Herzwärts waschen (von der Hand zur Schulter). Abtrocknen nicht vergessen (Hautfalten!).
 3.  **Rücken:** Bewohner zur Seite drehen. Rücken waschen und Hautinspektion (Dekubitus, Fingertest).
 4.  **Beine & Füße:** Herzwärts waschen. Zehenzwischenräume gut trocknen, keine Watte zwischen die Zehen.
