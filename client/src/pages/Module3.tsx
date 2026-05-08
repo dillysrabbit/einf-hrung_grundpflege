@@ -42,21 +42,38 @@ export default function Module3() {
       </div>
 
       <div className="container max-w-4xl mx-auto px-4">
-        
+
+        <section className="mb-10">
+          <Card className="bg-secondary/20 border-none shadow-sm">
+            <CardContent className="pt-6">
+              <h3 className="font-serif text-lg font-bold text-primary mb-2">Lernziele</h3>
+              <p className="text-sm text-muted-foreground mb-2">Nach Bearbeitung dieses Moduls können Sie …</p>
+              <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
+                <li>die Belastbarkeit für eine Waschung am Waschbecken tagesaktuell einschätzen.</li>
+                <li>Sturzrisiken erkennen und reduzieren.</li>
+                <li>die Waschung an die Ressourcen der bewohnenden Person anpassen.</li>
+                <li>rückenschonend für sich selbst arbeiten.</li>
+              </ul>
+            </CardContent>
+          </Card>
+        </section>
+
         <section className="mb-12">
           <p className="text-xl text-muted-foreground leading-relaxed font-light mb-6">
-            Die Waschung am Waschbecken ist die bevorzugte Methode, wenn die Mobilität des Bewohners es zulässt. 
+            Die Waschung am Waschbecken ist die bevorzugte Methode, wenn die Mobilität es zulässt.
             Sie fördert die Selbstständigkeit massiv. Ihre Rolle wandelt sich hier vom "Versorger" zum "Anleiter und Begleiter".
           </p>
-          
+
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
             <h3 className="font-bold text-blue-900 mb-2 flex items-center gap-2">
               <HeartHandshake className="h-5 w-5" />
               Entscheidungsfindung
             </h3>
             <p className="text-blue-800 text-sm leading-relaxed">
-              Zunächst muss geklärt werden: Ist der Bewohner heute in der Lage aufzustehen? 
+              Zunächst muss geklärt werden: Ist die bewohnende Person heute in der Lage aufzustehen?
               Da die Belastbarkeit schwanken kann, muss diese Beurteilung <strong>tagesaktuell</strong> erfolgen.
+              Bei Schwindel, Schmerzen, neuer Verwirrtheit oder Kreislaufproblemen: Pflegefachkraft fragen,
+              ggf. heute besser im Bett waschen.
             </p>
           </div>
         </section>
@@ -131,6 +148,18 @@ export default function Module3() {
             </div>
           </TabsContent>
         </Tabs>
+
+        <section className="mb-10">
+          <Card className="bg-primary/5 border-primary/20">
+            <CardContent className="pt-6">
+              <h3 className="font-serif text-lg font-bold text-primary mb-2">Reflexion für den Alltag</h3>
+              <p className="text-sm text-muted-foreground italic">
+                „Welche bewohnende Person könnte heute am Waschbecken selbst aktiv werden, wenn ich
+                ihr/ihm 5 Minuten mehr Zeit gebe? Wie kann ich diese Zeit im Tagesablauf einplanen?"
+              </p>
+            </CardContent>
+          </Card>
+        </section>
 
         <div className="flex justify-between">
           <Link href="/module-2">

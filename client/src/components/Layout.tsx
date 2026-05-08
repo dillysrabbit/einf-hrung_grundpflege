@@ -110,11 +110,19 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       {/* Footer */}
       <footer className="border-t bg-white py-8 mt-12">
-        <div className="container flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-          <p>© 2025 Caritas Maria-Hötte-Stift - Fortbildung Grundpflege</p>
-          <div className="flex gap-4">
-            <Link href="/impressum"><span className="hover:text-primary cursor-pointer">Impressum</span></Link>
-            <Link href="/datenschutz"><span className="hover:text-primary cursor-pointer">Datenschutz</span></Link>
+        <div className="container flex flex-col gap-4 text-sm text-muted-foreground">
+          <p className="text-xs italic max-w-3xl">
+            Hinweis: Diese Fortbildung dient der einrichtungsinternen Schulung von Pflegehilfskräften.
+            Sie ersetzt weder eine pflegerische Berufsausbildung noch die fachliche Anleitung durch eine examinierte
+            Pflegekraft. Die Inhalte orientieren sich an den Expertenstandards des DNQP, an KRINKO-/RKI-Empfehlungen
+            sowie an gängiger Pflegefachliteratur.
+          </p>
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-2 border-t border-border/50">
+            <p>© 2025 Caritas Maria-Hötte-Stift – Fortbildung Grundpflege</p>
+            <div className="flex gap-4">
+              <Link href="/impressum"><span className="hover:text-primary cursor-pointer">Impressum</span></Link>
+              <Link href="/datenschutz"><span className="hover:text-primary cursor-pointer">Datenschutz</span></Link>
+            </div>
           </div>
         </div>
       </footer>

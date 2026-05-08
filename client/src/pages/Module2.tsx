@@ -44,10 +44,22 @@ export default function Module2() {
       </div>
 
       <div className="container max-w-4xl mx-auto px-4">
-        
+
         <section className="mb-10">
+          <Card className="bg-secondary/20 border-none shadow-sm mb-6">
+            <CardContent className="pt-6">
+              <h3 className="font-serif text-lg font-bold text-primary mb-2">Lernziele</h3>
+              <p className="text-sm text-muted-foreground mb-2">Nach Bearbeitung dieses Moduls können Sie …</p>
+              <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
+                <li>eine Ganzkörperwaschung im Bett strukturiert und sicher vorbereiten und durchführen.</li>
+                <li>die Wassertemperatur sicher prüfen und Verbrühungsrisiken einschätzen.</li>
+                <li>die Schritte der Intimpflege geschlechtsspezifisch korrekt umsetzen.</li>
+                <li>Hautveränderungen erkennen und sachlich dokumentieren.</li>
+              </ul>
+            </CardContent>
+          </Card>
           <p className="text-xl text-muted-foreground leading-relaxed font-light">
-            Diese Form der Waschung ist anspruchsvoll und erfordert Konzentration. Sie kommt zum Einsatz, wenn der Bewohner bettlägerig 
+            Diese Form der Waschung ist anspruchsvoll und erfordert Konzentration. Sie kommt zum Einsatz, wenn die bewohnende Person bettlägerig
             oder zu schwach ist, das Bett zu verlassen. Sicherheit, Hygiene und Würde haben höchste Priorität.
           </p>
         </section>
@@ -140,12 +152,12 @@ export default function Module2() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { title: "Hautzustand", desc: "Rötungen, Druckstellen (Dekubitus), Pilzinfektionen, Trockenheit" },
-              { title: "Schmerzen", desc: "Äußert der Bewohner Schmerzen bei Bewegung oder Berührung?" },
-              { title: "Allgemeinzustand", desc: "Ist der Bewohner wach? Wie belastbar ist er heute?" },
-              { title: "Atmung", desc: "Atemgeräusche, Kurzatmigkeit bei Anstrengung" },
-              { title: "Mobilität", desc: "Wie gut kann der Bewohner mithelfen (z.B. drehen)?" },
-              { title: "Ausscheidungen", desc: "Farbe, Menge und Geruch von Urin/Stuhl" }
+              { title: "Hautzustand", desc: "Rötungen, Druckstellen (Dekubitus, Fingertest), Pilzinfektionen, Trockenheit" },
+              { title: "Schmerzen", desc: "Schmerzäußerungen bei Bewegung oder Berührung – auch nonverbal (Mimik, Stöhnen, Abwehr)" },
+              { title: "Allgemeinzustand", desc: "Wachheit, Belastbarkeit, Stimmung, Verwirrtheit?" },
+              { title: "Atmung", desc: "Atemgeräusche, Kurzatmigkeit bei Anstrengung, Atemfrequenz" },
+              { title: "Mobilität", desc: "Mithilfe beim Drehen, Halten, Aufrichten – Vergleich zum Vortag" },
+              { title: "Ausscheidungen", desc: "Farbe, Menge und Geruch von Urin/Stuhl, Kontinenzhilfen voll/trocken" }
             ].map((item, i) => (
               <Card key={i} className="bg-secondary/10 border-none">
                 <CardContent className="pt-6">
@@ -155,6 +167,33 @@ export default function Module2() {
               </Card>
             ))}
           </div>
+        </section>
+
+        <section className="mb-10">
+          <Card className="bg-blue-50 border-blue-200">
+            <CardContent className="pt-6">
+              <h3 className="font-serif text-lg font-bold text-blue-900 mb-2">Auch wichtig – wird in Folgemodulen vertieft</h3>
+              <p className="text-sm text-blue-900">
+                Eine vollständige Grundpflege umfasst auch <strong>Mund-, Zahn- und Prothesenpflege</strong>,
+                <strong> Inkontinenzversorgung mit Hautschutz</strong>, <strong>Hilfe bei Essen und Trinken</strong>
+                {" "}(inkl. Aspirations­prophylaxe) sowie <strong>Lagerung und Mobilisation</strong> nach den Konzepten der
+                Kinästhetik und Bobath. Diese Themen folgen in vertiefenden Schulungen –
+                bei Unsicherheit immer Pflegefachkraft hinzuziehen.
+              </p>
+            </CardContent>
+          </Card>
+        </section>
+
+        <section className="mb-10">
+          <Card className="bg-primary/5 border-primary/20">
+            <CardContent className="pt-6">
+              <h3 className="font-serif text-lg font-bold text-primary mb-2">Reflexion für den Alltag</h3>
+              <p className="text-sm text-muted-foreground italic">
+                „Welcher Schritt der Ganzkörperwaschung fällt mir am schwersten? Welcher Person in meinem Wohnbereich
+                könnte heute eine besonders ruhige, kommunikative Waschung guttun?"
+              </p>
+            </CardContent>
+          </Card>
         </section>
 
         <div className="flex justify-between">
