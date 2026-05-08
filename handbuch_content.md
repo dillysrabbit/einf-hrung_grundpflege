@@ -118,7 +118,7 @@ Diese Form der Waschung ist anspruchsvoll und kommt zum Einsatz, wenn die Bewohn
 *   Hygienische Händedesinfektion.
 
 **Ablauf (Schritt für Schritt):**
-1.  **Gesicht, Augen & Hals:** Nur klares, lauwarmes Wasser. Augen **vom inneren Augenwinkel (nasal) nach außen (temporal)** abwischen, dabei für jedes Auge eine **frische Stelle des Waschlappens** verwenden – so wird keine Keimverschleppung in den Tränen-Nasen-Gang verursacht.
+1.  **Gesicht, Augen & Hals:** Nur klares, lauwarmes Wasser. Beim **gesunden, nicht entzündeten Auge** vom **äußeren zum inneren Augenwinkel** wischen (folgt der natürlichen Tränendrainage). Bei **entzündetem oder infiziertem Auge** umgekehrt **vom inneren zum äußeren Augenwinkel** (verhindert Keimverbreitung in den Tränen-Nasen-Gang). Jeweils **frische Stelle des Waschlappens**, ein Auge nach dem anderen.
 2.  **Oberkörper & Arme:** Belebende Waschung **herzwärts** (von der Hand zur Schulter) zur Förderung der Wahrnehmung. Sorgfältig abtrocknen, besonders **Hautfalten unter der Brust und in den Achseln** (Intertrigo-Gefahr).
 3.  **Rücken:** Bewohner:in zur Seite drehen. Rücken waschen, abtrocknen und **Hautinspektion**: Druckstellen am Steißbein, Schulterblatt, Ellenbogen, Ferse (Dekubitus-Prophylaxe). Fingertest: Lässt sich die Rötung wegdrücken? Wenn nein → an Fachkraft melden.
 4.  **Beine & Füße:** Beine herzwärts waschen. **Zehenzwischenräume sehr gründlich trocknen** (Pilzgefahr), **keine Watte zwischen die Zehen legen** (Mazeration). Fersen und Knöchel auf Druckstellen prüfen.

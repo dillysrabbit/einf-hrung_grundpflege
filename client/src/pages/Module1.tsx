@@ -446,7 +446,7 @@ export default function Module1() {
                     <li><strong>Hygienische Händedesinfektion</strong> nach den 5 Momenten der WHO – die wirksamste Einzelmaßnahme.</li>
                     <li><strong>Persönliche Hygiene:</strong> kurze, saubere Fingernägel, kein Schmuck und keine Uhren an Händen und Unterarmen, keine künstlichen Nägel oder Nagellack, Dienstkleidung täglich wechseln.</li>
                     <li><strong>Schutzkleidung gezielt einsetzen:</strong> Einmalhandschuhe und Einwegschürze nur bei Kontakt mit Körperflüssigkeiten, Schleimhäuten oder nicht-intakter Haut – und unmittelbar danach wechseln.</li>
-                    <li><strong>Saubere von unreinen Tätigkeiten trennen:</strong> getrennte Waschlappen für Gesicht, Körper und Intimbereich; Wasser wechseln vor der Intimpflege; immer von „sauber" nach „unrein" arbeiten (z. B. Symphyse → Anus, innerer Augenwinkel → außen).</li>
+                    <li><strong>Saubere von unreinen Tätigkeiten trennen:</strong> getrennte Waschlappen für Gesicht, Körper und Intimbereich; Wasser wechseln vor der Intimpflege; immer von „sauber" nach „unrein" arbeiten (z. B. Symphyse → Anus); pro Wisch eine frische Stelle des Waschlappens.</li>
                     <li><strong>Flächen-, Geräte- und Wäschehygiene:</strong> kontaminierte Wäsche nicht auf den Boden oder ins eigene Kleid, sondern direkt in den Abwurf; gemeinsam genutzte Hilfsmittel nach Gebrauch wischdesinfizieren.</li>
                   </ul>
                   <p className="text-sm text-muted-foreground italic">

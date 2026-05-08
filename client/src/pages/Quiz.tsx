@@ -81,15 +81,15 @@ const questions: Question[] = [
   },
   {
     id: 6,
-    question: "Wie reinigen Sie das Auge während der Gesichtswaschung?",
+    question: "Wie reinigen Sie ein gesundes, nicht entzündetes Auge während der Gesichtswaschung?",
     options: [
-      "Vom äußeren Augenwinkel zum inneren, mit demselben Lappen für beide Augen.",
-      "Vom inneren Augenwinkel (nasal) nach außen, mit jeweils frischer Stelle des Waschlappens.",
+      "Mit demselben Lappen für beide Augen, in beliebiger Richtung.",
+      "Vom äußeren zum inneren Augenwinkel, mit jeweils frischer Stelle des Waschlappens und ein Auge nach dem anderen.",
       "Mit Seifenwasser kreisend einreiben.",
       "Mit einem trockenen Tuch abwischen."
     ],
     correctAnswer: 1,
-    explanation: "Von innen nach außen verhindert die Keimverschleppung in den Tränen-Nasen-Gang. Pro Auge eine frische Stelle des Waschlappens."
+    explanation: "Beim gesunden Auge folgt man der natürlichen Tränendrainage von außen nach innen. Pro Wisch und pro Auge eine frische Stelle des Waschlappens. Bei einem entzündeten oder infizierten Auge wird umgekehrt von innen nach außen gewischt, damit keine Keime in den Tränen-Nasen-Gang gelangen."
   },
   {
     id: 7,

@@ -15,7 +15,7 @@ export default function Module2() {
 
   const steps = [
     { id: "step1", title: "1. Vorbereitung", desc: "Material bereitstellen (getrennte Waschlappen für Gesicht / Körper / Intim). Hygienische Händedesinfektion. Wassertemperatur 37–43 °C selbst mit dem Unterarm prüfen. Bett auf Arbeitshöhe. Bewohner:in informieren." },
-    { id: "step2", title: "2. Gesicht, Augen & Hals", desc: "Augen mit klarem Wasser vom inneren Augenwinkel nach außen wischen, jeweils frische Stelle des Waschlappens (Schutz des Tränen-Nasen-Gangs). Anschließend Gesicht, Ohren, Hals waschen und gut trocknen." },
+    { id: "step2", title: "2. Gesicht, Augen & Hals", desc: "Beim gesunden, nicht entzündeten Auge mit klarem Wasser vom äußeren zum inneren Augenwinkel wischen (folgt der natürlichen Tränendrainage), bei entzündetem oder infiziertem Auge umgekehrt vom inneren zum äußeren Augenwinkel (Schutz des Tränen-Nasen-Gangs). Jeweils frische Stelle des Waschlappens, ein Auge nach dem anderen. Anschließend Gesicht, Ohren, Hals waschen und gut trocknen." },
     { id: "step3", title: "3. Oberkörper & Arme", desc: "Waschlotion ins Wasser. Belebende Waschung herzwärts (Hand → Schulter), gut abtrocknen. Auf Intertrigo (Hautwolf) in Achseln und unter der Brust achten." },
     { id: "step4", title: "4. Rücken & Gesäß", desc: "Bewohner:in zur Seite drehen. Rücken und Gesäß waschen, trocknen, ggf. eincremen. Dekubitus-Kontrolle (Steißbein, Schulterblatt, Ellenbogen) – Fingertest: Lässt sich die Rötung wegdrücken?" },
     { id: "step5", title: "5. Beine & Füße", desc: "Beine herzwärts waschen. Zehenzwischenräume gründlich trocknen (Pilzgefahr) – keine Watte einlegen (Mazeration). Fersen und Knöchel auf Druckstellen prüfen." },
