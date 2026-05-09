@@ -222,9 +222,9 @@ export default function Module4() {
           <Link href="/module-3">
             <Button variant="outline" className="rounded-full px-6">Zurück</Button>
           </Link>
-          <Link href="/quiz">
-            <Button size="lg" className="rounded-full px-8 bg-green-700 hover:bg-green-800">
-              Zum Wissenscheck <ArrowRight className="ml-2 h-4 w-4" />
+          <Link href="/module-5">
+            <Button size="lg" className="rounded-full px-8">
+              Weiter zu Modul 5 <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </Link>
         </div>

@@ -12,10 +12,21 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const navItems = [
     { path: "/", label: "Start", icon: Home },
     { path: "/module-1", label: "Grundlagen", icon: Info },
-    { path: "/module-2", label: "Waschung im Bett", icon: Heart },
-    { path: "/module-3", label: "Waschbecken", icon: Heart },
-    { path: "/module-4", label: "Anleitung", icon: BookOpen },
+    { path: "/handbuch", label: "Handbuch", icon: BookOpen },
     { path: "/quiz", label: "Wissenscheck", icon: BookOpen },
+  ];
+
+  const moduleNavItems = [
+    { path: "/module-1", label: "1 · Grundlagen, Rolle & Pflegeprozess" },
+    { path: "/module-2", label: "2 · Waschung im Bett" },
+    { path: "/module-3", label: "3 · Waschung am Waschbecken" },
+    { path: "/module-4", label: "4 · Anleitung & Aktivierung" },
+    { path: "/module-5", label: "5 · Mund- & Zahnpflege" },
+    { path: "/module-6", label: "6 · Ausscheidung & Inkontinenz" },
+    { path: "/module-7", label: "7 · Ernährung & Trinken" },
+    { path: "/module-8", label: "8 · Lagerung & Transfer" },
+    { path: "/module-9", label: "9 · Menschen mit Demenz" },
+    { path: "/module-10", label: "10 · Sterbebegleitung" },
   ];
 
   return (
@@ -81,6 +92,25 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     </Link>
                   ))}
                 </nav>
+                <div className="mt-2 border-t pt-4">
+                  <p className="px-4 text-xs uppercase tracking-wider text-muted-foreground mb-2">Module</p>
+                  <nav className="flex flex-col gap-1">
+                    {moduleNavItems.map((item) => (
+                      <Link key={item.path} href={item.path} onClick={() => setIsOpen(false)}>
+                        <div
+                          className={cn(
+                            "px-4 py-2 rounded-lg transition-colors cursor-pointer text-sm",
+                            location === item.path
+                              ? "bg-primary/10 text-primary font-bold"
+                              : "hover:bg-muted text-muted-foreground"
+                          )}
+                        >
+                          {item.label}
+                        </div>
+                      </Link>
+                    ))}
+                  </nav>
+                </div>
               </div>
             </SheetContent>
           </Sheet>

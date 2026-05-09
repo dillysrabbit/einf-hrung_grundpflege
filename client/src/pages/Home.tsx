@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowRight, BookOpen, CheckCircle, Heart, Users } from "lucide-react";
+import { ArrowRight, BookOpen, Brain, CheckCircle, Droplets, Heart, HeartHandshake, Move, Smile, Users, Utensils } from "lucide-react";
 import { Link } from "wouter";
 
 export default function Home() {
@@ -53,83 +53,198 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Module Overview */}
+      {/* Module Overview – Grundlagen & Körperpflege */}
       <section className="container px-4">
-        <h3 className="font-serif text-2xl font-bold text-primary mb-8 text-center">Ihre Lernmodule</h3>
+        <h3 className="font-serif text-2xl font-bold text-primary mb-2 text-center">Ihre Lernmodule</h3>
+        <p className="text-center text-sm uppercase tracking-widest text-muted-foreground mb-6">Grundlagen & Körperpflege</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          
-          {/* Modul 1 */}
+
           <Link href="/module-1">
             <Card className="h-full hover:shadow-lg transition-all cursor-pointer border-t-4 border-t-primary group">
               <CardHeader>
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                   <InfoIcon className="h-6 w-6 text-primary group-hover:text-white" />
                 </div>
-                <CardTitle className="font-serif text-xl">Grundlagen, Rolle & Pflegeprozess</CardTitle>
+                <CardTitle className="font-serif text-xl">1 · Grundlagen, Rolle & Pflegeprozess</CardTitle>
                 <CardDescription>Ihre Verantwortung, Vorbehaltsaufgaben und der Pflegeprozess nach dem Strukturmodell.</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="text-sm text-muted-foreground space-y-2">
                   <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Rolle & Vorbehaltsaufgaben</li>
                   <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> SIS, Maßnahmenplan, Berichteblatt</li>
-                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Schweigepflicht & Hygiene</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Schweigepflicht, FEM, Hygiene</li>
                 </ul>
               </CardContent>
             </Card>
           </Link>
 
-          {/* Modul 2 */}
           <Link href="/module-2">
             <Card className="h-full hover:shadow-lg transition-all cursor-pointer border-t-4 border-t-primary group">
               <CardHeader>
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                   <Heart className="h-6 w-6 text-primary group-hover:text-white" />
                 </div>
-                <CardTitle className="font-serif text-xl">Waschung im Bett</CardTitle>
-                <CardDescription>Schritt-für-Schritt Anleitung für die Ganzkörperwaschung im Bett.</CardDescription>
+                <CardTitle className="font-serif text-xl">2 · Waschung im Bett</CardTitle>
+                <CardDescription>Schritt-für-Schritt-Anleitung für die Ganzkörperwaschung im Bett.</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="text-sm text-muted-foreground space-y-2">
                   <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Vorbereitung & Material</li>
                   <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> 9-Schritte-Ablauf</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Nachbereitung</li>
                 </ul>
               </CardContent>
             </Card>
           </Link>
 
-          {/* Modul 3 */}
           <Link href="/module-3">
             <Card className="h-full hover:shadow-lg transition-all cursor-pointer border-t-4 border-t-primary group">
               <CardHeader>
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                   <Users className="h-6 w-6 text-primary group-hover:text-white" />
                 </div>
-                <CardTitle className="font-serif text-xl">Waschung am Waschbecken</CardTitle>
+                <CardTitle className="font-serif text-xl">3 · Waschung am Waschbecken</CardTitle>
                 <CardDescription>Förderung der Selbstständigkeit und Mobilität am Waschbecken.</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="text-sm text-muted-foreground space-y-2">
                   <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Sturzprävention</li>
                   <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Anleiten & Unterstützen</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Nachbereitung</li>
                 </ul>
               </CardContent>
             </Card>
           </Link>
 
-          {/* Modul 4 */}
           <Link href="/module-4">
             <Card className="h-full hover:shadow-lg transition-all cursor-pointer border-t-4 border-t-primary group">
               <CardHeader>
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                   <BookOpen className="h-6 w-6 text-primary group-hover:text-white" />
                 </div>
-                <CardTitle className="font-serif text-xl">Anleitung & Teilübernahme</CardTitle>
-                <CardDescription>Das Konzept "Hilfe zur Selbsthilfe" in der Praxis.</CardDescription>
+                <CardTitle className="font-serif text-xl">4 · Anleitung & Aktivierung</CardTitle>
+                <CardDescription>Das Konzept „Hilfe zur Selbsthilfe" in der Praxis.</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="text-sm text-muted-foreground space-y-2">
-                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Ressourcen erkennen</li>
-                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Kommunikation</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> 3 Säulen der Aktivierung</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Konzepte (Kinästhetik, Validation)</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </Link>
+
+        </div>
+      </section>
+
+      {/* Module Overview – Vertiefende Pflegethemen */}
+      <section className="container px-4">
+        <p className="text-center text-sm uppercase tracking-widest text-muted-foreground mb-6">Vertiefende Pflegethemen</p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+          <Link href="/module-5">
+            <Card className="h-full hover:shadow-lg transition-all cursor-pointer border-t-4 border-t-primary group">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+                  <Smile className="h-6 w-6 text-primary group-hover:text-white" />
+                </div>
+                <CardTitle className="font-serif text-xl">5 · Mund- & Zahnpflege</CardTitle>
+                <CardDescription>Eigene Zähne, Prothese, Mundbefunde, Mundpflege im Sterbeprozess.</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <ul className="text-sm text-muted-foreground space-y-2">
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Soor, Borken, Druckstellen</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Prothesenpflege</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </Link>
+
+          <Link href="/module-6">
+            <Card className="h-full hover:shadow-lg transition-all cursor-pointer border-t-4 border-t-primary group">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+                  <Droplets className="h-6 w-6 text-primary group-hover:text-white" />
+                </div>
+                <CardTitle className="font-serif text-xl">6 · Ausscheidung & Inkontinenz</CardTitle>
+                <CardDescription>Beobachtung, Toilettentraining, Vorlagenwechsel, IAD-Prophylaxe.</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <ul className="text-sm text-muted-foreground space-y-2">
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Bristol-Stuhlskala</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Hautschutz bei IAD</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </Link>
+
+          <Link href="/module-7">
+            <Card className="h-full hover:shadow-lg transition-all cursor-pointer border-t-4 border-t-primary group">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+                  <Utensils className="h-6 w-6 text-primary group-hover:text-white" />
+                </div>
+                <CardTitle className="font-serif text-xl">7 · Ernährung & Trinken</CardTitle>
+                <CardDescription>Anreichen, Schluckstörung, Aspirationsprophylaxe, Trinkförderung.</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <ul className="text-sm text-muted-foreground space-y-2">
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Dysphagie erkennen</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Mangelernährung & Exsikkose</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </Link>
+
+          <Link href="/module-8">
+            <Card className="h-full hover:shadow-lg transition-all cursor-pointer border-t-4 border-t-primary group">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+                  <Move className="h-6 w-6 text-primary group-hover:text-white" />
+                </div>
+                <CardTitle className="font-serif text-xl">8 · Lagerung & Transfer</CardTitle>
+                <CardDescription>Dekubitusprophylaxe, sicherer Transfer, Kinästhetik, Eigenschutz.</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <ul className="text-sm text-muted-foreground space-y-2">
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> 30°-Lage, Mikrolagerung</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Rückenschonend arbeiten</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </Link>
+
+          <Link href="/module-9">
+            <Card className="h-full hover:shadow-lg transition-all cursor-pointer border-t-4 border-t-primary group">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+                  <Brain className="h-6 w-6 text-primary group-hover:text-white" />
+                </div>
+                <CardTitle className="font-serif text-xl">9 · Menschen mit Demenz</CardTitle>
+                <CardDescription>Validation, Biographie, Umgang mit herausforderndem Verhalten.</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <ul className="text-sm text-muted-foreground space-y-2">
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Demenz vs. Delir</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Deeskalation</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </Link>
+
+          <Link href="/module-10">
+            <Card className="h-full hover:shadow-lg transition-all cursor-pointer border-t-4 border-t-primary group">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+                  <HeartHandshake className="h-6 w-6 text-primary group-hover:text-white" />
+                </div>
+                <CardTitle className="font-serif text-xl">10 · Sterbebegleitung</CardTitle>
+                <CardDescription>Palliative Grundpflege, Mund/Lagerung/Atmung am Lebensende, Angehörige.</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <ul className="text-sm text-muted-foreground space-y-2">
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Anzeichen erkennen</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Begleitung mit Würde</li>
                 </ul>
               </CardContent>
             </Card>
