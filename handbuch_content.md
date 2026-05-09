@@ -29,7 +29,7 @@ Bestimmte Tätigkeiten sind ausgebildeten Pflegefachkräften vorbehalten (Vorbeh
 | Körperpflege (Waschen, Mund-, Haarpflege) | Pflegeplanung und -evaluation |
 | Hilfe beim An- und Auskleiden | Erst-Anamnese, Pflegediagnose |
 | Hilfe bei Nahrungs- und Flüssigkeitsaufnahme | Wundversorgung, Verbandwechsel |
-| Lagern, Mobilisieren, Transfer (nach Anleitung) | Medikamentengabe (außer per Delegation) |
+| Positionieren, Mobilisieren, Transfer (nach Anleitung) | Medikamentengabe (außer per Delegation) |
 | Beobachten und weitergeben | Injektionen, Katheterisieren, Sondenkost |
 | Begleitung, Zuwendung, Tagesstruktur | Behandlungspflege ohne Anordnung |
 
@@ -64,7 +64,7 @@ Die SIS ist gegliedert in:
 
 Im Anschluss an die SIS prüft die Pflegefachkraft anhand der Risikomatrix:
 
-* **Dekubitus** – Hautrötungen, Druckstellen, Lagerung, Mobilität
+* **Dekubitus** – Hautrötungen, Druckstellen, Positionierung, Mobilität
 * **Sturz** – Schwindel, Gangbild, Hilfsmittel, Sehkraft
 * **Inkontinenz** – Urin-/Stuhlausscheidung, Hautzustand
 * **Schmerz** – verbal und nonverbal (Mimik, Stöhnen, Abwehr)
@@ -80,7 +80,7 @@ Alles, was Sie über Bewohner:innen erfahren, unterliegt **§ 203 StGB** und der
 
 Im Strukturmodell wird im Berichteblatt **nicht jede Routinetätigkeit** dokumentiert. Eingetragen werden ausschließlich:
 
-* Abweichungen vom Maßnahmenplan (z. B. Bewohnerin lehnt Waschung ab)
+* Abweichungen vom Maßnahmenplan (z. B. Bewohner:in lehnt Waschung ab)
 * Neue Beobachtungen mit Bezug zu den fünf Pflegerisiken
 * Auffälligkeiten in einem der SIS-Themenfelder
 * Ereignisse, Stürze, Schmerzäußerungen, Stimmungsveränderungen
@@ -88,7 +88,7 @@ Im Strukturmodell wird im Berichteblatt **nicht jede Routinetätigkeit** dokumen
 
 **Aufbau jedes Eintrags:** Datum/Uhrzeit · Handzeichen · was beobachtet (Tatsachen, keine Vermutungen) · ggf. an wen weitergegeben.
 
-*Beispiel:* „08:30 Uhr / KN – beim Waschen 2 cm große, nicht wegdrückbare Hautrötung am Steißbein. PFK Müller informiert, Lagerungsplan ergänzt."
+*Beispiel:* „08:30 Uhr / KN – beim Waschen 2 cm große, nicht wegdrückbare Hautrötung am Steißbein. PFK Müller informiert, Positionierungsplan ergänzt."
 
 #### Grundsätze der Körperpflege
 
@@ -106,7 +106,7 @@ Körperpflege dient nicht nur der Reinigung. Sie fördert das Wohlbefinden, unte
 
 ### Modul 2: Ganzkörperwaschung im Bett
 
-Diese Form der Waschung ist anspruchsvoll und kommt zum Einsatz, wenn die Bewohnerin/der Bewohner das Bett nicht verlassen kann.
+Diese Form der Waschung ist anspruchsvoll und kommt zum Einsatz, wenn die bewohnende Person das Bett nicht verlassen kann.
 
 ![Waschung im Bett](client/public/images/bed-bath-preparation.jpg)
 
@@ -126,13 +126,13 @@ Diese Form der Waschung ist anspruchsvoll und kommt zum Einsatz, wenn die Bewohn
 6.  **Intimpflege Frau:** Beine anstellen. Erst die äußeren Schamlippen, dann mit gespreizten Schamlippen die kleinen Schamlippen reinigen, **immer von der Symphyse (vorne) zum Anus (hinten)** – mit jeder Wischbewegung eine frische Stelle des Waschlappens. So wird die Verschleppung von Darmkeimen in die Harnröhre vermieden (Prophylaxe Harnwegsinfekt).
 7.  **Intimpflege Mann:** Vorhaut **vorsichtig** zurückschieben (bei Phimose nicht erzwingen!), Eichel reinigen, gut abtrocknen, **Vorhaut anschließend zwingend wieder vorschieben**.
     > ⚠ **WARNUNG:** Eine vergessene oder nicht zurückgeschobene Vorhaut kann zur **Paraphimose** ("spanischer Kragen") führen – das ist ein urologischer Notfall. Sofort Pflegefachkraft informieren.
-8.  **Abschluss:** Frische Kleidung anziehen, faltenfreie Bettwäsche, bequeme Lagerung. Material ordnungsgemäß entsorgen, Hände desinfizieren, **Beobachtungen dokumentieren** (Hautveränderungen, Schmerzäußerungen, Stuhl-/Urinausscheidung, Allgemeinzustand) und an die zuständige Pflegefachkraft weitergeben.
+8.  **Abschluss:** Frische Kleidung anziehen, faltenfreie Bettwäsche, bequeme Positionierung. Material ordnungsgemäß entsorgen, Hände desinfizieren, **Beobachtungen dokumentieren** (Hautveränderungen, Schmerzäußerungen, Stuhl-/Urinausscheidung, Allgemeinzustand) und an die zuständige Pflegefachkraft weitergeben.
 
 ---
 
 ### Modul 3: Waschung am Waschbecken
 
-Wenn die Mobilität es zulässt, ist dies der ideale Weg zur Förderung der Selbstständigkeit. **Die Belastbarkeit muss tagesaktuell beurteilt werden** – ein Bewohner, der gestern aufstehen konnte, kann heute zu schwach sein.
+Wenn die Mobilität es zulässt, ist dies der ideale Weg zur Förderung der Selbstständigkeit. **Die Belastbarkeit muss tagesaktuell beurteilt werden** – Wer gestern aufstehen konnte, kann heute zu schwach sein.
 
 ![Waschbecken](client/public/images/washbasin-setup.jpg)
 
@@ -146,7 +146,7 @@ Wenn die Mobilität es zulässt, ist dies der ideale Weg zur Förderung der Selb
 **Ablauf:**
 *   Bewohner:in wäscht Gesicht, Arme und Oberkörper so weit wie möglich selbst.
 *   Pflegekraft unterstützt bei Rücken, Füßen und schwer erreichbaren Stellen.
-*   Intimpflege unter Anleitung – wenn möglich selbstständig durch den Bewohner. Pflegekraft achtet auf vollständige Reinigung und Trocknung.
+*   Intimpflege unter Anleitung – wenn möglich selbstständig durch die bewohnende Person. Pflegekraft achtet auf vollständige Reinigung und Trocknung.
 *   Auskühlung vermeiden: zügig abtrocknen, Bademantel oder Handtuch um die Schultern.
 
 ---
@@ -163,7 +163,7 @@ Wenn die Mobilität es zulässt, ist dies der ideale Weg zur Förderung der Selb
 3.  **Geduld:** Selbstständigkeit braucht Zeit. Geben Sie diese Zeit – auch wenn der Dienstplan drückt.
 
 **Praxis-Tipp ("Führen statt Übernehmen"):**
-Führen Sie die Hand der Bewohnerin/des Bewohners zum Waschlappen oder zur Zahnbürste, aber lassen Sie die eigentliche Bewegung von der Person selbst ausführen. Dieses Prinzip stammt aus der Kinästhetik und erhält die motorischen und kognitiven Fähigkeiten am wirksamsten.
+Führen Sie die Hand der bewohnenden Person zum Waschlappen oder zur Zahnbürste, aber lassen Sie die eigentliche Bewegung von der Person selbst ausführen. Dieses Prinzip stammt aus der Kinästhetik und erhält die motorischen und kognitiven Fähigkeiten am wirksamsten.
 
 ---
 

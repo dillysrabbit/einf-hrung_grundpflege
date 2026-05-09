@@ -7,13 +7,13 @@
 
 Willkommen im Caritas Maria-Hötte-Stift. Dieses Handbuch begleitet Ihre Fortbildung zur "Einführung in die Grundpflege". Unser Ziel ist es, Ihnen nicht nur die technischen Handgriffe zu vermitteln, sondern auch die Haltung, die unsere Arbeit prägt: Kompetenz, Empathie und Professionalität.
 
-Die Grundpflege ist weit mehr als nur Waschen. Sie ist Beziehungsarbeit, Gesundheitsförderung und oft der intimste Moment im Alltag unserer Bewohner.
+Die Grundpflege ist weit mehr als nur Waschen. Sie ist Beziehungsarbeit, Gesundheitsförderung und oft der intimste Moment im Alltag unserer Bewohner:innen.
 
 ---
 
 ### Modul 1: Grundlagen, Rolle & Pflegeprozess
 
-**Ihre Rolle:** Bestimmte Tätigkeiten sind ausgebildeten Pflegefachkräften vorbehalten (§ 4 PflBG). Sie übernehmen Körperpflege, Hilfe bei Essen/Trinken/Anziehen, Lagerung nach Anleitung, Beobachtung – nicht Wundversorgung, Medikamentengabe, Pflegeplanung. Bei Unsicherheit: Pflegefachkraft fragen.
+**Ihre Rolle:** Bestimmte Tätigkeiten sind ausgebildeten Pflegefachkräften vorbehalten (§ 4 PflBG). Sie übernehmen Körperpflege, Hilfe bei Essen/Trinken/Anziehen, Positionierung nach Anleitung, Beobachtung – nicht Wundversorgung, Medikamentengabe, Pflegeplanung. Bei Unsicherheit: Pflegefachkraft fragen.
 
 **Grundpflege vs. Behandlungspflege:**
 *   Grundpflege (SGB XI): Aktivitäten des täglichen Lebens, Pflegeversicherung – Ihr Bereich.
@@ -35,18 +35,18 @@ Die Grundpflege ist weit mehr als nur Waschen. Sie ist Beziehungsarbeit, Gesundh
 
 ### Modul 2: Ganzkörperwaschung im Bett
 
-Diese Form der Waschung ist anspruchsvoll und kommt zum Einsatz, wenn der Bewohner das Bett nicht verlassen kann.
+Diese Form der Waschung ist anspruchsvoll und kommt zum Einsatz, wenn die bewohnende Person das Bett nicht verlassen kann.
 
 **Vorbereitung:**
 *   Materialien bereitlegen (Waschschüssel, getrennte Waschlappen für Gesicht/Körper/Intim, Handtücher, Waschlotion, frische Kleidung/Bettwäsche).
 *   Raumtemperatur ca. 22–24 °C, Fenster schließen.
 *   Wassertemperatur nach Wunsch der bewohnenden Person (Richtwert 37–43 °C) – immer mit eigenem Unterarm prüfen (Verbrühungsschutz, besonders bei Diabetes/Demenz).
-*   Bewohner informieren und Bett auf Arbeitshöhe bringen.
+*   Bewohner:in informieren und Bett auf Arbeitshöhe bringen.
 
 **Ablauf (Schritt für Schritt):**
 1.  **Gesicht, Augen & Hals:** Nur klares Wasser für die Augen. Gesundes Auge: **von außen nach innen** wischen (folgt der Tränendrainage). Entzündetes/infiziertes Auge: umgekehrt **von innen nach außen** (Keimverbreitung in den Tränen-Nasen-Gang vermeiden). Jeweils frische Stelle des Waschlappens, ein Auge nach dem anderen.
 2.  **Oberkörper & Arme:** Herzwärts waschen (von der Hand zur Schulter). Abtrocknen nicht vergessen (Hautfalten!).
-3.  **Rücken:** Bewohner zur Seite drehen. Rücken waschen und Hautinspektion (Dekubitus, Fingertest).
+3.  **Rücken:** Bewohner:in zur Seite drehen. Rücken waschen und Hautinspektion (Dekubitus, Fingertest).
 4.  **Beine & Füße:** Herzwärts waschen. Zehenzwischenräume gut trocknen, keine Watte zwischen die Zehen.
 5.  **Intimpflege Frau:** Wasser wechseln, frische Handschuhe. Immer von der Schamfuge zum Anus waschen, mit jedem Wisch frische Lappenstelle.
 6.  **Intimpflege Mann:** Vorhaut vorsichtig zurückschieben, Eichel reinigen, **Vorhaut zwingend wieder vorschieben** (Paraphimose-Gefahr!).
@@ -65,7 +65,7 @@ Wenn die Mobilität es zulässt, ist dies der ideale Weg zur Förderung der Selb
 *   Tagesaktuelle Belastbarkeit beurteilen – nicht jeden Tag möglich.
 
 **Ablauf:**
-*   Bewohner wäscht Oberkörper so weit wie möglich selbst.
+*   Bewohner:in wäscht Oberkörper so weit wie möglich selbst.
 *   Pflegekraft unterstützt bei Rücken und Füßen.
 *   Intimpflege unter Anleitung (wenn möglich selbstständig).
 
@@ -81,7 +81,7 @@ Wenn die Mobilität es zulässt, ist dies der ideale Weg zur Förderung der Selb
 3.  **Geduld:** Selbstständigkeit braucht Zeit. Geben Sie diese Zeit.
 
 **Praxis-Tipp:**
-Führen Sie die Hand des Bewohners zum Waschlappen oder zur Zahnbürste ("Führen"), aber lassen Sie die eigentliche Bewegung vom Bewohner ausführen.
+Führen Sie die Hand der bewohnenden Person zum Waschlappen oder zur Zahnbürste ("Führen"), aber lassen Sie die eigentliche Bewegung von der bewohnenden Person ausführen.
 
 ---
 

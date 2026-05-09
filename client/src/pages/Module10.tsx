@@ -27,7 +27,7 @@ export default function Module10() {
               <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
                 <li>die Haltung der palliativen Pflege bei der Caritas beschreiben.</li>
                 <li>Anzeichen des nahenden Sterbens erkennen und ins Berichteblatt eintragen.</li>
-                <li>palliative Grundpflege in den Bereichen Mund, Lagerung, Atmung, Schmerz angemessen umsetzen.</li>
+                <li>palliative Grundpflege in den Bereichen Mund, Positionierung, Atmung, Schmerz angemessen umsetzen.</li>
                 <li>Angehörige einfühlsam begleiten.</li>
                 <li>Ihre eigenen Gefühle wahrnehmen und Unterstützung im Team annehmen.</li>
               </ul>
@@ -88,18 +88,18 @@ export default function Module10() {
                   <li>Mehr in <Link href="/module-5" className="text-primary underline">Modul 5</Link>.</li>
                 </ul>
 
-                <p className="font-bold mt-2">Lagerung</p>
+                <p className="font-bold mt-2">Positionierung</p>
                 <ul className="list-disc pl-5 space-y-0.5">
                   <li>Sehr behutsam, nur wenn nötig – jede Bewegung kann anstrengen.</li>
-                  <li>Mikrolagerungen mit Tüchern oder Kissen statt großer Wendungen.</li>
-                  <li>Druckstellen weiter beobachten, aber Komfort wichtiger als „idealer" Lagerungswechsel.</li>
+                  <li>Mikropositionierungen mit Tüchern oder Kissen statt großer Wendungen.</li>
+                  <li>Druckstellen weiter beobachten, aber Komfort wichtiger als „idealer" Positionswechsel.</li>
                   <li>Erhöhter Oberkörper bei rasselnder Atmung kann erleichtern.</li>
                 </ul>
 
                 <p className="font-bold mt-2">Atmung & Schmerz</p>
                 <ul className="list-disc pl-5 space-y-0.5">
                   <li>Bei Atemnot: Fenster öffnen / leichten Luftzug erzeugen, Oberkörper hoch, ggf. Ventilator – nicht panisch werden.</li>
-                  <li>„Rasselnde" Atmung – Pflegefachkraft informieren (ggf. medikamentöse Anpassung); meist hilft Lagerungswechsel; Absaugen vermeiden, da meist mehr belastend als hilfreich.</li>
+                  <li>„Rasselnde" Atmung – Pflegefachkraft informieren (ggf. medikamentöse Anpassung); meist hilft Positionswechsel; Absaugen vermeiden, da meist mehr belastend als hilfreich.</li>
                   <li>Schmerzen ernst nehmen, auch nonverbale Anzeichen (Mimik, Stöhnen, Anspannung) – sofort an die Pflegefachkraft.</li>
                 </ul>
 

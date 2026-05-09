@@ -142,7 +142,7 @@ export default function Module1() {
                         <li>Körperpflege (Waschen, Mund-, Haarpflege)</li>
                         <li>Hilfe beim An- und Auskleiden</li>
                         <li>Hilfe bei Nahrungs- und Flüssigkeitsaufnahme</li>
-                        <li>Lagern, Mobilisieren, Transfer (nach Anleitung)</li>
+                        <li>Positionieren, Mobilisieren, Transfer (nach Anleitung)</li>
                         <li>Beobachten und Beobachtungen weitergeben</li>
                         <li>Begleitung, Zuwendung, Tagesstruktur</li>
                       </ul>
@@ -249,7 +249,7 @@ export default function Module1() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
                     {[
                       { k: "A", t: "Kognition und Kommunikation", e: "Wahrnehmung, Orientierung, Sprache, Verständnis, Demenz." },
-                      { k: "B", t: "Mobilität und Beweglichkeit", e: "Aufstehen, Gehen, Transfers, Lagewechsel, Sturzrisiko." },
+                      { k: "B", t: "Mobilität und Beweglichkeit", e: "Aufstehen, Gehen, Transfers, Positionswechsel, Sturzrisiko." },
                       { k: "C", t: "Krankheitsbezogene Anforderungen und Belastungen", e: "Diagnosen, Medikamente, Schmerzen, Therapien." },
                       { k: "D", t: "Selbstversorgung", e: "Körperpflege, Essen/Trinken, Kleiden, Ausscheidung – Ihr Hauptarbeitsfeld." },
                       { k: "E", t: "Leben in sozialen Beziehungen", e: "Angehörige, Tagesstruktur, Aktivitäten, Beschäftigung." },
@@ -277,7 +277,7 @@ export default function Module1() {
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-2 text-sm">
                     {[
-                      { t: "Dekubitus", b: "Hautrötungen, Druckstellen, Lagerung, Mobilität" },
+                      { t: "Dekubitus", b: "Hautrötungen, Druckstellen, Positionierung, Mobilität" },
                       { t: "Sturz", b: "Schwindel, Gangbild, Hilfsmittel, Sehkraft" },
                       { t: "Inkontinenz", b: "Urin-/Stuhlausscheidung, Hautzustand, Hilfsmittel" },
                       { t: "Schmerz", b: "Verbal und nonverbal: Mimik, Stöhnen, Abwehr" },
@@ -300,7 +300,7 @@ export default function Module1() {
                     Eingetragen werden ausschließlich:
                   </p>
                   <ul className="text-sm space-y-1.5 list-disc pl-5 text-muted-foreground mb-3">
-                    <li>Abweichungen vom Maßnahmenplan (z. B. Bewohnerin lehnt Waschung ab)</li>
+                    <li>Abweichungen vom Maßnahmenplan (z. B. Bewohner:in lehnt Waschung ab)</li>
                     <li>Neue Beobachtungen mit Bezug zu den fünf Pflegerisiken</li>
                     <li>Auffälligkeiten in einem der SIS-Themenfelder</li>
                     <li>Ereignisse, Stürze, Schmerzäußerungen, Stimmungsveränderungen</li>
@@ -309,7 +309,7 @@ export default function Module1() {
                   <p className="text-sm text-muted-foreground mb-2"><strong>Aufbau jedes Eintrags:</strong> Datum/Uhrzeit · Handzeichen · was beobachtet (Tatsachen, keine Vermutungen) · ggf. an wen weitergegeben.</p>
                   <p className="text-sm text-muted-foreground italic">
                     Beispiel: „08:30 Uhr / KN – beim Waschen 2 cm große, nicht wegdrückbare Hautrötung am Steißbein.
-                    PFK Müller informiert, Lagerungsplan ergänzt."
+                    PFK Müller informiert, Positionierungsplan ergänzt."
                   </p>
                 </CardContent>
               </Card>
@@ -527,7 +527,7 @@ export default function Module1() {
             <CardContent className="pt-6">
               <h3 className="font-serif text-lg font-bold text-primary mb-2">Zum Mitnehmen in den Alltag</h3>
               <p className="text-sm text-muted-foreground italic">
-                „Wenn ich heute bei einer Bewohnerin/einem Bewohner eine ungewöhnliche Hautstelle entdecke –
+                „Wenn ich heute bei einer Bewohner:in eine ungewöhnliche Hautstelle entdecke –
                 wem sage ich es bis wann, und welchen Eintrag schreibe ich konkret ins Berichteblatt?"
               </p>
             </CardContent>
