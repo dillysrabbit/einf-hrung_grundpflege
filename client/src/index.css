@@ -212,3 +212,50 @@
     }
   }
 }
+/* Druck-Optimierung für /handbuch */
+@media print {
+  @page {
+    size: A4;
+    margin: 18mm 16mm;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    background: white !important;
+  }
+
+  .handbuch-print {
+    max-width: 100% !important;
+    padding: 0 !important;
+    color: #000;
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+
+  .handbuch-print h1 { font-size: 26pt; }
+  .handbuch-print h2 { font-size: 18pt; margin-top: 1.2em; }
+  .handbuch-print h3 { font-size: 13pt; margin-top: 0.9em; }
+
+  .handbuch-print h2,
+  .handbuch-print h3 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .handbuch-print p,
+  .handbuch-print li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .handbuch-print ul,
+  .handbuch-print ol,
+  .handbuch-print blockquote {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .print\:break-before-page { break-before: page; page-break-before: always; }
+  .print\:break-after-page  { break-after: page;  page-break-after: always;  }
+}

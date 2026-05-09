@@ -6,6 +6,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import Layout from "./components/Layout";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
+import Handbuch from "./pages/Handbuch";
 import Module1 from "./pages/Module1";
 import Module2 from "./pages/Module2";
 import Module3 from "./pages/Module3";
@@ -21,6 +22,7 @@ function Router() {
         <Route path="/module-2" component={Module2} />
         <Route path="/module-3" component={Module3} />
         <Route path="/module-4" component={Module4} />
+        <Route path="/handbuch" component={Handbuch} />
         <Route path="/quiz" component={Quiz} />
         <Route path="/404" component={NotFound} />
         {/* Final fallback route */}
