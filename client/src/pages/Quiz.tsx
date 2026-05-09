@@ -169,11 +169,11 @@ const questions: Question[] = [
     options: [
       "Mit Bewohner:innen darf man nicht sprechen.",
       "Informationen über Bewohner:innen dürfen nicht an Außenstehende weitergegeben werden – auch nicht an Familienangehörige ohne Erlaubnis.",
-      "Pflegehilfskräfte müssen schweigen, wenn die Pflegefachkraft im Raum ist.",
+      "Pflegekräfte müssen schweigen, wenn die Pflegefachkraft im Raum ist.",
       "Im Pausenraum darf alles besprochen werden, weil das interner Bereich ist."
     ],
     correctAnswer: 1,
-    explanation: "Auch Pflegehilfskräfte unterliegen der Schweigepflicht. Verstöße können arbeits- und strafrechtliche Folgen haben."
+    explanation: "Auch Pflegekräfte unterliegen der Schweigepflicht. Verstöße können arbeits- und strafrechtliche Folgen haben."
   },
   {
     id: 14,
@@ -317,7 +317,7 @@ export default function Quiz() {
 
       // Inhalte
       doc.setFontSize(10);
-      doc.text("Inhalte: Rolle der Pflegehilfskraft & Pflegeprozess · Hygiene & Schweigepflicht ·", 148.5, 132, { align: "center" });
+      doc.text("Inhalte: Rolle der Pflegekraft & Pflegeprozess · Hygiene & Schweigepflicht ·", 148.5, 132, { align: "center" });
       doc.text("Ganzkörperwaschung im Bett · Waschung am Waschbecken · Aktivierende Pflege", 148.5, 137, { align: "center" });
 
       // Metadaten-Block (links)

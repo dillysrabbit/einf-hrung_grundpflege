@@ -23,7 +23,7 @@ export default function Home() {
             Einführung in die Grundpflege
           </h1>
           <p className="text-lg md:text-xl mb-8 text-white/90 font-light leading-relaxed drop-shadow-md">
-            Kompetenz, Empathie und Professionalität für unsere Pflegehilfskräfte.
+            Kompetenz, Empathie und Professionalität für unsere Pflegekräfte.
             Gemeinsam für eine würdevolle Pflege.
           </p>
           <Link href="/module-1">
@@ -38,7 +38,7 @@ export default function Home() {
         <section className="text-center mb-16 max-w-3xl mx-auto px-4">
         <h2 className="font-sans text-3xl font-bold text-primary mb-6">Willkommen im Maria-Hötte-Stift</h2>
         <p className="text-xl text-muted-foreground leading-relaxed font-light mb-8">
-          Diese interaktive Fortbildung richtet sich an alle Pflegehilfskräfte unserer Einrichtung. Unser Ziel ist es, Ihnen 
+          Diese interaktive Fortbildung richtet sich an alle Pflegekräfte unserer Einrichtung. Unser Ziel ist es, Ihnen 
           das nötige Basiswissen und die Sicherheit für den Pflegealltag zu geben. Wir legen besonderen Wert auf die 
           aktivierende Pflege und die Wahrung der Würde unserer Bewohner:innen.
         </p>

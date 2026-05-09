@@ -126,7 +126,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <footer className="border-t bg-white py-8 mt-12 print:hidden">
         <div className="container flex flex-col gap-4 text-sm text-muted-foreground">
           <p className="text-xs italic max-w-3xl">
-            Hinweis: Diese Fortbildung dient der einrichtungsinternen Schulung von Pflegehilfskräften.
+            Hinweis: Diese Fortbildung dient der einrichtungsinternen Schulung von Pflegekräften.
             Sie ersetzt weder eine pflegerische Berufsausbildung noch die fachliche Anleitung durch eine examinierte
             Pflegekraft. Die Inhalte orientieren sich an den Expertenstandards des DNQP, an KRINKO-/RKI-Empfehlungen
             sowie an gängiger Pflegefachliteratur.

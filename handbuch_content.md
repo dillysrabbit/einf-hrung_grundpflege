@@ -1,5 +1,5 @@
 # Einführung in die Grundpflege
-## Schulungshandbuch für Pflegehilfskräfte
+## Schulungshandbuch für Pflegekräfte
 ### Caritas Maria-Hötte-Stift, Münster
 
 
@@ -20,7 +20,7 @@ Die Grundpflege ist weit mehr als nur Waschen. Sie ist Beziehungsarbeit, Gesundh
 
 **Lernziele:** Nach diesem Modul können Sie Ihre Rolle einordnen, Grundpflege von Behandlungspflege unterscheiden, den 4-phasigen Pflegeprozess nach dem Strukturmodell (Beikirch) erklären, SIS / Maßnahmenplan / Berichteblatt voneinander abgrenzen, Schweigepflicht und Händehygiene anwenden und erkennen, wann eine Fachkraft hinzugezogen werden muss.
 
-#### Ihre Rolle als Pflegehilfskraft
+#### Ihre Rolle als Pflegekraft
 
 Bestimmte Tätigkeiten sind ausgebildeten Pflegefachkräften vorbehalten (Vorbehaltsaufgaben nach **§ 4 PflBG**). Andere Tätigkeiten dürfen Sie nach Anleitung und schriftlicher Delegation übernehmen.
 
