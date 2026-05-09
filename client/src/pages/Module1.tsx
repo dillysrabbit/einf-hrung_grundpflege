@@ -36,7 +36,7 @@ export default function Module1() {
               </h3>
               <p className="text-sm text-muted-foreground mb-3">Nach Bearbeitung dieses Moduls können Sie …</p>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> Ihre Rolle als Pflegehilfskraft im Pflegeteam einordnen.</li>
+                <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> Ihre Rolle als Pflegekraft im Pflegeteam einordnen.</li>
                 <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> Grundpflege von Behandlungspflege unterscheiden.</li>
                 <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> Den 4-phasigen Pflegeprozess nach dem Strukturmodell (Beikirch) erklären.</li>
                 <li className="flex items-start gap-2 text-muted-foreground"><CheckCircle className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" /> SIS, Maßnahmenplan und Berichteblatt voneinander abgrenzen.</li>
@@ -124,12 +124,12 @@ export default function Module1() {
                 <CardContent className="pt-6">
                   <h3 className="font-serif text-xl font-bold text-primary mb-3 flex items-center gap-2">
                     <UserCheck className="h-5 w-5" />
-                    Was darf eine Pflegehilfskraft – und was nicht?
+                    Was darf eine Pflegekraft – und was nicht?
                   </h3>
                   <p className="text-sm text-muted-foreground mb-4">
                     In Deutschland sind bestimmte Tätigkeiten ausgebildeten Pflegefachkräften vorbehalten
                     (sogenannte <strong>Vorbehaltsaufgaben</strong> nach § 4 Pflegeberufegesetz). Andere Tätigkeiten dürfen
-                    Pflegehilfskräfte nach Anleitung und schriftlicher Delegation übernehmen.
+                    Pflegekräfte nach Anleitung und schriftlicher Delegation übernehmen.
                   </p>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
@@ -182,7 +182,7 @@ export default function Module1() {
                       <p className="text-sm text-muted-foreground">
                         Unterstützung in den <strong>Aktivitäten des täglichen Lebens</strong>:
                         Körperpflege, Ernährung, Mobilität, Ausscheidung. Wird über die Pflegeversicherung
-                        finanziert. Pflegehilfskräfte sind hier zentrale Akteure.
+                        finanziert. Pflegekräfte sind hier zentrale Akteure.
                       </p>
                     </div>
                     <div className="border rounded-lg p-4">
@@ -208,7 +208,7 @@ export default function Module1() {
                   <h3 className="font-serif text-xl font-bold text-primary mb-2">Der Pflegeprozess nach dem Strukturmodell</h3>
                   <p className="text-sm text-muted-foreground mb-4">
                     Wir arbeiten nach dem <strong>Strukturmodell</strong>. Es umfasst <strong>vier Phasen</strong>.
-                    Pflegehilfskräfte arbeiten vor allem in der Beobachtung (SIS-Aktualisierung), bei der
+                    Pflegekräfte arbeiten vor allem in der Beobachtung (SIS-Aktualisierung), bei der
                     Durchführung des Maßnahmenplans und beim Eintrag im Berichteblatt.
                   </p>
 
@@ -404,7 +404,7 @@ export default function Module1() {
                   </p>
 
                   <div className="bg-yellow-50 border-l-4 border-yellow-400 p-3 text-sm text-yellow-900 mb-3">
-                    <strong>Ihre Rolle als Pflegehilfskraft:</strong>
+                    <strong>Ihre Rolle als Pflegekraft:</strong>
                     <ul className="list-disc pl-5 mt-1 space-y-1">
                       <li>FEM <strong>niemals</strong> eigenständig anordnen, einrichten oder verlängern.</li>
                       <li>Eine angeordnete FEM nur durchführen, wenn ärztliche Anordnung und (außerhalb akuter Notfälle) gerichtliche Genehmigung vorliegen – die Pflegefachkraft prüft das.</li>

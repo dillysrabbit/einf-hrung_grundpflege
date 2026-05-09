@@ -40,7 +40,7 @@ export default function Handbuch() {
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-primary mb-4">
             Einführung in die Grundpflege
           </h1>
-          <p className="text-lg text-muted-foreground mb-2">Fortbildung für Pflegehilfskräfte</p>
+          <p className="text-lg text-muted-foreground mb-2">Fortbildung für Pflegekräfte</p>
           <p className="text-sm text-muted-foreground">Caritas Maria-Hötte-Stift, Münster</p>
           <p className="text-xs text-muted-foreground mt-8 italic max-w-xl mx-auto">
             Diese Schulung ersetzt weder eine pflegerische Berufsausbildung noch die fachliche Anleitung
@@ -102,7 +102,7 @@ export default function Handbuch() {
           <p className="mb-2"><strong>Ihre drei Rollen im Alltag.</strong> Beobachter:in (Veränderungen erkennen und melden) · Vertraute:r (Sicherheit geben, Würde schützen) · Aktivator:in (zur Selbstständigkeit motivieren).</p>
           <p className="mb-2"><strong>Caritas-Leitbild.</strong> Wir sehen den Menschen mit seiner ganzen Lebensgeschichte, seinen Beziehungen und seinem Glauben. Spirituelle Begleitung, Biographiearbeit und Sterbebegleitung gehören für uns selbstverständlich zur Pflege.</p>
 
-          <h3 className="font-serif text-xl font-bold text-primary mt-8 mb-3">Was darf eine Pflegehilfskraft – und was nicht?</h3>
+          <h3 className="font-serif text-xl font-bold text-primary mt-8 mb-3">Was darf eine Pflegekraft – und was nicht?</h3>
           <p className="mb-3">In Deutschland sind bestimmte Tätigkeiten Pflegefachkräften vorbehalten (Vorbehaltsaufgaben nach § 4 PflBG).</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 text-sm">
             <div className="border-l-4 border-green-500 bg-green-50 p-3">

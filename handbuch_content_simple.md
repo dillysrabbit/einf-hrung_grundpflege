@@ -1,5 +1,5 @@
 # Einführung in die Grundpflege
-## Schulungshandbuch für Pflegehilfskräfte
+## Schulungshandbuch für Pflegekräfte
 
 ---
 
