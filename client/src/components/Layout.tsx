@@ -25,16 +25,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Link href="/">
-              <div className="flex items-center gap-2 cursor-pointer">
-                <img src="/images/caritas-logo.png" alt="Caritas Logo" className="h-10 object-contain" />
-                <div className="flex flex-col hidden sm:flex">
-                  <span className="font-sans text-xl font-bold text-primary leading-none">
-                    Caritas
-                  </span>
-                  <span className="font-sans text-xs text-muted-foreground leading-none mt-1">
-                    Maria-Hötte-Stift
-                  </span>
-                </div>
+              <div className="flex items-center cursor-pointer">
+                <img src="/images/caritas-logo.png" alt="Caritas Maria-Hötte-Stift" className="h-10 object-contain" />
               </div>
             </Link>
           </div>
@@ -68,16 +60,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
               <div className="flex flex-col gap-6 mt-6">
                 <Link href="/" onClick={() => setIsOpen(false)}>
-                  <div className="flex items-center gap-2 cursor-pointer mb-4">
-                    <img src="/images/caritas-logo.png" alt="Caritas Logo" className="h-10 object-contain" />
-                    <div className="flex flex-col">
-                      <span className="font-sans text-xl font-bold text-primary leading-none">
-                        Caritas
-                      </span>
-                      <span className="font-sans text-xs text-muted-foreground leading-none mt-1">
-                        Maria-Hötte-Stift
-                      </span>
-                    </div>
+                  <div className="flex items-center cursor-pointer mb-4">
+                    <img src="/images/caritas-logo.png" alt="Caritas Maria-Hötte-Stift" className="h-10 object-contain" />
                   </div>
                 </Link>
                 <nav className="flex flex-col gap-4">
