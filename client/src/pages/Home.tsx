@@ -44,12 +44,12 @@ export default function Home() {
         </p>
         
         <div className="flex justify-center">
-          <a href="/downloads/Schulungshandbuch_Grundpflege.pdf" download>
+          <Link href="/handbuch">
             <Button variant="outline" className="gap-2 border-primary text-primary hover:bg-primary/5">
               <Download className="h-4 w-4" />
-              Schulungshandbuch herunterladen (PDF)
+              Schulungshandbuch öffnen (zum Drucken / als PDF speichern)
             </Button>
-          </a>
+          </Link>
         </div>
       </section>
 

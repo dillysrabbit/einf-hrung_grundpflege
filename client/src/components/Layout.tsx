@@ -21,7 +21,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen bg-background font-sans text-foreground flex flex-col">
       {/* Header */}
-      <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-md shadow-sm">
+      <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-md shadow-sm print:hidden">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Link href="/">
@@ -93,7 +93,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       </main>
 
       {/* Footer */}
-      <footer className="border-t bg-white py-8 mt-12">
+      <footer className="border-t bg-white py-8 mt-12 print:hidden">
         <div className="container flex flex-col gap-4 text-sm text-muted-foreground">
           <p className="text-xs italic max-w-3xl">
             Hinweis: Diese Fortbildung dient der einrichtungsinternen Schulung von Pflegehilfskräften.
