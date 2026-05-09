@@ -64,8 +64,8 @@ export default function Module5() {
                 <p><strong>Material:</strong> Zahnbürste (weich), fluoridhaltige Zahnpasta, Becher, Nierenschale,
                   Lippenpflege, ggf. Mundpflegestäbchen, Prothesenbürste, Prothesenreiniger, ggf. Mundspüllösung
                   ohne Alkohol. Bei nicht-intaktem Mund: Einmalhandschuhe.</p>
-                <p><strong>Lagerung:</strong> möglichst aufrecht (Aspirations­schutz). Bei bettlägerigen Personen
-                  Oberkörper hochlagern und Kopf zur Seite drehen. Niemals flach liegend Mundpflege durchführen.</p>
+                <p><strong>Positionierung:</strong> möglichst aufrecht (Aspirations­schutz). Bei bettlägerigen Personen
+                  Oberkörper hochpositionieren und Kopf zur Seite drehen. Niemals flach liegend Mundpflege durchführen.</p>
                 <p><strong>Hilfe zur Selbsthilfe:</strong> Zahnbürste anreichen, ggf. Hand zum Mund führen, die
                   Putzbewegung selbst ausführen lassen. Beobachten, ob alle Bereiche erreicht werden, ggf.
                   nachreinigen.</p>

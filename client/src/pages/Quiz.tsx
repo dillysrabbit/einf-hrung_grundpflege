@@ -155,7 +155,7 @@ const questions: Question[] = [
     id: 12,
     question: "Welche der folgenden Beobachtungen müssen Sie SOFORT an die Pflegefachkraft melden?",
     options: [
-      "Die Bewohnerin hat heute eine andere Lieblingstasse gewählt.",
+      "Die Bewohner:in hat heute eine andere Lieblingstasse gewählt.",
       "Plötzlicher hängender Mundwinkel und Sprachstörung.",
       "Eine kleine, wegdrückbare Hautrötung am Oberarm.",
       "Die Person möchte nach dem Frühstück noch ein wenig schlafen."
@@ -167,7 +167,7 @@ const questions: Question[] = [
     id: 13,
     question: "Was bedeutet die Schweigepflicht (§ 203 StGB) im Pflegealltag?",
     options: [
-      "Mit Bewohnerinnen darf man nicht sprechen.",
+      "Mit Bewohner:innen darf man nicht sprechen.",
       "Informationen über Bewohner:innen dürfen nicht an Außenstehende weitergegeben werden – auch nicht an Familienangehörige ohne Erlaubnis.",
       "Pflegehilfskräfte müssen schweigen, wenn die Pflegefachkraft im Raum ist.",
       "Im Pausenraum darf alles besprochen werden, weil das interner Bereich ist."
@@ -179,7 +179,7 @@ const questions: Question[] = [
     id: 14,
     question: "Sie entdecken am Steißbein eine Hautrötung. Was prüfen Sie zuerst?",
     options: [
-      "Ob die Bewohnerin die Stelle selbst sieht.",
+      "Ob die Bewohner:in die Stelle selbst sieht.",
       "Ob sich die Rötung mit dem Finger wegdrücken lässt (Fingertest).",
       "Ob die Rötung warm ist – wenn ja, ist alles ok.",
       "Ob die Stelle schmerzt – wenn nicht, ist nichts zu tun."
@@ -227,7 +227,7 @@ const questions: Question[] = [
     id: 19,
     question: "Was ist die Strukturierte Informationssammlung (SIS)?",
     options: [
-      "Eine Liste aller Medikamente der Bewohnerin/des Bewohners.",
+      "Eine Liste aller Medikamente der Bewohner:in.",
       "Ein Erhebungsinstrument mit sechs Themenfeldern, das Informationen aus Sicht der bewohnenden Person zusammenführt.",
       "Eine Software zur Dienstplanung.",
       "Das Berichteblatt am Ende der Schicht."
@@ -237,12 +237,12 @@ const questions: Question[] = [
   },
   {
     id: 17,
-    question: "Eine Bewohnerin mit fortgeschrittener Demenz weigert sich heute morgen, sich waschen zu lassen, und wirkt unruhig. Was tun Sie?",
+    question: "Eine Bewohner:in mit fortgeschrittener Demenz weigert sich heute morgen, sich waschen zu lassen, und wirkt unruhig. Was tun Sie?",
     options: [
       "Die Waschung trotzdem durchziehen, damit der Tagesplan eingehalten wird.",
       "Die Waschung abbrechen und sie nie wieder versuchen.",
       "Ruhig bleiben, validierend kommunizieren, später erneut anbieten und die Pflegefachkraft informieren.",
-      "Die Bewohnerin zurechtweisen, damit sie kooperiert."
+      "Die Bewohner:in zurechtweisen, damit sie kooperiert."
     ],
     correctAnswer: 2,
     explanation: "Validation (nach Naomi Feil), Geduld und Anpassung des Zeitpunkts sind zentral. Die Pflegefachkraft prüft, ob Schmerzen, Angst oder ein neues Symptom dahinterstecken."

@@ -14,11 +14,11 @@ export default function Module4() {
   };
 
   const steps = [
-    { id: "step1", title: "1. Ressourcen erkennen", desc: "Beobachten Sie genau: Was kann der Bewohner noch selbst? Kann er den Waschlappen halten? Kann er sich selbst das Gesicht waschen?" },
+    { id: "step1", title: "1. Ressourcen erkennen", desc: "Beobachten Sie genau: Was kann die bewohnende Person noch selbst? Kann sie den Waschlappen halten? Kann sie sich selbst das Gesicht waschen?" },
     { id: "step2", title: "2. Kommunikation", desc: "Erklären Sie jeden Schritt. Motivieren Sie mit Worten. 'Versuchen Sie mal, den Arm selbst zu heben.'" },
-    { id: "step3", title: "3. Geduld & Zeit", desc: "Selbstständigkeit braucht Zeit. Es geht oft schneller, es selbst zu tun – aber das fördert nicht die Fähigkeiten des Bewohners." },
-    { id: "step4", title: "4. Praktische Anleitung: Mundpflege", desc: "Anstatt die Zähne komplett zu putzen, reichen Sie die Zahnbürste an. Führen Sie ggf. die Hand zum Mund, aber lassen Sie die Putzbewegung vom Bewohner ausführen." },
-    { id: "step5", title: "5. Praktische Anleitung: Anziehen", desc: "Legen Sie die Kleidung in der richtigen Reihenfolge bereit. Helfen Sie bei schwierigen Knöpfen, aber lassen Sie den Bewohner das Hemd selbst überstreifen." }
+    { id: "step3", title: "3. Geduld & Zeit", desc: "Selbstständigkeit braucht Zeit. Es geht oft schneller, es selbst zu tun – aber das fördert nicht die Fähigkeiten der bewohnenden Person." },
+    { id: "step4", title: "4. Praktische Anleitung: Mundpflege", desc: "Anstatt die Zähne komplett zu putzen, reichen Sie die Zahnbürste an. Führen Sie ggf. die Hand zum Mund, aber lassen Sie die Putzbewegung von der bewohnenden Person ausführen." },
+    { id: "step5", title: "5. Praktische Anleitung: Anziehen", desc: "Legen Sie die Kleidung in der richtigen Reihenfolge bereit. Helfen Sie bei schwierigen Knöpfen, aber lassen Sie die bewohnende Person das Hemd selbst überstreifen." }
   ];
 
   return (
@@ -79,7 +79,7 @@ export default function Module4() {
                 </div>
                 <h3 className="font-bold text-lg mb-2">Ressourcen erkennen</h3>
                 <p className="text-sm text-muted-foreground">
-                  Beobachten Sie genau: Was kann der Bewohner noch selbst? Nutzen Sie diese Fähigkeiten gezielt.
+                  Beobachten Sie genau: Was kann die bewohnende Person noch selbst? Nutzen Sie diese Fähigkeiten gezielt.
                 </p>
               </div>
               <div className="flex flex-col items-center text-center">
@@ -118,7 +118,7 @@ export default function Module4() {
                 <CardContent className="pt-6">
                   <h4 className="font-bold text-primary mb-2">Basale Stimulation (Fröhlich/Bienstein)</h4>
                   <p className="text-sm text-muted-foreground">
-                    Förderung der Wahrnehmung über Berührung, Bewegung, Lagerung. Belebende Waschung
+                    Förderung der Wahrnehmung über Berührung, Bewegung, Positionierung. Belebende Waschung
                     (herzwärts) versus beruhigende Waschung (zentrumswärts) – z. B. beim Einschlafen.
                   </p>
                 </CardContent>

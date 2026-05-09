@@ -11,7 +11,7 @@ export default function Module8() {
         <Move className="absolute h-72 w-72 text-white/10" strokeWidth={1} />
         <div className="text-center text-white px-4 relative z-10">
           <span className="uppercase tracking-widest text-sm font-bold mb-2 block opacity-80">Modul 8</span>
-          <h1 className="font-serif text-3xl md:text-5xl font-bold drop-shadow-md">Lagerung & Transfer</h1>
+          <h1 className="font-serif text-3xl md:text-5xl font-bold drop-shadow-md">Positionierung & Transfer</h1>
         </div>
       </div>
 
@@ -25,8 +25,8 @@ export default function Module8() {
               </h3>
               <p className="text-sm text-muted-foreground mb-2">Nach Bearbeitung dieses Moduls können Sie …</p>
               <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
-                <li>die Bedeutung der Lagerung für Dekubitus-, Pneumonie- und Kontrakturprophylaxe erklären.</li>
-                <li>einfache Lagerungswechsel und Mikrolagerungen nach Maßnahmenplan durchführen.</li>
+                <li>die Bedeutung der Positionierung für Dekubitus-, Pneumonie- und Kontrakturprophylaxe erklären.</li>
+                <li>einfache Positionswechsel und Mikropositionierungen nach Maßnahmenplan durchführen.</li>
                 <li>Transfers (Bett – Stuhl – Toilette) ressourcenorientiert begleiten.</li>
                 <li>die Konzepte Kinästhetik und Bobath grob unterscheiden.</li>
                 <li>rückenschonend für sich selbst arbeiten und Ihren eigenen Körper schützen.</li>
@@ -46,7 +46,7 @@ export default function Module8() {
 
         <Tabs defaultValue="position" className="w-full mb-10">
           <TabsList className="grid w-full grid-cols-2 md:grid-cols-4 mb-8">
-            <TabsTrigger value="position">Lagerung</TabsTrigger>
+            <TabsTrigger value="position">Positionierung</TabsTrigger>
             <TabsTrigger value="transfer">Transfer</TabsTrigger>
             <TabsTrigger value="concepts">Kinästhetik & Bobath</TabsTrigger>
             <TabsTrigger value="self">Eigenschutz</TabsTrigger>
@@ -56,24 +56,24 @@ export default function Module8() {
             <Card>
               <CardContent className="pt-6 space-y-3 text-sm">
                 <p>
-                  Lagerung ist <strong>Vorbehalt der Pflegefachkraft</strong> in der Planung. Sie führen
-                  die im Maßnahmenplan vorgegebene Lagerung durch und beobachten dabei.
+                  Positionierung ist <strong>Vorbehalt der Pflegefachkraft</strong> in der Planung. Sie führen
+                  die im Maßnahmenplan vorgegebene Positionierung durch und beobachten dabei.
                 </p>
-                <p className="font-bold">Wichtige Lagerungsformen (Überblick)</p>
+                <p className="font-bold">Wichtige Positionierungsformen (Überblick)</p>
                 <ul className="list-disc pl-5 space-y-1">
                   <li><strong>30°-Schräglage:</strong> Standardlage zur Dekubitusprophylaxe – Becken und Schulter werden mit Kissen unterlegt, das Gesäß bleibt frei.</li>
-                  <li><strong>Mikrolagerung:</strong> kleine Verschiebungen (2–5 cm) durch Tuch oder Hand­tuch – sehr wirksam, wenig belastend, häufig anwendbar.</li>
-                  <li><strong>V-A-T-I-Lagerung:</strong> mit Kissen geformte Buchstaben unter dem Rücken zur Atemunterstützung.</li>
-                  <li><strong>Hochlagerung des Oberkörpers</strong> bei Atemnot, nach den Mahlzeiten (Aspirations­schutz).</li>
+                  <li><strong>Mikropositionierung:</strong> kleine Verschiebungen (2–5 cm) durch Tuch oder Hand­tuch – sehr wirksam, wenig belastend, häufig anwendbar.</li>
+                  <li><strong>V-A-T-I-Positionierung:</strong> mit Kissen geformte Buchstaben unter dem Rücken zur Atemunterstützung.</li>
+                  <li><strong>Hochpositionierung des Oberkörpers</strong> bei Atemnot, nach den Mahlzeiten (Aspirations­schutz).</li>
                   <li><strong>Beine hoch</strong> bei Ödemen.</li>
                 </ul>
                 <p className="font-bold mt-2">Grundprinzipien</p>
                 <ul className="list-disc pl-5 space-y-1">
                   <li>Faltenfreie Unterlage (Knitter erzeugt Druckstellen).</li>
                   <li>Knöcherne Vorsprünge (Steiß, Fersen, Ellenbogen, Schulterblatt) beobachten und entlasten.</li>
-                  <li>Lagerungswechsel-Intervall ist <em>individuell</em> – nicht starr „alle 2 Stunden", sondern nach Risikoeinschätzung der Pflegefachkraft.</li>
-                  <li>Bei jedem Lagerungswechsel: Hautinspektion (Fingertest), Kontrolle der Inkontinenzversorgung, Komfort.</li>
-                  <li>Eintrag im Lagerungsplan/Berichteblatt nach Hausstandard.</li>
+                  <li>Positionswechsel-Intervall ist <em>individuell</em> – nicht starr „alle 2 Stunden", sondern nach Risikoeinschätzung der Pflegefachkraft.</li>
+                  <li>Bei jedem Positionswechsel: Hautinspektion (Fingertest), Kontrolle der Inkontinenzversorgung, Komfort.</li>
+                  <li>Eintrag im Positionierungsplan/Berichteblatt nach Hausstandard.</li>
                 </ul>
               </CardContent>
             </Card>
@@ -122,7 +122,7 @@ export default function Module8() {
                   <p className="text-muted-foreground">
                     Ursprünglich für Menschen nach Schlaganfall entwickelt. Die <em>betroffene Seite</em>
                     wird bewusst einbezogen, nicht „weggepackt". Wahrnehmungsförderung, symmetrische
-                    Lagerung, Mitnahme der schwächeren Seite bei Bewegungen.
+                    Positionierung, Mitnahme der schwächeren Seite bei Bewegungen.
                   </p>
                 </div>
                 <p className="bg-yellow-50 border-l-4 border-yellow-400 p-2 mt-2">

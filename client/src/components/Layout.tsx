@@ -24,7 +24,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     { path: "/module-5", label: "5 · Mund- & Zahnpflege" },
     { path: "/module-6", label: "6 · Ausscheidung & Inkontinenz" },
     { path: "/module-7", label: "7 · Ernährung & Trinken" },
-    { path: "/module-8", label: "8 · Lagerung & Transfer" },
+    { path: "/module-8", label: "8 · Positionierung & Transfer" },
     { path: "/module-9", label: "9 · Menschen mit Demenz" },
     { path: "/module-10", label: "10 · Sterbebegleitung" },
   ];

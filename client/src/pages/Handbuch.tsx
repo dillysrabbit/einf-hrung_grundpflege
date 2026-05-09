@@ -61,7 +61,7 @@ export default function Handbuch() {
             <li>Modul 5 – Mund- &amp; Zahnpflege</li>
             <li>Modul 6 – Ausscheidung &amp; Inkontinenz</li>
             <li>Modul 7 – Ernährung &amp; Trinken</li>
-            <li>Modul 8 – Lagerung &amp; Transfer</li>
+            <li>Modul 8 – Positionierung &amp; Transfer</li>
             <li>Modul 9 – Menschen mit Demenz</li>
             <li>Modul 10 – Sterbebegleitung &amp; palliative Grundpflege</li>
             <li>Anhang: Was muss ich sofort melden?</li>
@@ -111,7 +111,7 @@ export default function Handbuch() {
                 <li>Körperpflege (Waschen, Mund-, Haarpflege)</li>
                 <li>Hilfe beim An- und Auskleiden</li>
                 <li>Hilfe bei Essen und Trinken</li>
-                <li>Lagern, Mobilisieren, Transfer (nach Anleitung)</li>
+                <li>Positionieren, Mobilisieren, Transfer (nach Anleitung)</li>
                 <li>Beobachten und weitergeben</li>
                 <li>Begleitung, Zuwendung, Tagesstruktur</li>
               </ul>
@@ -157,7 +157,7 @@ export default function Handbuch() {
           <h3 className="font-serif text-xl font-bold text-primary mt-6 mb-3">Risikomatrix – fünf Pflegerisiken</h3>
           <p className="mb-2 text-sm">Im Anschluss an die SIS prüft die Pflegefachkraft anhand der Risikomatrix:</p>
           <ul className="list-disc pl-5 space-y-0.5 mb-4 text-sm">
-            <li><strong>Dekubitus</strong> – Hautrötungen, Druckstellen, Lagerung, Mobilität</li>
+            <li><strong>Dekubitus</strong> – Hautrötungen, Druckstellen, Positionierung, Mobilität</li>
             <li><strong>Sturz</strong> – Schwindel, Gangbild, Hilfsmittel, Sehkraft</li>
             <li><strong>Inkontinenz</strong> – Urin-/Stuhlausscheidung, Hautzustand</li>
             <li><strong>Schmerz</strong> – verbal und nonverbal (Mimik, Stöhnen, Abwehr)</li>
@@ -173,7 +173,7 @@ export default function Handbuch() {
             <li>Ereignisse, Stürze, Schmerzäußerungen, Stimmungsveränderungen</li>
           </ul>
           <p className="text-sm mb-2"><strong>Aufbau jedes Eintrags:</strong> Datum/Uhrzeit · Handzeichen · was beobachtet (Tatsachen, keine Vermutungen) · ggf. an wen weitergegeben.</p>
-          <p className="text-sm italic">Beispiel: „08:30 Uhr / KN – beim Waschen 2 cm große, nicht wegdrückbare Hautrötung am Steißbein. PFK Müller informiert, Lagerungsplan ergänzt."</p>
+          <p className="text-sm italic">Beispiel: „08:30 Uhr / KN – beim Waschen 2 cm große, nicht wegdrückbare Hautrötung am Steißbein. PFK Müller informiert, Positionierungsplan ergänzt."</p>
 
           <h3 className="font-serif text-xl font-bold text-primary mt-8 mb-3">Schweigepflicht &amp; Datenschutz</h3>
           <p className="mb-2 text-sm">Alles, was Sie über Bewohner:innen erfahren, unterliegt <strong>§ 203 StGB</strong> und der <strong>DSGVO</strong>:</p>
@@ -253,7 +253,7 @@ export default function Handbuch() {
                 ⚠ <strong>Warnung:</strong> Eine vergessene oder nicht zurückgeschobene Vorhaut kann zur <strong>Paraphimose</strong> führen – urologischer Notfall. Sofort Pflegefachkraft informieren.
               </div>
             </li>
-            <li><strong>Abschluss &amp; Nachbereitung.</strong> Frische Kleidung anziehen, faltenfreie Bettwäsche, bequeme Lagerung. Anschließend Arbeitsplatz aufräumen, reinigen, desinfizieren (siehe Nachbereitung). Beobachtungen ins Berichteblatt.</li>
+            <li><strong>Abschluss &amp; Nachbereitung.</strong> Frische Kleidung anziehen, faltenfreie Bettwäsche, bequeme Positionierung. Anschließend Arbeitsplatz aufräumen, reinigen, desinfizieren (siehe Nachbereitung). Beobachtungen ins Berichteblatt.</li>
           </ol>
 
           <h3 className="font-serif text-xl font-bold text-primary mt-6 mb-3">Beobachtungspunkte</h3>
@@ -286,8 +286,8 @@ export default function Handbuch() {
           <p className="mb-4 text-base">
             Wenn die Mobilität es zulässt, ist dies der ideale Weg zur Förderung der Selbstständigkeit.
             Ihre Rolle wandelt sich vom „Versorger" zum „Anleiter und Begleiter".
-            <strong> Die Belastbarkeit muss tagesaktuell beurteilt werden</strong> – ein Bewohner, der
-            gestern aufstehen konnte, kann heute zu schwach sein.
+            <strong> Die Belastbarkeit muss tagesaktuell beurteilt werden</strong> – wer gestern
+            aufstehen konnte, kann heute zu schwach sein.
           </p>
 
           <h3 className="font-serif text-xl font-bold text-primary mt-6 mb-3">Sicherheit</h3>
@@ -338,7 +338,7 @@ export default function Handbuch() {
           <h3 className="font-serif text-xl font-bold text-primary mt-6 mb-3">Konzepte (Überblick)</h3>
           <ul className="list-disc pl-5 space-y-1 mb-4 text-sm">
             <li><strong>Kinästhetik (Hatch &amp; Maietta):</strong> Bewegungslehre, die das eigene Körpergefühl der Person nutzt. „Führen" der Bewegung statt Heben/Tragen.</li>
-            <li><strong>Basale Stimulation (Fröhlich/Bienstein):</strong> Förderung der Wahrnehmung über Berührung, Bewegung, Lagerung. Belebende Waschung (herzwärts) versus beruhigende Waschung.</li>
+            <li><strong>Basale Stimulation (Fröhlich/Bienstein):</strong> Förderung der Wahrnehmung über Berührung, Bewegung, Positionierung. Belebende Waschung (herzwärts) versus beruhigende Waschung.</li>
             <li><strong>Validation (Naomi Feil):</strong> Umgang mit Menschen mit Demenz – nicht korrigieren, sondern in die emotionale Welt eingehen.</li>
             <li><strong>Personenzentrierte Pflege (Tom Kitwood):</strong> Würde und Person-Sein bewahren, mit Biographie, Vorlieben, Beziehungen.</li>
           </ul>
@@ -373,7 +373,7 @@ export default function Handbuch() {
 
           <h3 className="font-serif text-xl font-bold text-primary mt-6 mb-3">Grundlagen</h3>
           <p className="text-sm mb-2">Mundpflege mindestens 2× täglich; bei Mundatmung, Sauerstofftherapie, Sondenernährung, Fieber oder im Sterbeprozess häufiger. Material: weiche Zahnbürste, fluoridhaltige Zahnpasta, Becher, Nierenschale, Lippenpflege, ggf. Mundpflegestäbchen, Prothesenbürste/-reiniger.</p>
-          <p className="text-sm mb-2"><strong>Lagerung:</strong> möglichst aufrecht (Aspirations­schutz). Bei bettlägerigen Personen Oberkörper hochlagern, Kopf zur Seite drehen.</p>
+          <p className="text-sm mb-2"><strong>Positionierung:</strong> möglichst aufrecht (Aspirations­schutz). Bei bettlägerigen Personen Oberkörper hochpositionieren, Kopf zur Seite drehen.</p>
 
           <h3 className="font-serif text-xl font-bold text-primary mt-6 mb-3">Eigene Zähne</h3>
           <ol className="list-decimal pl-5 space-y-1 mb-3 text-sm">
@@ -489,19 +489,19 @@ export default function Handbuch() {
 
         {/* Modul 8 */}
         <section className="mb-12 print:break-before-page">
-          <h2 className="font-serif text-3xl font-bold text-primary mb-2">Modul 8 – Lagerung &amp; Transfer</h2>
+          <h2 className="font-serif text-3xl font-bold text-primary mb-2">Modul 8 – Positionierung &amp; Transfer</h2>
           <p className="text-sm text-muted-foreground mb-6 italic">
-            Lernziele: Bedeutung der Lagerung für Dekubitus-, Pneumonie- und Kontrakturprophylaxe · einfache
-            Lagerungswechsel und Mikrolagerungen durchführen · Transfers ressourcenorientiert begleiten ·
+            Lernziele: Bedeutung der Positionierung für Dekubitus-, Pneumonie- und Kontrakturprophylaxe · einfache
+            Positionswechsel und Mikropositionierungen durchführen · Transfers ressourcenorientiert begleiten ·
             Kinästhetik und Bobath als Begriffe kennen · rückenschonend für sich selbst arbeiten.
           </p>
 
-          <h3 className="font-serif text-xl font-bold text-primary mt-6 mb-3">Lagerung</h3>
+          <h3 className="font-serif text-xl font-bold text-primary mt-6 mb-3">Positionierung</h3>
           <ul className="list-disc pl-5 space-y-0.5 mb-3 text-sm">
             <li><strong>30°-Schräglage:</strong> Standard zur Dekubitusprophylaxe, Becken/Schulter unterlegt, Gesäß frei.</li>
-            <li><strong>Mikrolagerung:</strong> kleine Verschiebungen (2–5 cm) durch Tuch – wirksam, wenig belastend.</li>
-            <li><strong>V-A-T-I-Lagerung</strong> zur Atemunterstützung; <strong>Hochlagerung</strong> bei Atemnot oder nach Mahlzeiten; <strong>Beine hoch</strong> bei Ödemen.</li>
-            <li>Faltenfreie Unterlage; Lagerungswechsel-Intervall individuell, nicht starr „alle 2 h".</li>
+            <li><strong>Mikropositionierung:</strong> kleine Verschiebungen (2–5 cm) durch Tuch – wirksam, wenig belastend.</li>
+            <li><strong>V-A-T-I-Positionierung</strong> zur Atemunterstützung; <strong>Hochpositionierung</strong> bei Atemnot oder nach Mahlzeiten; <strong>Beine hoch</strong> bei Ödemen.</li>
+            <li>Faltenfreie Unterlage; Positionswechsel-Intervall individuell, nicht starr „alle 2 h".</li>
             <li>Bei jedem Wechsel: Hautinspektion (Fingertest), Inkontinenz, Komfort.</li>
           </ul>
 
@@ -518,7 +518,7 @@ export default function Handbuch() {
 
           <h3 className="font-serif text-xl font-bold text-primary mt-6 mb-3">Kinästhetik &amp; Bobath</h3>
           <p className="text-sm mb-2"><strong>Kinästhetik (Hatch &amp; Maietta):</strong> Bewegungslehre, die das Körpergefühl der Person nutzt – Bewegung führen statt heben.</p>
-          <p className="text-sm mb-3"><strong>Bobath:</strong> ursprünglich nach Schlaganfall – die betroffene Seite einbeziehen, nicht „wegpacken"; Wahrnehmungsförderung, symmetrische Lagerung.</p>
+          <p className="text-sm mb-3"><strong>Bobath:</strong> ursprünglich nach Schlaganfall – die betroffene Seite einbeziehen, nicht „wegpacken"; Wahrnehmungsförderung, symmetrische Positionierung.</p>
 
           <h3 className="font-serif text-xl font-bold text-primary mt-6 mb-3">Eigenschutz</h3>
           <ul className="list-disc pl-5 space-y-0.5 mb-3 text-sm">
@@ -574,7 +574,7 @@ export default function Handbuch() {
           <h2 className="font-serif text-3xl font-bold text-primary mb-2">Modul 10 – Sterbebegleitung &amp; palliative Grundpflege</h2>
           <p className="text-sm text-muted-foreground mb-6 italic">
             Lernziele: Haltung der palliativen Pflege bei der Caritas beschreiben · Anzeichen des nahenden
-            Sterbens erkennen · palliative Grundpflege (Mund, Lagerung, Atmung, Schmerz) umsetzen ·
+            Sterbens erkennen · palliative Grundpflege (Mund, Positionierung, Atmung, Schmerz) umsetzen ·
             Angehörige einfühlsam begleiten · eigene Gefühle wahrnehmen.
           </p>
 
@@ -589,7 +589,7 @@ export default function Handbuch() {
 
           <h3 className="font-serif text-xl font-bold text-primary mt-6 mb-3">Palliative Grundpflege</h3>
           <p className="text-sm mb-2"><strong>Mundpflege</strong> – das Wichtigste: mehrmals stündlich befeuchten, Lieblingsgetränk, kein Spülen mehr (Aspiration), Lippen dünn fetten.</p>
-          <p className="text-sm mb-2"><strong>Lagerung</strong> sehr behutsam, Mikrolagerungen, Komfort wichtiger als „idealer" Lagerungswechsel; bei rasselnder Atmung Oberkörper hoch.</p>
+          <p className="text-sm mb-2"><strong>Positionierung</strong> sehr behutsam, Mikropositionierungen, Komfort wichtiger als „idealer" Positionswechsel; bei rasselnder Atmung Oberkörper hoch.</p>
           <p className="text-sm mb-2"><strong>Atmung &amp; Schmerz:</strong> bei Atemnot Fenster auf / Ventilator, Oberkörper hoch; rasselnde Atmung der Pflegefachkraft melden, Absaugen meist nicht hilfreich; Schmerzen auch nonverbal ernst nehmen.</p>
           <p className="text-sm mb-3"><strong>Würde &amp; Sinneserfahrung:</strong> vertraute Stimmen, leise Musik, gedämpftes Licht, warme Hand, vertrauter Geruch, spirituelle Begleitung – Hören bleibt am längsten.</p>
 

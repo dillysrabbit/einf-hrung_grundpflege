@@ -22,7 +22,7 @@ export default function Module2() {
     { id: "step6", title: "6. Intimbereich Vorbereitung", desc: "Wasser wechseln, frischen Waschlappen, jetzt Einmalhandschuhe anziehen. Intimsphäre durch Abdecken wahren." },
     { id: "step7", title: "7. Intimpflege (Frau)", desc: "Beine anstellen. Erst äußere, dann mit gespreizten Schamlippen die kleinen Schamlippen reinigen – immer von der Symphyse zum Anus, mit jedem Wisch frische Lappenstelle. Verhindert Keimverschleppung in die Harnröhre." },
     { id: "step8", title: "8. Intimpflege (Mann)", desc: "Vorhaut vorsichtig zurückschieben (bei Phimose nicht erzwingen!), Eichel reinigen, gut abtrocknen, Vorhaut ZWINGEND wieder vorschieben (sonst Paraphimose-Gefahr → Notfall). Hoden reinigen." },
-    { id: "step9", title: "9. Abschluss & Nachbereitung", desc: "Frische Kleidung, faltenfreie Bettwäsche, bequeme Lagerung. Anschließend Arbeitsplatz und Material aufräumen, reinigen, desinfizieren (siehe Nachbereitung unten). Beobachtungen ins Berichteblatt." },
+    { id: "step9", title: "9. Abschluss & Nachbereitung", desc: "Frische Kleidung, faltenfreie Bettwäsche, bequeme Positionierung. Anschließend Arbeitsplatz und Material aufräumen, reinigen, desinfizieren (siehe Nachbereitung unten). Beobachtungen ins Berichteblatt." },
   ];
 
   return (
@@ -230,7 +230,7 @@ export default function Module2() {
               <p className="text-sm text-blue-900">
                 Eine vollständige Grundpflege umfasst auch <strong>Mund-, Zahn- und Prothesenpflege</strong>,
                 <strong> Inkontinenzversorgung mit Hautschutz</strong>, <strong>Hilfe bei Essen und Trinken</strong>
-                {" "}(inkl. Aspirations­prophylaxe) sowie <strong>Lagerung und Mobilisation</strong> nach den Konzepten der
+                {" "}(inkl. Aspirations­prophylaxe) sowie <strong>Positionierung und Mobilisation</strong> nach den Konzepten der
                 Kinästhetik und Bobath. Diese Themen folgen in vertiefenden Schulungen –
                 bei Unsicherheit immer Pflegefachkraft hinzuziehen.
               </p>

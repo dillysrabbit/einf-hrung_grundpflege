@@ -58,7 +58,7 @@ export default function Module7() {
                 <p><strong>Vorbereitung der Mahlzeit:</strong></p>
                 <ul className="list-disc pl-5 space-y-1">
                   <li>Hände desinfizieren (Bewohner:in und Pflegekraft).</li>
-                  <li>Aufrechte Sitzposition – am Tisch oder mit gut gelagertem Oberkörper im Bett (mind. 60–90°).</li>
+                  <li>Aufrechte Sitzposition – am Tisch oder mit gut positioniertem Oberkörper im Bett (mind. 60–90°).</li>
                   <li>Sehhilfen, Hörgeräte, ggf. Prothese einsetzen.</li>
                   <li>Stoffserviette, Lätzchen vermeiden, soweit es geht (Würde) – stattdessen großes Tuch oder Schürze nach Wunsch.</li>
                   <li>Speisen ansprechend anrichten, Bezeichnungen nennen, ggf. Auswahl anbieten.</li>

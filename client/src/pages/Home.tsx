@@ -40,7 +40,7 @@ export default function Home() {
         <p className="text-xl text-muted-foreground leading-relaxed font-light mb-8">
           Diese interaktive Fortbildung richtet sich an alle Pflegehilfskräfte unserer Einrichtung. Unser Ziel ist es, Ihnen 
           das nötige Basiswissen und die Sicherheit für den Pflegealltag zu geben. Wir legen besonderen Wert auf die 
-          aktivierende Pflege und die Wahrung der Würde unserer Bewohner.
+          aktivierende Pflege und die Wahrung der Würde unserer Bewohner:innen.
         </p>
         
         <div className="flex justify-center">
@@ -202,12 +202,12 @@ export default function Home() {
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                   <Move className="h-6 w-6 text-primary group-hover:text-white" />
                 </div>
-                <CardTitle className="font-serif text-xl">8 · Lagerung & Transfer</CardTitle>
+                <CardTitle className="font-serif text-xl">8 · Positionierung & Transfer</CardTitle>
                 <CardDescription>Dekubitusprophylaxe, sicherer Transfer, Kinästhetik, Eigenschutz.</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="text-sm text-muted-foreground space-y-2">
-                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> 30°-Lage, Mikrolagerung</li>
+                  <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> 30°-Position, Mikropositionierung</li>
                   <li className="flex items-center gap-2"><CheckCircle className="h-4 w-4 text-green-600" /> Rückenschonend arbeiten</li>
                 </ul>
               </CardContent>
@@ -239,7 +239,7 @@ export default function Home() {
                   <HeartHandshake className="h-6 w-6 text-primary group-hover:text-white" />
                 </div>
                 <CardTitle className="font-serif text-xl">10 · Sterbebegleitung</CardTitle>
-                <CardDescription>Palliative Grundpflege, Mund/Lagerung/Atmung am Lebensende, Angehörige.</CardDescription>
+                <CardDescription>Palliative Grundpflege, Mund/Positionierung/Atmung am Lebensende, Angehörige.</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="text-sm text-muted-foreground space-y-2">
