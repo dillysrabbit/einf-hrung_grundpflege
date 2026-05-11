@@ -6,7 +6,6 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import Layout from "./components/Layout";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
-import Deck from "./pages/Deck";
 import Handbuch from "./pages/Handbuch";
 import Module1 from "./pages/Module1";
 import Module2 from "./pages/Module2";
@@ -22,13 +21,9 @@ import Quiz from "./pages/Quiz";
 
 function Router() {
   return (
-    <Switch>
-      {/* Deck rendert ohne Layout-Wrapper als Vollbild-Präsentation */}
-      <Route path="/deck" component={Deck} />
-      <Route>
-        <Layout>
-          <Switch>
-            <Route path="/" component={Home} />
+    <Layout>
+      <Switch>
+        <Route path="/" component={Home} />
         <Route path="/module-1" component={Module1} />
         <Route path="/module-2" component={Module2} />
         <Route path="/module-3" component={Module3} />
@@ -41,13 +36,11 @@ function Router() {
         <Route path="/module-10" component={Module10} />
         <Route path="/handbuch" component={Handbuch} />
         <Route path="/quiz" component={Quiz} />
-            <Route path="/404" component={NotFound} />
-            {/* Final fallback route */}
-            <Route component={NotFound} />
-          </Switch>
-        </Layout>
-      </Route>
-    </Switch>
+        <Route path="/404" component={NotFound} />
+        {/* Final fallback route */}
+        <Route component={NotFound} />
+      </Switch>
+    </Layout>
   );
 }
 

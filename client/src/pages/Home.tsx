@@ -43,13 +43,19 @@ export default function Home() {
           aktivierende Pflege und die Wahrung der Würde unserer Bewohner:innen.
         </p>
         
-        <div className="flex justify-center">
+        <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
           <Link href="/handbuch">
             <Button variant="outline" className="gap-2 border-primary text-primary hover:bg-primary/5">
               <Download className="h-4 w-4" />
               Schulungshandbuch öffnen (zum Drucken / als PDF speichern)
             </Button>
           </Link>
+          <a href="/deck.html" download="caritas-grundpflege-deck.html">
+            <Button variant="outline" className="gap-2 border-primary text-primary hover:bg-primary/5">
+              <Download className="h-4 w-4" />
+              Präsentations-Deck herunterladen (HTML)
+            </Button>
+          </a>
         </div>
       </section>
 
