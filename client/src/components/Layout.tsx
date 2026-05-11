@@ -1,6 +1,6 @@
 import { Link, useLocation } from "wouter";
 import { cn } from "@/lib/utils";
-import { BookOpen, Heart, HeartPulse, Home, Info, Menu, X } from "lucide-react";
+import { BookOpen, Heart, HeartPulse, Home, Info, Menu, Presentation, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -14,6 +14,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     { path: "/module-1", label: "Grundlagen", icon: Info },
     { path: "/handbuch", label: "Handbuch", icon: BookOpen },
     { path: "/quiz", label: "Wissenscheck", icon: BookOpen },
+    { path: "/deck", label: "Deck", icon: Presentation },
   ];
 
   const moduleNavItems = [
