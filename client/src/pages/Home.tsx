@@ -8,17 +8,19 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-12 pb-12">
       {/* Hero Section */}
-      <section className="relative w-full h-[500px] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <img 
-            src="/images/hero-care-hands.jpg" 
-            alt="Pflegende Hände" 
-            className="w-full h-full object-cover opacity-90"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary/40 mix-blend-multiply" />
-        </div>
-        
+      <section className="relative w-full h-[500px] flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary to-[#b30013]">
+        {/* Caritas-Herz als dezente Hintergrundgrafik */}
+        <img
+          src="/images/caritas/herz/Caritas-Herz-weiß-RGB.png"
+          alt=""
+          aria-hidden="true"
+          className="absolute -right-16 -bottom-12 h-[140%] w-auto opacity-10 select-none pointer-events-none"
+        />
+        {/* Sanfter Lichtschein oben links */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.18),transparent_55%)]" />
+
         <div className="container relative z-10 text-white text-center max-w-3xl px-4">
+          <span className="uppercase tracking-widest text-xs md:text-sm font-bold mb-3 block opacity-90">Fortbildung · Caritas Maria-Hötte-Stift</span>
           <h1 className="font-serif text-4xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-lg">
             Einführung in die Grundpflege
           </h1>
