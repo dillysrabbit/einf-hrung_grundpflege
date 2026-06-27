@@ -32,9 +32,7 @@ export default function Handbuch() {
         {/* Titelseite */}
         <header className="mb-12 pb-8 border-b-4 border-primary text-center print:break-after-page">
           <div className="mb-8 flex items-center justify-center gap-3">
-            <div className="grid h-12 w-12 place-items-center rounded-[9px] bg-primary font-serif text-2xl font-semibold text-primary-foreground">
-              CC
-            </div>
+            <img src="/logo.png" alt="CareConnect" className="h-12 w-auto object-contain" />
             <span className="font-serif text-2xl font-semibold tracking-tight text-foreground">CareConnect</span>
           </div>
           <p className="eyebrow eyebrow-muted mb-3">Schulungshandbuch</p>
