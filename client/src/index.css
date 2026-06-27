@@ -3,38 +3,27 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@font-face {
-  font-family: 'Fira Sans';
-  src: url('/fonts/Fira_Sans/FiraSans-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Fira Sans';
-  src: url('/fonts/Fira_Sans/FiraSans-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Fira Sans Condensed';
-  src: url('/fonts/Fira_Sans_Condensed/FiraSansCondensed-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Pacifico';
-  src: url('/fonts/Pacifico/Pacifico-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
+/* CareConnect Design System
+ * Editorial, warm "paper & ink" base · a single Brombeer (berry) accent ·
+ * muted gold reserved for numerals and achievement · Newsreader serif
+ * headlines over Inter body. Webfonts are loaded in index.html. */
 
 @theme inline {
-  --font-sans: 'Fira Sans', ui-sans-serif, system-ui, sans-serif;
-  --font-serif: 'Pacifico', ui-serif, Georgia, serif;
-  --font-mono: 'Fira Sans Condensed', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace;
+
+  /* CareConnect brand palette exposed as Tailwind utilities */
+  --color-berry: var(--berry);
+  --color-berry-dark: var(--berry-dark);
+  --color-berry-light: var(--berry-light);
+  --color-gold: var(--gold);
+  --color-gold-dark: var(--gold-dark);
+  --color-ok: var(--ok);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-line: var(--line);
 
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -75,47 +64,74 @@
 }
 
 :root {
-  /* Caritas Rot: #E3000F (ca. oklch(0.55 0.25 29)) */
-  --primary: oklch(0.55 0.25 29);
-  --primary-foreground: oklch(1 0 0);
-  --sidebar-primary: oklch(0.55 0.25 29);
-  --sidebar-primary-foreground: oklch(1 0 0);
-  --chart-1: oklch(0.65 0.2 29);
-  --chart-2: oklch(0.55 0.25 29);
-  --chart-3: oklch(0.45 0.2 29);
-  --chart-4: oklch(0.35 0.15 29);
-  --chart-5: oklch(0.25 0.1 29);
-  --radius: 0.5rem; /* Weniger abgerundet für ein seriöseres Erscheinungsbild */
-  --background: oklch(0.99 0 0); /* Fast reines Weiß */
-  --foreground: oklch(0.2 0 0); /* Dunkelgrau/Schwarz */
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.2 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.2 0 0);
-  --secondary: oklch(0.95 0 0); /* Helles Grau */
-  --secondary-foreground: oklch(0.3 0 0);
-  --muted: oklch(0.95 0 0);
-  --muted-foreground: oklch(0.5 0 0);
-  --accent: oklch(0.95 0 0);
-  --accent-foreground: oklch(0.2 0 0);
+  /* ---- CareConnect raw tokens ---- */
+  /* warm paper surfaces */
+  --paper: #FAF9F6;
+  --paper-2: #FFFFFF;
+  --paper-3: #F3EFE8;
+  /* warm near-black ink */
+  --ink: #211B18;
+  --ink-soft: #6B6259;
+  --ink-faint-solid: #A89E93;
+  /* hairlines */
+  --line: #E7E1D8;
+  --line-strong: #D8D0C4;
+  /* Brombeer (berry) — the brand accent */
+  --berry: #8B1A4A;
+  --berry-dark: #6D1039;
+  --berry-light: #A8325F;
+  --berry-50: #FDF2F7;
+  --berry-100: #FCE7F0;
+  /* muted gold — numerals & achievement */
+  --gold: #C5982A;
+  --gold-dark: #A67D1A;
+  --gold-50: #FBF8EE;
+  --gold-100: #F5EDD3;
+  /* calm green — correct / positive */
+  --ok: #2C5F4A;
+  --ok-50: #EDF4F0;
+
+  /* ---- shadcn semantic aliases mapped onto the brand ---- */
+  --radius: 0.75rem; /* gently rounded editorial cards (12px) */
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: var(--paper-2);
+  --card-foreground: var(--ink);
+  --popover: var(--paper-2);
+  --popover-foreground: var(--ink);
+  --primary: var(--berry);
+  --primary-foreground: #FFFFFF;
+  --secondary: var(--paper-3);
+  --secondary-foreground: var(--ink);
+  --muted: var(--paper-3);
+  --muted-foreground: var(--ink-soft);
+  --accent: var(--berry-50);
+  --accent-foreground: var(--berry);
   --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.9 0 0);
-  --input: oklch(0.9 0 0);
-  --ring: oklch(0.55 0.25 29);
-  --sidebar: oklch(0.99 0 0);
-  --sidebar-foreground: oklch(0.2 0 0);
-  --sidebar-accent: oklch(0.95 0 0);
-  --sidebar-accent-foreground: oklch(0.2 0 0);
-  --sidebar-border: oklch(0.9 0 0);
-  --sidebar-ring: oklch(0.55 0.25 29);
+  --destructive-foreground: #FFFFFF;
+  --border: var(--line);
+  --input: var(--line-strong);
+  --ring: var(--berry);
+  --chart-1: var(--berry);
+  --chart-2: var(--gold);
+  --chart-3: var(--ok);
+  --chart-4: var(--berry-light);
+  --chart-5: var(--ink-soft);
+  --sidebar: var(--paper);
+  --sidebar-foreground: var(--ink);
+  --sidebar-primary: var(--berry);
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: var(--berry-50);
+  --sidebar-accent-foreground: var(--berry);
+  --sidebar-border: var(--line);
+  --sidebar-ring: var(--berry);
 }
 
 .dark {
-  --primary: oklch(0.36 0.14 18.6);
+  --primary: var(--berry-light);
   --primary-foreground: oklch(0.98 0.01 90);
-  --sidebar-primary: var(--color-blue-500);
-  --sidebar-primary-foreground: var(--color-blue-50);
+  --sidebar-primary: var(--berry-light);
+  --sidebar-primary-foreground: oklch(0.98 0.01 90);
   --background: oklch(0.141 0.005 285.823);
   --foreground: oklch(0.85 0.005 65);
   --card: oklch(0.21 0.006 285.885);
@@ -132,18 +148,18 @@
   --destructive-foreground: oklch(0.985 0 0);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.488 0.243 264.376);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
+  --ring: var(--berry-light);
+  --chart-1: var(--berry-light);
+  --chart-2: var(--gold);
+  --chart-3: var(--ok);
+  --chart-4: var(--berry);
+  --chart-5: var(--ink-soft);
   --sidebar: oklch(0.21 0.006 285.885);
   --sidebar-foreground: oklch(0.85 0.005 65);
   --sidebar-accent: oklch(0.274 0.006 286.033);
   --sidebar-accent-foreground:  oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.488 0.243 264.376);
+  --sidebar-ring: var(--berry-light);
 }
 
 @layer base {
@@ -155,7 +171,7 @@
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-sans font-bold;
+    @apply font-serif font-medium tracking-tight;
   }
   button:not(:disabled),
   [role="button"]:not([aria-disabled="true"]),
@@ -171,6 +187,45 @@
 }
 
 @layer components {
+  /* ---------- CareConnect editorial helpers ---------- */
+
+  /* Uppercase kicker / eyebrow label */
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 11.5px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--berry);
+  }
+  .eyebrow-muted { color: var(--ink-soft); }
+
+  /* Expressive serif display headline (Newsreader, tight) */
+  .display {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    line-height: 1.04;
+    letter-spacing: -0.015em;
+  }
+  /* one italic, accent-coloured word inside a headline */
+  .accent-word { font-style: italic; color: var(--berry); }
+
+  /* tabular numerals for stats / big numbers */
+  .num { font-variant-numeric: tabular-nums; }
+
+  /* hairline rule */
+  .rule { height: 1px; background: var(--line); border: 0; }
+
+  /* hatched image placeholder */
+  .ph {
+    position: relative;
+    overflow: hidden;
+    background:
+      repeating-linear-gradient(135deg, var(--paper-3) 0 14px, transparent 14px 28px),
+      var(--paper-2);
+    border: 1px solid var(--line);
+  }
+
   /**
    * Custom container utility that centers content and adds responsive padding.
    *

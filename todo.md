@@ -4,5 +4,5 @@
 - [ ] `Quiz.tsx` anpassen:
   - [ ] Eingabefeld für den Namen hinzufügen (sichtbar nach bestandenem Quiz).
   - [ ] Button "Zertifikat herunterladen" hinzufügen.
-  - [ ] Funktion zur Generierung des PDFs implementieren (mit Caritas-Logo, Name, Datum, Kursname).
+  - [ ] Funktion zur Generierung des PDFs implementieren (mit CareConnect-Logo, Name, Datum, Kursname).
 - [ ] Testen der PDF-Generierung.

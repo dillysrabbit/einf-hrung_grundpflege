@@ -1,9 +1,10 @@
 import { Link, useLocation } from "wouter";
 import { cn } from "@/lib/utils";
-import { BookOpen, Heart, HeartPulse, Home, Info, Menu, X } from "lucide-react";
+import { BookOpen, Home, Info, Menu } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import Logo from "@/components/Logo";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [location] = useLocation();
@@ -32,25 +33,23 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen bg-background font-sans text-foreground flex flex-col">
       {/* Header */}
-      <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-md shadow-sm print:hidden">
+      <header className="sticky top-0 z-50 w-full border-b border-border bg-background/85 backdrop-blur-md print:hidden">
         <div className="container flex h-16 items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Link href="/">
-              <div className="flex items-center cursor-pointer">
-                <img src="/images/caritas-logo.png" alt="Caritas Maria-Hötte-Stift" className="h-10 object-contain" />
-              </div>
-            </Link>
-          </div>
+          <Link href="/">
+            <div className="cursor-pointer">
+              <Logo />
+            </div>
+          </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
               <Link key={item.path} href={item.path}>
                 <span
                   className={cn(
                     "text-sm font-medium transition-colors hover:text-primary cursor-pointer",
                     location === item.path
-                      ? "text-primary font-bold border-b-2 border-primary pb-1"
+                      ? "text-primary border-b-2 border-primary pb-1"
                       : "text-muted-foreground"
                   )}
                 >
@@ -71,8 +70,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
               <div className="flex flex-col gap-6 mt-6">
                 <Link href="/" onClick={() => setIsOpen(false)}>
-                  <div className="flex items-center cursor-pointer mb-4">
-                    <img src="/images/caritas-logo.png" alt="Caritas Maria-Hötte-Stift" className="h-10 object-contain" />
+                  <div className="cursor-pointer mb-4">
+                    <Logo />
                   </div>
                 </Link>
                 <nav className="flex flex-col gap-4">
@@ -123,16 +122,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       </main>
 
       {/* Footer */}
-      <footer className="border-t bg-white py-8 mt-12 print:hidden">
-        <div className="container flex flex-col gap-4 text-sm text-muted-foreground">
+      <footer className="border-t border-border bg-card py-10 mt-16 print:hidden">
+        <div className="container flex flex-col gap-5 text-sm text-muted-foreground">
+          <Logo subtitle="Fortbildungsplattform für die Langzeitpflege" />
           <p className="text-xs italic max-w-3xl">
             Hinweis: Diese Fortbildung dient der einrichtungsinternen Schulung von Pflegekräften.
             Sie ersetzt weder eine pflegerische Berufsausbildung noch die fachliche Anleitung durch eine examinierte
             Pflegekraft. Die Inhalte orientieren sich an den Expertenstandards des DNQP, an KRINKO-/RKI-Empfehlungen
             sowie an gängiger Pflegefachliteratur.
           </p>
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-2 border-t border-border/50">
-            <p>© 2025 Caritas Maria-Hötte-Stift – Fortbildung Grundpflege</p>
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-4 border-t border-border">
+            <p>© 2025 CareConnect – Fortbildung Grundpflege</p>
             <div className="flex gap-4">
               <Link href="/impressum"><span className="hover:text-primary cursor-pointer">Impressum</span></Link>
               <Link href="/datenschutz"><span className="hover:text-primary cursor-pointer">Datenschutz</span></Link>

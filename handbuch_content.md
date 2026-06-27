@@ -1,6 +1,6 @@
 # Einführung in die Grundpflege
 ## Schulungshandbuch für Pflegekräfte
-### Caritas Maria-Hötte-Stift, Münster
+### CareConnect · Fortbildung Grundpflege
 
 
 
@@ -8,7 +8,7 @@
 
 ### Vorwort
 
-Willkommen im Caritas Maria-Hötte-Stift. Dieses Handbuch begleitet Ihre Fortbildung zur "Einführung in die Grundpflege". Unser Ziel ist es, Ihnen nicht nur die technischen Handgriffe zu vermitteln, sondern auch die Haltung, die unsere Arbeit prägt: Kompetenz, Empathie und Professionalität.
+Willkommen bei CareConnect. Dieses Handbuch begleitet Ihre Fortbildung zur "Einführung in die Grundpflege". Unser Ziel ist es, Ihnen nicht nur die technischen Handgriffe zu vermitteln, sondern auch die Haltung, die unsere Arbeit prägt: Kompetenz, Empathie und Professionalität.
 
 Die Grundpflege ist weit mehr als nur Waschen. Sie ist Beziehungsarbeit, Gesundheitsförderung und oft der intimste Moment im Alltag unserer Bewohner:innen.
 
@@ -182,5 +182,5 @@ Bestimmte Beobachtungen müssen Sie **unverzüglich an die zuständige Pflegefac
 
 ---
 
-**Caritas Maria-Hötte-Stift – Fortbildung Grundpflege**
+**CareConnect – Fortbildung Grundpflege**
 *Für interne Schulungszwecke. Die Inhalte orientieren sich an den Expertenstandards des DNQP, an den KRINKO-/RKI-Empfehlungen sowie an gängiger Pflegefachliteratur.*

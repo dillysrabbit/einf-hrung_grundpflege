@@ -137,7 +137,7 @@ export default function Module4() {
                   <h4 className="font-bold text-primary mb-2">Personenzentrierte Pflege (Tom Kitwood)</h4>
                   <p className="text-sm text-muted-foreground">
                     Der Mensch steht im Mittelpunkt – mit Biographie, Vorlieben, Beziehungen. Würde und
-                    Person-Sein bewahren. Caritas-Leitbild knüpft hier an.
+                    Person-Sein bewahren. Unser Leitbild knüpft hier an.
                   </p>
                 </CardContent>
               </Card>

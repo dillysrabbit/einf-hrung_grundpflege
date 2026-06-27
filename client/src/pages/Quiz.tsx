@@ -275,14 +275,14 @@ export default function Quiz() {
       doc.rect(0, 0, 297, 210, "F");
 
       // Border
-      doc.setDrawColor(227, 0, 15);
+      doc.setDrawColor(139, 26, 74);
       doc.setLineWidth(2);
       doc.rect(10, 10, 277, 190);
       doc.setLineWidth(0.5);
       doc.rect(12, 12, 273, 186);
 
       // Title
-      doc.setTextColor(227, 0, 15);
+      doc.setTextColor(139, 26, 74);
       doc.setFontSize(34);
       doc.setFont("helvetica", "bold");
       doc.text("TEILNAHMEBESTÄTIGUNG", 148.5, 38, { align: "center" });
@@ -305,7 +305,7 @@ export default function Quiz() {
       doc.setFont("helvetica", "normal");
       doc.text("erfolgreich an der internen Fortbildung", 148.5, 95, { align: "center" });
 
-      doc.setTextColor(227, 0, 15);
+      doc.setTextColor(139, 26, 74);
       doc.setFontSize(18);
       doc.setFont("helvetica", "bold");
       doc.text("Einführung in die Grundpflege", 148.5, 108, { align: "center" });
@@ -323,7 +323,7 @@ export default function Quiz() {
       // Metadaten-Block (links)
       const today = new Date();
       const todayStr = today.toLocaleDateString("de-DE");
-      const certId = `MHS-GP-${today.getFullYear()}${String(today.getMonth() + 1).padStart(2, "0")}${String(today.getDate()).padStart(2, "0")}-${Math.random().toString(36).slice(2, 8).toUpperCase()}`;
+      const certId = `CC-GP-${today.getFullYear()}${String(today.getMonth() + 1).padStart(2, "0")}${String(today.getDate()).padStart(2, "0")}-${Math.random().toString(36).slice(2, 8).toUpperCase()}`;
       const passThreshold = Math.ceil(questions.length * 0.8);
 
       doc.setFontSize(9);
@@ -338,7 +338,7 @@ export default function Quiz() {
       doc.line(190, 175, 265, 175);
       doc.setFontSize(9);
       doc.text("Pflegedienstleitung", 227.5, 180, { align: "center" });
-      doc.text("Caritas Maria-Hötte-Stift, Münster", 227.5, 185, { align: "center" });
+      doc.text("CareConnect · Fortbildung Grundpflege", 227.5, 185, { align: "center" });
 
       // Hinweis
       doc.setFontSize(7.5);
