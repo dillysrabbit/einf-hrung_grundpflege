@@ -25,7 +25,7 @@ export default function Module10() {
               </h3>
               <p className="text-sm text-muted-foreground mb-2">Nach Bearbeitung dieses Moduls können Sie …</p>
               <ul className="text-sm text-muted-foreground space-y-1 list-disc pl-5">
-                <li>die Haltung der palliativen Pflege bei der Caritas beschreiben.</li>
+                <li>die Haltung der palliativen Pflege beschreiben.</li>
                 <li>Anzeichen des nahenden Sterbens erkennen und ins Berichteblatt eintragen.</li>
                 <li>palliative Grundpflege in den Bereichen Mund, Positionierung, Atmung, Schmerz angemessen umsetzen.</li>
                 <li>Angehörige einfühlsam begleiten.</li>
@@ -37,7 +37,7 @@ export default function Module10() {
 
         <section className="mb-10">
           <p className="text-base text-muted-foreground leading-relaxed">
-            Sterben gehört zum Leben – und in einer Caritas-Einrichtung zur Pflege. Palliative Pflege heißt:
+            Sterben gehört zum Leben – und in der Pflege fest verankert. Palliative Pflege heißt:
             wir heilen nicht mehr, aber wir lassen niemanden allein. Die Würde des Menschen, die Linderung
             von Beschwerden und die Begleitung der Angehörigen stehen im Mittelpunkt. Das Konzept ist
             <strong> Hospiz- und Palliativkultur</strong> – nicht eine Spezialaufgabe, sondern eine Haltung.
@@ -108,7 +108,7 @@ export default function Module10() {
                   <li>Vertraute Stimme, leise Musik, gedämpftes Licht – Hören ist oft der Sinn, der am längsten bleibt.</li>
                   <li>Berührung mit warmen Händen, Hand halten.</li>
                   <li>Vertrauter Geruch (Lieblingscreme, Kissen von Zuhause).</li>
-                  <li>Spirituelle Begleitung anbieten – bei Bedarf Seelsorge informieren (Caritas-Leitbild).</li>
+                  <li>Spirituelle Begleitung anbieten – bei Bedarf Seelsorge informieren.</li>
                 </ul>
               </CardContent>
             </Card>

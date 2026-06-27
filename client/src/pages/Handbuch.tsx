@@ -31,17 +31,18 @@ export default function Handbuch() {
       <article className="handbuch-print container mx-auto max-w-4xl px-6 py-12">
         {/* Titelseite */}
         <header className="mb-12 pb-8 border-b-4 border-primary text-center print:break-after-page">
-          <img
-            src="/images/caritas-logo.png"
-            alt="Caritas Maria-Hötte-Stift"
-            className="h-16 mx-auto mb-8 object-contain"
-          />
-          <p className="uppercase tracking-widest text-sm text-muted-foreground mb-3">Schulungshandbuch</p>
-          <h1 className="font-serif text-4xl md:text-5xl font-bold text-primary mb-4">
+          <div className="mb-8 flex items-center justify-center gap-3">
+            <div className="grid h-12 w-12 place-items-center rounded-[9px] bg-primary font-serif text-2xl font-semibold text-primary-foreground">
+              CC
+            </div>
+            <span className="font-serif text-2xl font-semibold tracking-tight text-foreground">CareConnect</span>
+          </div>
+          <p className="eyebrow eyebrow-muted mb-3">Schulungshandbuch</p>
+          <h1 className="font-serif text-4xl md:text-5xl font-medium text-foreground mb-4">
             Einführung in die Grundpflege
           </h1>
           <p className="text-lg text-muted-foreground mb-2">Fortbildung für Pflegekräfte</p>
-          <p className="text-sm text-muted-foreground">Caritas Maria-Hötte-Stift, Münster</p>
+          <p className="text-sm text-muted-foreground">CareConnect · Fortbildung Grundpflege</p>
           <p className="text-xs text-muted-foreground mt-8 italic max-w-xl mx-auto">
             Diese Schulung ersetzt weder eine pflegerische Berufsausbildung noch die fachliche Anleitung
             durch eine examinierte Pflegekraft. Inhalte basieren auf den Expertenstandards des DNQP,
@@ -72,7 +73,7 @@ export default function Handbuch() {
         <section className="mb-12">
           <h2 className="font-serif text-3xl font-bold text-primary mb-4">Vorwort</h2>
           <p className="mb-3 text-base leading-relaxed">
-            Willkommen im Caritas Maria-Hötte-Stift. Dieses Handbuch begleitet Ihre Fortbildung zur
+            Willkommen bei CareConnect. Dieses Handbuch begleitet Ihre Fortbildung zur
             „Einführung in die Grundpflege". Unser Ziel ist es, Ihnen nicht nur die technischen Handgriffe
             zu vermitteln, sondern auch die Haltung, die unsere Arbeit prägt: Kompetenz, Empathie und
             Professionalität.
@@ -100,7 +101,7 @@ export default function Handbuch() {
           <p className="mb-2"><strong>Würde &amp; Intimsphäre.</strong> Grundpflege ist intim. Wir betreten den Lebensraum eines Menschen, wir sehen seinen Körper, wir helfen bei den persönlichsten Verrichtungen. Daher gilt: anklopfen, ankündigen, jeden Schritt erklären, nur so viel Körperfläche aufdecken wie nötig, Tür schließen.</p>
           <p className="mb-2"><strong>Aktivierende Pflege als Haltung.</strong> Unser Leitsatz ist „Hilfe zur Selbsthilfe". Wir nehmen einer Person nicht alles ab, sondern unterstützen sie dort, wo sie es braucht – nicht mehr und nicht weniger.</p>
           <p className="mb-2"><strong>Ihre drei Rollen im Alltag.</strong> Beobachter:in (Veränderungen erkennen und melden) · Vertraute:r (Sicherheit geben, Würde schützen) · Aktivator:in (zur Selbstständigkeit motivieren).</p>
-          <p className="mb-2"><strong>Caritas-Leitbild.</strong> Wir sehen den Menschen mit seiner ganzen Lebensgeschichte, seinen Beziehungen und seinem Glauben. Spirituelle Begleitung, Biographiearbeit und Sterbebegleitung gehören für uns selbstverständlich zur Pflege.</p>
+          <p className="mb-2"><strong>Unser Leitbild.</strong> Wir sehen den Menschen mit seiner ganzen Lebensgeschichte, seinen Beziehungen und seinem Glauben. Spirituelle Begleitung, Biographiearbeit und Sterbebegleitung gehören für uns selbstverständlich zur Pflege.</p>
 
           <h3 className="font-serif text-xl font-bold text-primary mt-8 mb-3">Was darf eine Pflegekraft – und was nicht?</h3>
           <p className="mb-3">In Deutschland sind bestimmte Tätigkeiten Pflegefachkräften vorbehalten (Vorbehaltsaufgaben nach § 4 PflBG).</p>
@@ -573,7 +574,7 @@ export default function Handbuch() {
         <section className="mb-12 print:break-before-page">
           <h2 className="font-serif text-3xl font-bold text-primary mb-2">Modul 10 – Sterbebegleitung &amp; palliative Grundpflege</h2>
           <p className="text-sm text-muted-foreground mb-6 italic">
-            Lernziele: Haltung der palliativen Pflege bei der Caritas beschreiben · Anzeichen des nahenden
+            Lernziele: Haltung der palliativen Pflege beschreiben · Anzeichen des nahenden
             Sterbens erkennen · palliative Grundpflege (Mund, Positionierung, Atmung, Schmerz) umsetzen ·
             Angehörige einfühlsam begleiten · eigene Gefühle wahrnehmen.
           </p>
@@ -624,7 +625,7 @@ export default function Handbuch() {
 
         {/* Footer */}
         <footer className="mt-16 pt-6 border-t-2 border-primary text-center text-xs text-muted-foreground">
-          <p className="font-bold text-primary">Caritas Maria-Hötte-Stift, Münster</p>
+          <p className="font-bold text-primary">CareConnect · Fortbildung Grundpflege</p>
           <p>Fortbildung Grundpflege · für interne Schulungszwecke</p>
           <p className="mt-2 italic">
             Inhalte basieren auf Expertenstandards des DNQP, an KRINKO-/RKI-Empfehlungen
