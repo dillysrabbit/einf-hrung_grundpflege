@@ -33,7 +33,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen bg-background font-sans text-foreground flex flex-col">
       {/* Header */}
-      <header className="sticky top-0 z-50 w-full border-b border-border bg-background/85 backdrop-blur-md print:hidden">
+      <header className="sticky top-0 z-50 w-full border-b border-border bg-white/90 backdrop-blur-md print:hidden">
         <div className="container flex h-16 items-center justify-between">
           <Link href="/">
             <div className="cursor-pointer">
@@ -124,7 +124,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       {/* Footer */}
       <footer className="border-t border-border bg-card py-10 mt-16 print:hidden">
         <div className="container flex flex-col gap-5 text-sm text-muted-foreground">
-          <Logo subtitle="Fortbildungsplattform für die Langzeitpflege" />
+          <Logo className="h-12" />
           <p className="text-xs italic max-w-3xl">
             Hinweis: Diese Fortbildung dient der einrichtungsinternen Schulung von Pflegekräften.
             Sie ersetzt weder eine pflegerische Berufsausbildung noch die fachliche Anleitung durch eine examinierte
@@ -132,7 +132,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             sowie an gängiger Pflegefachliteratur.
           </p>
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-4 border-t border-border">
-            <p>© 2025 CareConnect – Fortbildung Grundpflege</p>
+            <p>© 2025 Caritas Maria-Hötte-Stift – Fortbildung Grundpflege</p>
             <div className="flex gap-4">
               <Link href="/impressum"><span className="hover:text-primary cursor-pointer">Impressum</span></Link>
               <Link href="/datenschutz"><span className="hover:text-primary cursor-pointer">Datenschutz</span></Link>

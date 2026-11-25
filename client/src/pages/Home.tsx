@@ -7,18 +7,18 @@ import { Link } from "wouter";
 export default function Home() {
   return (
     <div className="flex flex-col gap-12 pb-12">
-      {/* Hero Section — editorial paper & ink, single berry accent */}
+      {/* Hero — Weiß, Fira Sans, Caritas-Rot als einziger Akzent */}
       <section className="border-b border-border">
         <div className="container px-4 py-16 md:py-24">
           <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
             {/* Text column */}
             <div className="max-w-xl">
-              <span className="eyebrow mb-5 block">Fortbildung · CareConnect</span>
+              <span className="eyebrow mb-5 block">Fortbildung · Caritas Maria-Hötte-Stift</span>
               <h1 className="display text-foreground text-[clamp(2.5rem,6vw,4.5rem)]">
                 Einführung in die <span className="accent-word">Grundpflege</span>.
               </h1>
               <p className="mt-6 max-w-md text-lg leading-relaxed text-muted-foreground">
-                Kompetenz, Empathie und Professionalität für Pflegekräfte –
+                Kompetenz, Empathie und Professionalität für unsere Pflegekräfte –
                 im eigenen Tempo. Gemeinsam für eine würdevolle Pflege.
               </p>
               <div className="mt-9 flex flex-wrap items-center gap-4">
@@ -42,7 +42,7 @@ export default function Home() {
               <p className="eyebrow eyebrow-muted mt-10">Nach DNQP-Expertenstandards</p>
             </div>
 
-            {/* Image column — tall 4/5 crop with gold corner brackets + floating badge */}
+            {/* Bildspalte — 4/5-Ausschnitt mit roter Akzentkante + Kennzahl */}
             <div className="relative mx-auto w-full max-w-md">
               <div className="relative overflow-hidden rounded-[var(--radius)] border border-border">
                 <img
@@ -50,14 +50,12 @@ export default function Home() {
                   alt="Würdevolle Pflege im Alltag"
                   className="aspect-[4/5] w-full object-cover"
                 />
-                {/* gold corner brackets */}
-                <span className="pointer-events-none absolute left-3 top-3 h-7 w-7 border-l-2 border-t-2 border-gold" />
-                <span className="pointer-events-none absolute bottom-3 right-3 h-7 w-7 border-b-2 border-r-2 border-gold" />
+                <span className="pointer-events-none absolute inset-x-0 bottom-0 h-1.5 bg-primary" />
               </div>
-              {/* floating credential badge */}
-              <div className="absolute -bottom-5 -left-5 hidden rounded-full border border-border bg-card px-5 py-3 shadow-[0_18px_40px_-22px_rgba(33,27,24,0.4)] sm:block">
-                <span className="block font-serif text-2xl font-medium text-gold num leading-none">
-                  10<span className="text-gold-dark">.</span>
+              {/* Kennzahl */}
+              <div className="absolute -bottom-5 -left-5 hidden rounded-[var(--radius)] border border-border bg-card px-5 py-3 shadow-[0_18px_40px_-22px_rgba(0,0,0,0.35)] sm:block">
+                <span className="block text-3xl font-light text-primary num leading-none">
+                  10
                 </span>
                 <span className="text-xs text-muted-foreground">Lernmodule</span>
               </div>
@@ -68,14 +66,14 @@ export default function Home() {
 
       {/* Welcome Section */}
       <section className="mx-auto max-w-3xl px-4 text-center">
-        <span className="eyebrow eyebrow-muted mb-4 block">Willkommen</span>
+        <span className="eyebrow eyebrow-muted mb-4 block">Für Menschen. Für Münster.</span>
         <h2 className="display text-foreground text-3xl md:text-4xl mb-6">
-          Pflegefachlichkeit <span className="accent-word">stärken</span>.
+          Willkommen im <span className="accent-word">Maria-Hötte-Stift</span>.
         </h2>
         <p className="text-lg text-muted-foreground leading-relaxed">
-          Diese interaktive Fortbildung richtet sich an alle Pflegekräfte. Unser Ziel ist es, Ihnen
+          Diese interaktive Fortbildung richtet sich an alle Pflegekräfte unserer Einrichtung. Unser Ziel ist es, Ihnen
           das nötige Basiswissen und die Sicherheit für den Pflegealltag zu geben. Wir legen besonderen Wert auf die
-          aktivierende Pflege und die Wahrung der Würde der Bewohner:innen.
+          aktivierende Pflege und die Wahrung der Würde unserer Bewohner:innen.
         </p>
       </section>
 
@@ -86,7 +84,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
           <Link href="/module-1">
-            <Card className="h-full cursor-pointer border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(33,27,24,0.42)] group">
+            <Card className="h-full cursor-pointer border border-border border-t-4 border-t-primary bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(0,0,0,0.35)] group">
               <CardHeader>
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                   <InfoIcon className="h-6 w-6 text-primary group-hover:text-white" />
@@ -105,7 +103,7 @@ export default function Home() {
           </Link>
 
           <Link href="/module-2">
-            <Card className="h-full cursor-pointer border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(33,27,24,0.42)] group">
+            <Card className="h-full cursor-pointer border border-border border-t-4 border-t-primary bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(0,0,0,0.35)] group">
               <CardHeader>
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                   <Heart className="h-6 w-6 text-primary group-hover:text-white" />
@@ -124,7 +122,7 @@ export default function Home() {
           </Link>
 
           <Link href="/module-3">
-            <Card className="h-full cursor-pointer border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(33,27,24,0.42)] group">
+            <Card className="h-full cursor-pointer border border-border border-t-4 border-t-primary bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(0,0,0,0.35)] group">
               <CardHeader>
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                   <Users className="h-6 w-6 text-primary group-hover:text-white" />
@@ -143,7 +141,7 @@ export default function Home() {
           </Link>
 
           <Link href="/module-4">
-            <Card className="h-full cursor-pointer border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(33,27,24,0.42)] group">
+            <Card className="h-full cursor-pointer border border-border border-t-4 border-t-primary bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(0,0,0,0.35)] group">
               <CardHeader>
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                   <BookOpen className="h-6 w-6 text-primary group-hover:text-white" />
@@ -169,7 +167,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
           <Link href="/module-5">
-            <Card className="h-full cursor-pointer border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(33,27,24,0.42)] group">
+            <Card className="h-full cursor-pointer border border-border border-t-4 border-t-primary bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(0,0,0,0.35)] group">
               <CardHeader>
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                   <Smile className="h-6 w-6 text-primary group-hover:text-white" />
@@ -187,7 +185,7 @@ export default function Home() {
           </Link>
 
           <Link href="/module-6">
-            <Card className="h-full cursor-pointer border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(33,27,24,0.42)] group">
+            <Card className="h-full cursor-pointer border border-border border-t-4 border-t-primary bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(0,0,0,0.35)] group">
               <CardHeader>
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                   <Droplets className="h-6 w-6 text-primary group-hover:text-white" />
@@ -205,7 +203,7 @@ export default function Home() {
           </Link>
 
           <Link href="/module-7">
-            <Card className="h-full cursor-pointer border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(33,27,24,0.42)] group">
+            <Card className="h-full cursor-pointer border border-border border-t-4 border-t-primary bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(0,0,0,0.35)] group">
               <CardHeader>
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                   <Utensils className="h-6 w-6 text-primary group-hover:text-white" />
@@ -223,7 +221,7 @@ export default function Home() {
           </Link>
 
           <Link href="/module-8">
-            <Card className="h-full cursor-pointer border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(33,27,24,0.42)] group">
+            <Card className="h-full cursor-pointer border border-border border-t-4 border-t-primary bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(0,0,0,0.35)] group">
               <CardHeader>
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                   <Move className="h-6 w-6 text-primary group-hover:text-white" />
@@ -241,7 +239,7 @@ export default function Home() {
           </Link>
 
           <Link href="/module-9">
-            <Card className="h-full cursor-pointer border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(33,27,24,0.42)] group">
+            <Card className="h-full cursor-pointer border border-border border-t-4 border-t-primary bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(0,0,0,0.35)] group">
               <CardHeader>
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                   <Brain className="h-6 w-6 text-primary group-hover:text-white" />
@@ -259,7 +257,7 @@ export default function Home() {
           </Link>
 
           <Link href="/module-10">
-            <Card className="h-full cursor-pointer border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(33,27,24,0.42)] group">
+            <Card className="h-full cursor-pointer border border-border border-t-4 border-t-primary bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_22px_44px_-26px_rgba(0,0,0,0.35)] group">
               <CardHeader>
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
                   <HeartHandshake className="h-6 w-6 text-primary group-hover:text-white" />
@@ -279,17 +277,17 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Call to Action — the one full-bleed berry band */}
+      {/* Call to Action — das eine rote Band */}
       <section className="container px-4 mt-8">
         <div className="flex flex-col items-start justify-between gap-8 rounded-[var(--radius)] bg-primary p-8 text-primary-foreground md:flex-row md:items-center md:p-12">
           <div className="max-w-xl">
             <span className="eyebrow mb-3 block text-white/70">Wissenscheck</span>
             <h3 className="display text-3xl mb-4 text-white">
-              Bereit, Ihr Wissen zu <span className="italic">testen</span>?
+              Bereit, Ihr Wissen zu testen?
             </h3>
             <p className="text-white/85">
               Am Ende der Module wartet ein interaktiver Wissenscheck auf Sie.
-              Überprüfen Sie Ihr Verständnis und sichern Sie die Qualität der Pflege.
+              Überprüfen Sie Ihr Verständnis und sichern Sie die Qualität unserer Pflege.
             </p>
           </div>
           <Link href="/quiz">

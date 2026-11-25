@@ -3,24 +3,28 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* CareConnect Design System
- * Editorial, warm "paper & ink" base · a single Brombeer (berry) accent ·
- * muted gold reserved for numerals and achievement · Newsreader serif
- * headlines over Inter body. Webfonts are loaded in index.html. */
+/* Caritas Münster Design
+ * Weiß und Grautöne als Basis · Caritas-Rot als einziger Akzent ·
+ * Fira Sans durchgängig (lokal eingebunden, keine externen Font-Server). */
+
+@font-face { font-family: 'Fira Sans'; src: url('/fonts/fira-sans/FiraSans-Light.woff2') format('woff2'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Fira Sans'; src: url('/fonts/fira-sans/FiraSans-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Fira Sans'; src: url('/fonts/fira-sans/FiraSans-Italic.woff2') format('woff2'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Fira Sans'; src: url('/fonts/fira-sans/FiraSans-Medium.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Fira Sans'; src: url('/fonts/fira-sans/FiraSans-SemiBold.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Fira Sans'; src: url('/fonts/fira-sans/FiraSans-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
 
 @theme inline {
-  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --font-serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Fira Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  /* Caritas-CD kennt keine Serif: font-serif zeigt bewusst auf Fira Sans */
+  --font-serif: 'Fira Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
   --font-mono: ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace;
 
-  /* CareConnect brand palette exposed as Tailwind utilities */
-  --color-berry: var(--berry);
-  --color-berry-dark: var(--berry-dark);
-  --color-berry-light: var(--berry-light);
-  --color-gold: var(--gold);
-  --color-gold-dark: var(--gold-dark);
+  /* Caritas-Palette als Tailwind-Utilities */
+  --color-caritas: var(--caritas);
+  --color-caritas-dark: var(--caritas-dark);
+  --color-caritas-soft: var(--caritas-soft);
   --color-ok: var(--ok);
-  --color-paper: var(--paper);
   --color-ink: var(--ink);
   --color-ink-soft: var(--ink-soft);
   --color-line: var(--line);
@@ -64,102 +68,86 @@
 }
 
 :root {
-  /* ---- CareConnect raw tokens ---- */
-  /* warm paper surfaces */
-  --paper: #FAF9F6;
+  /* ---- Caritas-Tokens ---- */
+  --paper: #FFFFFF;
   --paper-2: #FFFFFF;
-  --paper-3: #F3EFE8;
-  /* warm near-black ink */
-  --ink: #211B18;
-  --ink-soft: #6B6259;
-  --ink-faint-solid: #A89E93;
-  /* hairlines */
-  --line: #E7E1D8;
-  --line-strong: #D8D0C4;
-  /* Brombeer (berry) — the brand accent */
-  --berry: #8B1A4A;
-  --berry-dark: #6D1039;
-  --berry-light: #A8325F;
-  --berry-50: #FDF2F7;
-  --berry-100: #FCE7F0;
-  /* muted gold — numerals & achievement */
-  --gold: #C5982A;
-  --gold-dark: #A67D1A;
-  --gold-50: #FBF8EE;
-  --gold-100: #F5EDD3;
-  /* calm green — correct / positive */
+  --paper-3: #F5F5F5;
+  --ink: #1A1A1A;
+  --ink-soft: #666666;
+  --line: #E0E0E0;
+  --line-strong: #D0D0D0;
+  /* Caritas-Rot — der einzige Akzent */
+  --caritas: #CC0000;
+  --caritas-dark: #A30000;
+  --caritas-soft: #FFF5F5;
+  /* ruhiges Grün — nur für "richtig" im Wissenscheck */
   --ok: #2C5F4A;
   --ok-50: #EDF4F0;
 
-  /* ---- shadcn semantic aliases mapped onto the brand ---- */
-  --radius: 0.75rem; /* gently rounded editorial cards (12px) */
+  /* ---- shadcn-Aliase ---- */
+  --radius: 0.5rem;
   --background: var(--paper);
   --foreground: var(--ink);
   --card: var(--paper-2);
   --card-foreground: var(--ink);
   --popover: var(--paper-2);
   --popover-foreground: var(--ink);
-  --primary: var(--berry);
+  --primary: var(--caritas);
   --primary-foreground: #FFFFFF;
   --secondary: var(--paper-3);
   --secondary-foreground: var(--ink);
   --muted: var(--paper-3);
   --muted-foreground: var(--ink-soft);
-  --accent: var(--berry-50);
-  --accent-foreground: var(--berry);
-  --destructive: oklch(0.577 0.245 27.325);
+  --accent: var(--caritas-soft);
+  --accent-foreground: var(--caritas);
+  --destructive: var(--caritas-dark);
   --destructive-foreground: #FFFFFF;
   --border: var(--line);
   --input: var(--line-strong);
-  --ring: var(--berry);
-  --chart-1: var(--berry);
-  --chart-2: var(--gold);
-  --chart-3: var(--ok);
-  --chart-4: var(--berry-light);
-  --chart-5: var(--ink-soft);
+  --ring: var(--caritas);
+  --chart-1: var(--caritas);
+  --chart-2: #404040;
+  --chart-3: #666666;
+  --chart-4: #999999;
+  --chart-5: #D0D0D0;
   --sidebar: var(--paper);
   --sidebar-foreground: var(--ink);
-  --sidebar-primary: var(--berry);
+  --sidebar-primary: var(--caritas);
   --sidebar-primary-foreground: #FFFFFF;
-  --sidebar-accent: var(--berry-50);
-  --sidebar-accent-foreground: var(--berry);
+  --sidebar-accent: var(--caritas-soft);
+  --sidebar-accent-foreground: var(--caritas);
   --sidebar-border: var(--line);
-  --sidebar-ring: var(--berry);
+  --sidebar-ring: var(--caritas);
 }
 
 .dark {
-  --primary: var(--berry-light);
-  --primary-foreground: oklch(0.98 0.01 90);
-  --sidebar-primary: var(--berry-light);
-  --sidebar-primary-foreground: oklch(0.98 0.01 90);
-  --background: oklch(0.141 0.005 285.823);
-  --foreground: oklch(0.85 0.005 65);
-  --card: oklch(0.21 0.006 285.885);
-  --card-foreground: oklch(0.85 0.005 65);
-  --popover: oklch(0.21 0.006 285.885);
-  --popover-foreground: oklch(0.85 0.005 65);
-  --secondary: oklch(0.24 0.006 286.033);
-  --secondary-foreground: oklch(0.7 0.005 65);
-  --muted: oklch(0.274 0.006 286.033);
-  --muted-foreground: oklch(0.705 0.015 286.067);
-  --accent: oklch(0.274 0.006 286.033);
-  --accent-foreground:  oklch(0.92 0.005 65);
-  --destructive: oklch(0.704 0.191 22.216);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: var(--berry-light);
-  --chart-1: var(--berry-light);
-  --chart-2: var(--gold);
-  --chart-3: var(--ok);
-  --chart-4: var(--berry);
-  --chart-5: var(--ink-soft);
-  --sidebar: oklch(0.21 0.006 285.885);
-  --sidebar-foreground: oklch(0.85 0.005 65);
-  --sidebar-accent: oklch(0.274 0.006 286.033);
-  --sidebar-accent-foreground:  oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: var(--berry-light);
+  --primary: #E5484D;
+  --primary-foreground: #FFFFFF;
+  --sidebar-primary: #E5484D;
+  --sidebar-primary-foreground: #FFFFFF;
+  --background: #1A1A1A;
+  --foreground: #EDEDED;
+  --card: #242424;
+  --card-foreground: #EDEDED;
+  --popover: #242424;
+  --popover-foreground: #EDEDED;
+  --secondary: #2B2B2B;
+  --secondary-foreground: #D0D0D0;
+  --muted: #2B2B2B;
+  --muted-foreground: #A6A6A6;
+  --accent: #2B2B2B;
+  --accent-foreground: #EDEDED;
+  --destructive: #E5484D;
+  --destructive-foreground: #FFFFFF;
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 16%);
+  --ring: #E5484D;
+  --sidebar: #242424;
+  --sidebar-foreground: #EDEDED;
+  --sidebar-accent: #2B2B2B;
+  --sidebar-accent-foreground: #EDEDED;
+  --sidebar-border: oklch(1 0 0 / 12%);
+  --sidebar-ring: #E5484D;
 }
 
 @layer base {
@@ -171,7 +159,7 @@
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-serif font-medium tracking-tight;
+    @apply font-sans font-semibold tracking-tight;
   }
   button:not(:disabled),
   [role="button"]:not([aria-disabled="true"]),
@@ -187,7 +175,7 @@
 }
 
 @layer components {
-  /* ---------- CareConnect editorial helpers ---------- */
+  /* ---------- Caritas-Typo-Helfer ---------- */
 
   /* Uppercase kicker / eyebrow label */
   .eyebrow {
@@ -196,19 +184,19 @@
     font-weight: 600;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--berry);
+    color: var(--caritas);
   }
   .eyebrow-muted { color: var(--ink-soft); }
 
-  /* Expressive serif display headline (Newsreader, tight) */
+  /* Große Display-Überschrift: Fira Sans Light, eng gesetzt */
   .display {
-    font-family: var(--font-serif);
-    font-weight: 500;
-    line-height: 1.04;
-    letter-spacing: -0.015em;
+    font-family: var(--font-sans);
+    font-weight: 300;
+    line-height: 1.06;
+    letter-spacing: -0.02em;
   }
-  /* one italic, accent-coloured word inside a headline */
-  .accent-word { font-style: italic; color: var(--berry); }
+  /* ein Akzentwort in Caritas-Rot — aufrecht, nie kursiv */
+  .accent-word { color: var(--caritas); font-weight: 500; }
 
   /* tabular numerals for stats / big numbers */
   .num { font-variant-numeric: tabular-nums; }
