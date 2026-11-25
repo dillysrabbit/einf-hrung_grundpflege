@@ -275,14 +275,14 @@ export default function Quiz() {
       doc.rect(0, 0, 297, 210, "F");
 
       // Border
-      doc.setDrawColor(204, 0, 0);
+      doc.setDrawColor(236, 28, 36);
       doc.setLineWidth(2);
       doc.rect(10, 10, 277, 190);
       doc.setLineWidth(0.5);
       doc.rect(12, 12, 273, 186);
 
       // Title
-      doc.setTextColor(204, 0, 0);
+      doc.setTextColor(236, 28, 36);
       doc.setFontSize(34);
       doc.setFont("helvetica", "bold");
       doc.text("TEILNAHMEBESTÄTIGUNG", 148.5, 38, { align: "center" });
@@ -305,7 +305,7 @@ export default function Quiz() {
       doc.setFont("helvetica", "normal");
       doc.text("erfolgreich an der internen Fortbildung", 148.5, 95, { align: "center" });
 
-      doc.setTextColor(204, 0, 0);
+      doc.setTextColor(236, 28, 36);
       doc.setFontSize(18);
       doc.setFont("helvetica", "bold");
       doc.text("Einführung in die Grundpflege", 148.5, 108, { align: "center" });
