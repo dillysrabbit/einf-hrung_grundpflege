@@ -74,7 +74,7 @@ export default function Module1() {
                   <h3 className="font-serif text-xl font-bold text-primary mb-1">Alles beginnt bei der richtigen Haltung.</h3>
                   <p className="text-sm text-muted-foreground mb-4">
                     Bevor wir über Aufgaben und Grenzen sprechen, beginnen wir bei dem, was unsere
-                    Arbeit trägt: Würde, Empathie, aktivierende Pflege und unser Leitbild.
+                    Arbeit trägt: Würde, Empathie, aktivierende Pflege und das Caritas-Leitbild.
                   </p>
                   <Accordion type="single" collapsible className="w-full">
                     <AccordionItem value="item-1">
@@ -109,9 +109,9 @@ export default function Module1() {
                     </AccordionItem>
 
                     <AccordionItem value="item-4">
-                      <AccordionTrigger className="text-lg font-medium">Unser Leitbild</AccordionTrigger>
+                      <AccordionTrigger className="text-lg font-medium">Caritas-Leitbild</AccordionTrigger>
                       <AccordionContent className="text-muted-foreground leading-relaxed">
-                        Wir sehen den Menschen mit seiner ganzen Lebensgeschichte,
+                        Als Einrichtung der Caritas sehen wir den Menschen mit seiner ganzen Lebensgeschichte,
                         seinen Beziehungen und seinem Glauben. Spirituelle Begleitung, Biographiearbeit und
                         Sterbebegleitung gehören für uns selbstverständlich zur Pflege.
                       </AccordionContent>
